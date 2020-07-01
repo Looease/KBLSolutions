@@ -33,4 +33,3 @@ export function get(req, res, next) {
 		}));
 	}
 }
- [slug].svelte
