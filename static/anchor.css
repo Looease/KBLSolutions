@@ -1,0 +1,283 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  outline: none;
+  font-family: 'Open Sans', sans-serif;
+}
+
+body{
+  background-color: #F6F7F8;
+  transition: 0.6s linear;
+}
+
+
+header{
+  margin-bottom: 100px;
+  top: 0px;
+  position: fixed;
+  display: block;
+  width: 100%;
+  background-color: white;
+  z-index: 9;
+  text-align: center;
+  padding: 15px 0 0 0;
+}
+
+h1{
+  color: #2F89CE;
+}
+
+.download{
+  border: 1px solid #dee2e6;
+  width: 60%;
+  color: #0000EE;
+}
+.pdf{
+  max-width: 30px;
+}
+
+
+#footercontainer{
+  background-color: #44A4D9;
+}
+
+.colourvariation{
+  display: flex;
+  justify-content: center;
+}
+
+
+/* Nav Bar */
+.logo{
+  max-width: 200px;
+}
+.allscreen{
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  z-index: 8;
+}
+#menuToggle{
+  display: block;
+  position: relative;
+  top: 50px;
+  left: 50px;
+  z-index: 1;
+  -webkit-user-select: none;
+  user-select: none;
+}
+#menuToggle a:hover{
+  color: #44A4D9;
+}
+#menuToggle input{
+  display: block;
+  width: 40px;
+  height: 32px;
+  position: absolute;
+  top: -7px;
+  left: -5px;
+  cursor: pointer;
+  opacity: 0; /* hide this */
+  z-index: 2; /* and place it over the hamburger */
+  -webkit-touch-callout: none;
+}
+#menuToggle span{
+  display: block;
+  width: 33px;
+  height: 4px;
+  margin-bottom: 5px;
+  position: relative;
+  background: #000000;
+  border-radius: 3px;
+  z-index: 1;
+  transform-origin: 4px 0px;
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              opacity 0.55s ease;
+}
+#menuToggle span:first-child{
+  transform-origin: 0% 0%;
+}
+#menuToggle span:nth-last-child(2){
+  transform-origin: 0% 100%;
+}
+.black{
+  color: black;
+}
+/*Transform all the slices of hamburger into a crossmark.*/
+#menuToggle input:checked ~ span
+{
+  opacity: 1;
+  transform: rotate(45deg) translate(-2px, -1px);
+  background: #232323;
+}
+#menuToggle input:checked ~ span:nth-last-child(3){
+  opacity: 0;
+  transform: rotate(0deg) scale(0.2, 0.2);
+}
+/*The last one should go the other direction*/
+#menuToggle input:checked ~ span:nth-last-child(2){
+  transform: rotate(-45deg) translate(0, -1px);
+}
+#menu{
+  position: absolute;
+  width: 300px;
+  margin: -100px 0 0 -50px;
+  padding: 50px;
+  padding-top: 125px;
+  background: #ededed;
+  list-style-type: none;
+  -webkit-font-smoothing: antialiased;
+  /* to stop flickering of text in safari */
+  transform-origin: 0% 0%;
+  transform: translate(-100%, 0);
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+}
+#menu li{
+  padding: 6px 0;
+  font-size: 16px;
+  display: flex;
+  justify-content: flex-start;
+
+}
+#menuToggle input:checked ~ ul{
+  transform: none;
+}
+
+/*Content Boxes */
+.about{
+  position: relative;
+  padding: 100px 100px 100px;
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  justify-content: center;
+  font-size: 23px;
+}
+.contentbox{
+  display: block;
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 20px 20px 10px;
+  border: 3px rgba(255, 255, 255, 0.9);
+  font-family: 'Roboto', sans-serif;
+  font-size: 0.9em;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  width: 50%;
+  height: 500px;;
+}
+
+/* Image and colour variation */
+
+
+.colourvariation{
+  display: inline-flex;
+  cursor: pointer;
+  width: 100%;
+  z-index: 10;
+}
+
+.colourpicker{
+  display: flex;
+  list-style: none;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+}
+
+.dot {
+  height: 25px;
+  width: 25px;
+  /* background-color: #bbb; */
+  border-radius: 50%;
+  display: inline-block;
+}
+
+span{
+  cursor: pointer;
+  margin: 5px;
+}
+
+#brown{
+  background-color: #8A5325;
+}
+#gold{
+  background-color: #BD9D71;
+}
+#black{
+  background-color: #090A05;
+}
+#red{
+  background-color: #C12C28;
+}
+#silver{
+  background-color: #C0BEC3;
+}
+#white{
+  background-color: #F3F4F4;
+}
+#green{
+  background-color: #183F27;
+}
+#blue{
+  background-color: #09296B;
+}
+
+/*Format*/
+#title{
+  color: white;
+}
+
+/* Old format stuff */
+
+
+/* .format{
+    max-width: 100%;
+    max-height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    cursor: -webkit-pointer;
+    cursor: pointer;
+}
+
+.item-thumb{
+  display: none;
+}
+
+.test{
+  display: block;
+  display: flex;
+  align-self: center;
+  width: 40%;
+  padding: 10px;
+  margin: auto;
+  background-color: white;
+  margin-right: 45%;
+  /* display: flex;
+  align-self:flex-start;
+  /* margin-right: 10%; */ */
+  /* box-shadow: 1px 1px 10px 5px gray; */
+/* }
+.test img{
+  width: 100%;
+}
+.thumbs{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.thumbs li{
+  width: 15%;
+  padding: 1px;
+  background-color: white;
+  margin: 1%;
+  box-shadow: 1px 1px 10px 5px gray;
+}
+.thumbs li img{
+  width: 100%;
+  min-height: 65px;
+
+}  */
