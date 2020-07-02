@@ -16,6 +16,20 @@
 	export let group;
 </script>
 
+<style>
+*{
+	list-style: none;
+}
+ul{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+ul li{
+	margin: 20px;
+}
+</style>
+
 <h1>{group.name}</h1>
 
 <ul>

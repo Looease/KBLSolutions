@@ -55,15 +55,7 @@ border-bottom: 20px solid transparent;
 left: 32px;
 bottom: -24px;
 }
-.title{
-color: white;
-}
-@media screen and (max-width:1000px) {
-.about{
-	margin: 0px;
-	padding: 0px;
-}
-}
+
 </style>
 <article class="content-body">
   <h1>Testimonials</h1>
