@@ -12,14 +12,14 @@
 	<nav class="navbar navbar-main navbar-expand-lg navbar-light">
 		<!-- <a class=""><img src="logo.png"  id="logo"></a> -->
 		<div class="container">
-			<a class="navbar-brand" href="index"><img src="img/logo.png" alt="KBL Solutions logo"></a>
+			<a class="navbar-brand" href="/"><img src="img/logo.png" alt="KBL Solutions logo"></a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main_nav1" aria-controls="main_nav" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
 			</button>
 			<div class="collapse navbar-collapse" id="main_nav1">
 				<ul class="navbar-nav mr-auto">
 					<li class="nav-item">
-						<a class="nav-link" href="/index">Home </a>
+						<a class="nav-link" href="/">Home </a>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link" href="about">About us </a>
@@ -27,7 +27,7 @@
 					<li class="nav-item dropdown">
 						<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="/products/index.svelte">Products and Services</a>
 						<div class="dropdown-menu">
-						<a class="dropdown-item" href="/products/index">All products and services</a>
+						<a class="dropdown-item" href="/products/">All products and services</a>
 						<div class="dropdown-divider"></div>
 						<a class="dropdown-item" href="/products/landing/covid-19">Covid 19</a>
 						<div class="dropdown-divider"></div>

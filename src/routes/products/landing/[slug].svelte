@@ -38,7 +38,7 @@ ul li{
 			<a href="/products/{product.slug}">
 
 				<!-- The [0] means get the first image from the array -->
-				<img src={group.images[0].src} alt={group.images[0].alt} />
+				<img src={product.images[0].src} alt={product.images[0].alt} />
 
 				<h2>{product.name}</h2>
 				<p>From £{product.price}</p>
