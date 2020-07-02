@@ -14,6 +14,27 @@
 
 <script>
 	export let products;
+
+	import { onMount } from 'svelte';
+
+	/* onMount in Svelte runs after 
+	 the component has 'loaded'/rendered */
+	onMount(() => {
+
+		// Store a reference of the feature image
+		const featureImg = document.querySelector('.feature-image');
+
+		// Loop over all 'thumbnails' and listen for a click
+		document.querySelectorAll('.thumbnails img').forEach( image => {
+			image.addEventListener('click', function() {
+
+				// Set feature image src as thumbnail src
+				featureImg.src = this.src;
+			});
+		});
+	});
+
+	
 </script>
 
 <!-- <Quickquote.svelte/> -->
@@ -32,10 +53,6 @@
 		.pdf{
 			width: 30px;
 		}
-
-
-
-
 </style>
 
 <svelte:head>
@@ -50,10 +67,13 @@
     <!-- <div class="hero"> -->
     {#if products.images}
         <figure>
-            {#each products.images as {alt, src}}
-                <img {alt} {src}>
+			<img alt={products.images[0].alt} src={products.images[0].src} class="feature-image" />
+		</figure>
+		<div class="thumbnails">
+			{#each products.images as {alt, src}}
+					<img {alt} {src} />
             {/each}
-        </figure>
+		</div>
     {/if}
 		</div> <!-- img-big-wrap.// -->
 			</article> <!-- gallery-wrap .end// -->
