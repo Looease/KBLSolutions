@@ -52,13 +52,21 @@
 		td{
 			width: 100%;
 		}
+		.feature-image{
+			padding: 0 0 0 10%;
+			max-width: 100%;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
 		.thumbnails{
 			display: flex;
 			flex-direction: row;
+			justify-content: center;
 		}
 		.thumbnails img{
-			margin: 10px;
-			max-width: 20px;
+			margin: 0 5px 0 5px;
+			max-width: 40px;
 			max-height: 40px;
 		}
 

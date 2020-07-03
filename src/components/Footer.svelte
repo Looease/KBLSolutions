@@ -36,7 +36,7 @@
           <h6 class="title">Social</h6>
           <ul class="list-unstyled">
             <!-- <li><a href="#"> <i class="fab fa-facebook"></i> Facebook </a></li> -->
-            <li><a href="#"> <i class="fab fa-linkedin"></i> Linkedin </a></li>
+            <li><a href="linkedin.com"> <i class="fab fa-linkedin"></i> Linkedin </a></li>
           </ul>
         </aside>
       </div> <!-- row.// -->
