@@ -17,7 +17,7 @@
 
 	import { onMount } from 'svelte';
 
-	/* onMount in Svelte runs after 
+	/* onMount in Svelte runs after
 	 the component has 'loaded'/rendered */
 	onMount(() => {
 
@@ -34,7 +34,7 @@
 		});
 	});
 
-	
+
 </script>
 
 <!-- <Quickquote.svelte/> -->
@@ -43,16 +43,25 @@
 		*{
 		list-style: none;
 		}
-    /* .hero {
-        background-color: #fff;
-
-    } */
      .content {
         background-color: #f6f7f9;
     }
 		.pdf{
 			width: 30px;
 		}
+		td{
+			width: 100%;
+		}
+		.thumbnails{
+			display: flex;
+			flex-direction: row;
+		}
+		.thumbnails img{
+			margin: 10px;
+			max-width: 20px;
+			max-height: 40px;
+		}
+
 </style>
 
 <svelte:head>
@@ -67,7 +76,7 @@
     <!-- <div class="hero"> -->
     {#if products.images}
         <figure>
-			<img alt={products.images[0].alt} src={products.images[0].src} class="feature-image" />
+			<img alt={products.images[0].alt} src={products.images[0].src} class="feature-image"/>
 		</figure>
 		<div class="thumbnails">
 			{#each products.images as {alt, src}}
@@ -125,18 +134,44 @@
 	                {/each}
 	            </ul>
 	        {/if}
+					<section class="section-name padding-y bg">
+			    <div class="container">
+						  <h3>Specifications</h3>
+			    <div class="row">
+			    	<div class="col-md-8">
+			    		<table class="table table-bordered">
+									{#each products.specifications as {label, value}}
+							 <tr><dt>{label}</dt></tr>
+											{#if value}
+							 <td><dd> {value}</dd></td>
+											{/if}
+									{/each}
+			    		</table>
+			    	</div> <!-- col.// -->
 
-        <h3>Specifications</h3>
-					<table class="table table-bordered">
-        <dl>
-            {#each products.specifications as {label, value}}
-                <dt>{label}</dt>
-                {#if value}
-                    <dd> {value}</dd>
-                {/if}
-            {/each}
-        </dl>
-				</table>
+			    </div> <!-- row.// -->
+
+			    </div> <!-- container .//  -->
+			    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     </div>
 
