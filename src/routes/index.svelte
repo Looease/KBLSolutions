@@ -1,3 +1,11 @@
+<style>
+section{
+  min-height: 100vh;
+}
+
+</style>
+
+
 <div class="section " id="section0">
 <!--About us Section -->
   <ul class="about">
@@ -108,7 +116,7 @@ so if you can’t see what you’re looking for give us a call, we are sure we w
          <div class="swiper-button-prev"></div>
        </div>
     </div>
-  </div>  
+  </div>
     <!-- Contact -->
       <div class="section" id="section2">
         <section class="section-name padding-y ">

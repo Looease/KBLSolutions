@@ -20,6 +20,10 @@
 *{
 	list-style: none;
 }
+h1{
+padding-top: 150px;
+padding-left: 50px;
+}
 ul{
 	display: flex;
 	flex-direction: row;

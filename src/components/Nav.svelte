@@ -1,4 +1,13 @@
+
 <style>
+header{
+	border-radius: 0px 0px 50px 50px;
+}
+ 	nav{
+		position: absolute;
+		width: 100%;
+		border-radius: 0px 0px 50px 50px;
+	}
 	img {
 		max-width: 220px;
 		height: auto;
@@ -7,9 +16,9 @@
 	}
 </style>
 
-<header class="section-header" id="header">
+<header class="section-header" id="header" id="navbar">
 	<section>
-	<nav class="navbar navbar-main navbar-expand-lg navbar-light">
+	<nav class="navbar navbar-main navbar-expand-lg navbar-light" >
 		<!-- <a class=""><img src="logo.png"  id="logo"></a> -->
 		<div class="container">
 			<a class="navbar-brand" href="/"><img src="img/logo.png" alt="KBL Solutions logo"></a>

@@ -1,11 +1,19 @@
-//Full page slider
 
-// var myFullpage = new fullpage('#fullpage', {
-//     licenseKey: '182D844B-B4404C78-B0BA8961-A73EAF67',
-//     verticalCentered: false,
-//     navigation: true,
-//     css3:false
-// });
+//Nav Scroll//
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+if (document.body.scrollTop > 185 || document.documentElement.scrollTop > 185) {
+document.getElementById("navbar").style.padding = "20px 0px 0px 0px";
+document.getElementById("navbar").style.background="rgba(255,255,255,0.3)";
+// rgba(246, 192, 178, 0.6)
+
+} else {
+document.getElementById("navbar").style.padding = "0px 0px 0px 0px";
+document.getElementById("navbar").style.background="transparent";
+}
+}
 
 
 //Product slider

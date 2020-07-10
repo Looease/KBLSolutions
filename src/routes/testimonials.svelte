@@ -9,8 +9,9 @@ article{
   background-size: cover;
 }
 h1{
-background-color: #FFF;
-padding: 30px;
+/* background-color: #FFF; */
+padding-top: 150px;
+padding-left: 50px;
 }
 h1, h6{
 color: #2F89CE;
