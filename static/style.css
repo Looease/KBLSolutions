@@ -36,19 +36,6 @@ p{
 
 /* Nav */
 
-.section-header{
-  position: fixed;
-  width: 100%;
-  z-index: 9990;
-}
-#mobilelogo{
-  display: none;
-}
-#desktoplogo{
-}
-#secondarynav{
-  color: rgba(255, 255, 255, 0.1)
-}
 
 
 /*First content box */
@@ -328,6 +315,9 @@ textarea{
   }
 }
   @media screen and (max-width:992px){
+     .nav-link{
+       background-color: white;
+     }
     .about{
       padding: 0px 0px 0px 0px;
     }

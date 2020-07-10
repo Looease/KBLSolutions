@@ -1,15 +1,14 @@
 <style>
 	img {
-		max-width: 175px;
+		max-width: 220px;
 		height: auto;
 		padding: 0px;
 		margin: 0px;
 	}
-
 </style>
 
-<header class="section-header">
-	<section class="border-bottom">
+<header class="section-header" id="header">
+	<section>
 	<nav class="navbar navbar-main navbar-expand-lg navbar-light">
 		<!-- <a class=""><img src="logo.png"  id="logo"></a> -->
 		<div class="container">

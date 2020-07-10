@@ -2,7 +2,6 @@
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
-  outline: none;
   font-family: 'Open Sans', sans-serif;
 }
 
@@ -230,54 +229,3 @@ span{
 #title{
   color: white;
 }
-
-/* Old format stuff */
-
-
-/* .format{
-    max-width: 100%;
-    max-height: 100%;
-    -o-object-fit: cover;
-    object-fit: cover;
-    cursor: -webkit-pointer;
-    cursor: pointer;
-}
-
-.item-thumb{
-  display: none;
-}
-
-.test{
-  display: block;
-  display: flex;
-  align-self: center;
-  width: 40%;
-  padding: 10px;
-  margin: auto;
-  background-color: white;
-  margin-right: 45%;
-  /* display: flex;
-  align-self:flex-start;
-  /* margin-right: 10%; */ */
-  /* box-shadow: 1px 1px 10px 5px gray; */
-/* }
-.test img{
-  width: 100%;
-}
-.thumbs{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.thumbs li{
-  width: 15%;
-  padding: 1px;
-  background-color: white;
-  margin: 1%;
-  box-shadow: 1px 1px 10px 5px gray;
-}
-.thumbs li img{
-  width: 100%;
-  min-height: 65px;
-
-}  */

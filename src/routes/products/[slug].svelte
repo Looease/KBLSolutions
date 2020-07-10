@@ -43,6 +43,9 @@
 		*{
 		list-style: none;
 		}
+		article{
+			padding-top: 80px;
+		}
      .content {
         background-color: #f6f7f9;
     }
