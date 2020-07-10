@@ -21,8 +21,8 @@
 	list-style: none;
 }
 h1{
-padding-top: 150px;
-padding-left: 50px;
+	padding-top: 175px;
+	padding-left: 40px;
 }
 ul{
 	display: flex;

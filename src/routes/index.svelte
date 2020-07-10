@@ -18,7 +18,7 @@ section{
 }
 @media screen and (max-width:992px) {
   .logo{
-    width: 175px;
+    width: 150px;
   }
   #formatfont{
     padding: 0px 20px 0px 20px;
@@ -42,6 +42,7 @@ so if you can’t see what you’re looking for give us a call, we are sure we w
       </h4>
     </li>
   </ul>
+</div>  
 <!-- </div> -->
   <!-- Product Selector -->
     <div class="section" id="section1">
@@ -132,6 +133,7 @@ so if you can’t see what you’re looking for give us a call, we are sure we w
                </div>
            </div>
          </div>
+        <div>
          <!-- Add Pagination -->
          <div class="swiper-pagination"></div>
          <!-- Add Arrows -->
