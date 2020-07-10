@@ -1,7 +1,8 @@
 
 <style>
 header{
-	border-radius: 0px 0px 50px 50px;
+	height: 20vh;
+	border-radius: 0px 0px 10px 10px;
 }
  	nav{
 		position: absolute;
@@ -9,14 +10,14 @@ header{
 		border-radius: 0px 0px 50px 50px;
 	}
 	img {
-		max-width: 220px;
+		max-width: 180px;
 		height: auto;
 		padding: 0px;
 		margin: 0px;
 	}
-</style>
 
-<header class="section-header" id="header" id="navbar">
+</style>
+<header class="section-header" id="navbar">
 	<section>
 	<nav class="navbar navbar-main navbar-expand-lg navbar-light" >
 		<!-- <a class=""><img src="logo.png"  id="logo"></a> -->
@@ -28,7 +29,7 @@ header{
 			<div class="collapse navbar-collapse" id="main_nav1">
 				<ul class="navbar-nav mr-auto">
 					<li class="nav-item">
-						<a class="nav-link" href="/">Home </a>
+						<a class="nav-link top" href="/">Home </a>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link" href="about">About us </a>
@@ -66,7 +67,7 @@ header{
 							<a class="nav-link" href="testimonials">Testimonials</a>
 						</li>
 					<li class="nav-item">
-						<a class="nav-link" href="index.html#section2">Contact</a>
+						<a class="nav-link bottom" href="index.html#section2">Contact</a>
 					</li>
 				</ul>
 				<div class="">

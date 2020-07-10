@@ -3089,7 +3089,15 @@ fieldset:disabled a.btn {
 
 .nav-link {
   display: block;
-  padding: 0.5rem 1rem; }
+  padding: 0.5rem 1rem;
+
+ }
+ .top{
+   border-radius: 10px 10px 0px 0px;
+ }
+ .bottom{
+   border-radius: 0px 0px 10px 10px;
+ }
   .nav-link:hover, .nav-link:focus {
     text-decoration: none; }
   .nav-link.disabled {

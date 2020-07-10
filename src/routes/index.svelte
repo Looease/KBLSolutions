@@ -2,7 +2,29 @@
 section{
   min-height: 100vh;
 }
-
+.logo{
+  margin: 50px 0px 0px 0px;
+  padding: 0px;
+  width: 200px;
+}
+#formatfont{
+  margin: 0px;
+  font-size: 0.8em;
+}
+.contentbox{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+@media screen and (max-width:992px) {
+  .logo{
+    width: 175px;
+  }
+  #formatfont{
+    padding: 0px 20px 0px 20px;
+    font-size: 0.7em;
+  }
+}
 </style>
 
 
@@ -10,12 +32,13 @@ section{
 <!--About us Section -->
   <ul class="about">
     <li class="contentbox">
+    <img src="img/logo.png" alt="KBL Solutions Logo" class="logo">
       <h4 id="formatfont">Here at KBL, we aim to help you maximise your Marketing efforts by supplying you with good quality
 products at competitive prices.
 We supply a wide range of Point of Sale products, so many in fact that not all appear on our web site,
 so if you can’t see what you’re looking for give us a call, we are sure we will be able to help!<br>
     <br>
-        Read more about us <a href="aboutus.html" class="point">here</a>
+        Read more about us <a href="about" class="point">here</a>
       </h4>
     </li>
   </ul>
