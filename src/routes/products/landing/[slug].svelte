@@ -21,32 +21,86 @@
 	list-style: none;
 }
 h1{
-	padding-top: 175px;
-	padding-left: 40px;
+	padding-top: 150px;
+	padding-left: 50px;
 }
-ul{
+section{
+	width: 100%;
+}
+.row{
+	margin-right: 10px;
+	margin-left: 10px;
 	display: flex;
-	flex-direction: row;
 	flex-wrap: wrap;
 }
-ul li{
-	margin: 20px;
+.container, .row{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
 }
+.card{
+	margin: 2%;
+	position: relative;
+	width: 20%;
+	max-height: 400px;
+	border: 1px solid #ebecf0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
+	object-fit: contain;
+
+}
+img{
+	padding: 5%;
+	max-width: 240px;
+	max-height: 240px;
+}
+.black{
+	color: black;
+}
+@media (max-width: 992px){
+.container,	.row{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+	.card{
+		width: 40%;
+		margin-left: 20%;
+	}
+	img{
+		width: 90%;
+	}
+}
+@media (max-width: 750px){
+	.card{
+		width: 60%;
+		margin-left: 10%;
+	}
+	img{
+		width: 90%;
+	}
+}
+
 </style>
 
 <h1>{group.name}</h1>
-
-<ul>
+<section class="section-name  padding-y-sm" id="grid">
+<ul class="container">
+<ul class="row">
     {#each group.products as product}
-        <li>
+        <li class="card card-product-grid">
 			<a href="/products/{product.slug}">
 
 				<!-- The [0] means get the first image from the array -->
 				<img src={product.images[0].src} alt={product.images[0].alt} />
 
-				<h2>{product.name}</h2>
-				<p>From £{product.price}</p>
+				<h6>{product.name}</h6>
+				<p class="black">From £{product.price}</p>
 			</a>
         </li>
     {/each}
 </ul>
+</ul>
+</section>

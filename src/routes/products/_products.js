@@ -883,11 +883,11 @@ const products = [
         teaser: 'A-boards at great prices. This is our lowest priced pavement sign and our best selling. Quick poster change system, strong aluminum and steel construction and easy fold away mechanism for night time storage.',
         images: [{
             alt: 'A Board Pavement Sign',
-            src: '/img/sign/aboard/0.jpg'
+            src: '/img/sign/aboard/2.jpg'
         },
         {
             alt: 'A Board Pavement Sign',
-            src: '/img/sign/aboard/2.jpg'
+            src: '/img/sign/aboard/0.jpg'
         },
         {
             alt: 'A Board Pavement Sign',

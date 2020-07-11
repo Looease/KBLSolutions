@@ -67,7 +67,7 @@ header{
 							<a class="nav-link" href="testimonials">Testimonials</a>
 						</li>
 					<li class="nav-item">
-						<a class="nav-link bottom" href="index.html#section2">Contact</a>
+						<a class="nav-link bottom" href="/#section2">Contact</a>
 					</li>
 				</ul>
 				<div class="">
