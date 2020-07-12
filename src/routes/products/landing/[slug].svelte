@@ -43,7 +43,7 @@ section{
 	position: relative;
 	width: 20%;
 	max-height: 400px;
-	border: 1px solid #ebecf0;
+	border: 1px solid #dcdee3;
 	display: flex;
 	justify-content: center;
 	align-items: center;

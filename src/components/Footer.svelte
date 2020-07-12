@@ -20,7 +20,7 @@
             <li> <a href="index.html#section1">Products and Services</a></li>
             <li> <a href="compact.html">Compact Privacy Screen</a></li>
             <li> <a href="testimonial.html">Testimonials</a></li>
-            <li> <a href="kblsolutionsterms.html">Rules and terms</a></li>
+            <li> <a href="terms">Rules and terms</a></li>
           </ul>
         </aside>
         <aside class="col-md col-6">
@@ -43,7 +43,7 @@
     </section>  <!-- footer-top.// -->
 
     <section class="footer-bottom text-center">
-      <a href="kblsolutionsterms.html">
+      <a href="terms">
         <p class="text-white">Privacy Policy - Terms of Use </p></a>
         <p class="text-white"> &copy 2019 KBL Solutions LTD, All rights reserved </p>
         <br>
