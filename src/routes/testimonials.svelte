@@ -1,7 +1,3 @@
-
-
-<link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
-
 <style>
 article{
   background-image: url(../bandw.jpg);

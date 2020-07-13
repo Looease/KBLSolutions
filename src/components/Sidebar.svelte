@@ -1,3 +1,12 @@
+<style>
+.box{
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+}
+</style>
+
+
 <aside class="col-md-4">
 
   <div class="box">

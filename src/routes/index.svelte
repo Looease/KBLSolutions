@@ -11,10 +11,17 @@ section{
   margin: 0px;
   font-size: 0.8em;
 }
-.contentbox{
+
+.about, .contentbox{
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+.arrow{
+  list-style: none;
+}
+.fa-arrow-down{
+  color: white;
 }
 @media screen and (max-width:992px) {
   .logo{
@@ -40,6 +47,12 @@ so if you can’t see what you’re looking for give us a call, we are sure we w
     <br>
         Read more about us <a href="about" class="point">here</a>
       </h4>
+    </li>
+    <li class="arrow">
+    <div class="arrow bounce">
+    <a class="fa fa-arrow-down fa-2x" href="/#section1">
+    </a>
+    </div>
     </li>
   </ul>
 </div>
@@ -147,7 +160,7 @@ so if you can’t see what you’re looking for give us a call, we are sure we w
         <section class="section-name padding-y ">
           <ul class="formbox">
             <li class="forminfo">
-              <form action="https://formspree.io/mrgljdow" method="POST" class="homeform">
+              <form action="https://formspree.io/mrgljdow" method="POST" >
                 <h1>Contact Us</h1>
                   <label>
                     <input type="text" name="name" placeholder="Your Name">
@@ -158,6 +171,7 @@ so if you can’t see what you’re looking for give us a call, we are sure we w
                   <label>
                     <input type="email" name="_replyto" placeholder="Your Email address">
                   </label>
+                  <br>
                   <label>
                     <input type="text" name="subject" placeholder="Subject">
                     <textarea name="message" placeholder="Message"></textarea>

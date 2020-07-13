@@ -34,7 +34,31 @@ p{
 
 /* Nav */
 
+/* Scroll Arrow */
 
+
+.arrow {
+  text-align: center;
+  margin: 4%;
+  color: white;
+}
+.bounce {
+  -moz-animation: bounce 2s infinite;
+  -webkit-animation: bounce 2s infinite;
+  animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
+}
 
 /*First content box */
 .about{
@@ -217,6 +241,7 @@ min-height: 65px;
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 
 }
 .forminfo{
@@ -228,14 +253,22 @@ min-height: 65px;
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   width:50%;
   height: 500px;;
 }
+.indexForm{
+  width: 50%;
+  height: 250px;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
 
-.homeform{
-  margin: 5%;
+.quickQuoteForm{
   width: 100%;
-  height: 410px;
+  height: 250px;
   border-radius: 25px;
   display: flex;
   flex-wrap: wrap;
@@ -255,7 +288,7 @@ textarea{
   height: 150px;
   width: 250px;
   border-radius: 5px;
-  color: #2F89CE;
+  color: #FFF;
 }
 .button{
   height: 50px;
@@ -335,6 +368,12 @@ textarea{
       align-items: center;
       margin-top: 25%;
     }
+    .quickQuoteForm{
+      height: 300px;
+    }
+    .form-control{
+      margin-bottom: 10px;
+    }
 
   }
 @media screen and (max-width:601px){
@@ -343,7 +382,7 @@ textarea{
     /* font-size: 10px; */
     }
   .box{
-    width: 100%;
+    width: 80%;
     margin: 30px;
     padding: 0px;
   }
@@ -357,4 +396,8 @@ textarea{
     align-items: center;
     margin-top: 25%;
   }
+  .quickQuoteForm{
+    height: 400px;
+  }
+
 }

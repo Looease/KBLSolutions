@@ -1,9 +1,11 @@
+
+
 <section class="padding-bottom">
 <div class="card card-body">
-  <h5 class="title py-3">Quick quote request</h4>
-  <form action="https://formspree.io/mrgljdow" method="POST" class="homeform">
+  <h4 class="title py-3">Quick quote request</h4>
+  <form action="https://formspree.io/mrgljdow" method="POST" class="quickQuoteForm">
     <div class="form-group">
-      <input class="form-control" name="Free Standing Safety Screens" value="Free Standing Safety Screens" type="text">
+      <input class="form-control" name="Free Standing Safety Screens" value="{"FIX WITH JAVASCRIPT"}" type="text">
     </div>
     <div class="form-group">
       <div class="input-group">
@@ -11,7 +13,6 @@
       </div>
     </div>
     <div class="form-group text-muted">
-      <!-- <p>Quote request:</p> -->
       <label class="form-check form-check-inline">
         <input class="form-check-input" type="checkbox" value="Request Price" name="Request Price">
         <div class="form-check-label">Request price</div>
@@ -28,8 +29,9 @@
       <input class="form-control" type="email" name="_replyto" placeholder="Your Email address">
     </label>
     <div class="form-group">
-      <input class="btn  btn-primary" class="form-control"  type="submit" value="Send" class="button">
+      <input class="btn  btn-primary"  type="submit" value="Send">
       <!-- <button class="btn btn-warning">Request for quote</button> -->
     </div>
   </form>
 </div>
+</section>
