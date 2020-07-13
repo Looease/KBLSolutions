@@ -42,7 +42,7 @@ so if you can’t see what you’re looking for give us a call, we are sure we w
       </h4>
     </li>
   </ul>
-</div>  
+</div>
 <!-- </div> -->
   <!-- Product Selector -->
     <div class="section" id="section1">

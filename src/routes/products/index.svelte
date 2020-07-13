@@ -4,6 +4,7 @@
     function getPath(group) {
         return !!group.products ? `/products/landing/${group.slug}`: `/products/${group.slug}`;
     }
+
 </script>
 
 <style>

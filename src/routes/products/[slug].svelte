@@ -13,6 +13,8 @@
 </script>
 
 <script>
+
+
 	export let products;
 
 	import { onMount } from 'svelte';
@@ -34,6 +36,8 @@
 		});
 	});
 </script>
+
+
 
 <!-- <Quickquote.svelte/> -->
 
@@ -163,31 +167,12 @@
 			    </div> <!-- container .//  -->
 			    </section>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     </div>
 
-    <!--
-        Sidebar (aside)
-        - This could be a component?
-    -->
+
+
+
+
 		</div> <!-- box.// -->
 
 	</div> <!-- row.// -->

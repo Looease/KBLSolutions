@@ -6,7 +6,7 @@ window.onscroll = function() {scrollFunction()};
 function scrollFunction() {
 if (document.body.scrollTop > 185 || document.documentElement.scrollTop > 185) {
 document.getElementById("navbar").style.padding = "20px 0px 0px 0px";
-document.getElementById("navbar").style.background="rgba(255,255,255,0.3)";
+document.getElementById("navbar").style.background="rgba(255,255,255,0.4)";
 // rgba(246, 192, 178, 0.6)
 
 } else {
@@ -18,7 +18,7 @@ document.getElementById("navbar").style.background="transparent";
 
 //Product slider
 
-var swiper = new Swiper('.swiper-container', {
+var swiper = new Swiper(".swiper-container", {
   slidesPerView: 1,
   spaceBetween: 10,
   loop: true,

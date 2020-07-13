@@ -6,21 +6,21 @@
         <aside class="col-md col-6">
           <h6 class="title">Products</h6>
           <ul class="list-unstyled">
-            <li> <a href="compact.html">Compact privacy screen</a></li>
-            <li> <a href="forecourt.html">Forecourt Sign</a></li>
-            <li> <a href="aboard.html">A-Board Pavement Sign</a></li>
-            <li> <a href="menuselect.html">Menus</a></li>
-            <li> <a href="snapframe.html">Snap Frame</a></li>
+            <li> <a href="/landing/covid-19">Covid-19</a></li>
+            <li> <a href="/products/compact-screen">Compact privacy screen</a></li>
+            <li> <a href="/landing/forecourt-signs">Forecourt Sign</a></li>
+            <li> <a href="/products/a-board">A-Board Pavement Sign</a></li>
+            <li> <a href="/products/landing/menus">Menus</a></li>
+            <li> <a href="/products/snap-frame">Snap Frame</a></li>
           </ul>
         </aside>
         <aside class="col-md col-6">
           <h6 class="title">Company</h6>
           <ul class="list-unstyled">
-            <li> <a href="aboutus.html">About us</a></li>
-            <li> <a href="index.html#section1">Products and Services</a></li>
-            <li> <a href="compact.html">Compact Privacy Screen</a></li>
-            <li> <a href="testimonial.html">Testimonials</a></li>
-            <li> <a href="terms">Rules and terms</a></li>
+            <li> <a href="about">About us</a></li>
+            <li> <a href="/#section1">Products and Services</a></li>
+            <li> <a href="/testimonials">Testimonials</a></li>
+            <li> <a href="/terms">Rules and terms</a></li>
           </ul>
         </aside>
         <aside class="col-md col-6">

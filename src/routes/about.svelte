@@ -2,11 +2,6 @@
 
 <svelte:head>
 <style>
-body{
-	background-image: url(img/shopping.jpeg);
-	background-repeat: repeat;
-	background-size: contain;
-}
 .point{
 	color: #2F89CE;
 }
