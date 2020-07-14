@@ -12,9 +12,7 @@ padding-left: 50px;
 h1, h6{
 color: #2F89CE;
 }
-section ul li{
-  font-family: 'Patrick Hand', cursive;
-}
+
 section ul li h6{
   font-family: sans-serif;
 }
@@ -30,7 +28,7 @@ section ul li h6{
 .bubble {
   margin: 20px;
 position: relative;
-font-size: 20px;
+font-size: 15px;
 line-height: 24px;
 width: 300px;
 background: #fff;

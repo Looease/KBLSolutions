@@ -21,7 +21,7 @@ section{
   list-style: none;
 }
 .fa-arrow-down{
-  color: white;
+ color: rgba(255, 255, 255, 0.5);
 }
 @media screen and (max-width:992px) {
   .logo{

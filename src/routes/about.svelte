@@ -82,7 +82,7 @@ body{
 			We supply a wide range of Point of Sale products, so many in fact that not all appear on our web site,
 			so if you can’t see what you’re looking for give us a call, we are sure we will be able to help! <br><br>
 			Need something manufactured to your own requirements? We can help with that too. <br> <br>
-			We pride ourselves on our customer service, always going that little bit further to help, but don’t just take our word for it, have a look and see <a href="testimonial.html" class="point"> what our Customers say about us - Testimonials</a>
+			We pride ourselves on our customer service, always going that little bit further to help, but don’t just take our word for it, have a look and see <a href="testimonials" class="point"> what our Customers say about us - Testimonials</a>
 			<br><br>
 			<ul class="list">
 				<li>Point of Sale Products.</li>
