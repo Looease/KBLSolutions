@@ -2,11 +2,13 @@
 
 <svelte:head>
 <style>
+
 .point{
 	color: #2F89CE;
 }
 .about{
-	margin: 20px;
+	margin: 100px 20px 20px 20px;
+
 	padding: 50px;
 	display: flex;
 	/* flex-direction: row; */
@@ -60,14 +62,16 @@ body{
 }
 @media screen and (max-width:1000px) {
 body{
-	background-image: url(img/window.jpg);
+	background-image: linear-gradient(rgba(191, 191, 191, 0.8),rgba(191, 191, 191, 0.8)),
+	url(img/window.jpg);
 	background-size: cover;
 }
 .about{
-	margin: 0px;
+	margin: 150px 20px 20px 20px;
 	padding: 0px;
 }
 }
+
 </style>
 
 	<title>About</title>
@@ -78,11 +82,16 @@ body{
 		<li class="bubble bubble-bottom-left">
 				<h1>About Us</h1>
 			<br>
-			Our aim is to help you maximise your Marketing efforts by supplying you with good quality products at competitive prices.<br><br>
-			We supply a wide range of Point of Sale products, so many in fact that not all appear on our web site,
-			so if you can’t see what you’re looking for give us a call, we are sure we will be able to help! <br><br>
-			Need something manufactured to your own requirements? We can help with that too. <br> <br>
-			We pride ourselves on our customer service, always going that little bit further to help, but don’t just take our word for it, have a look and see <a href="testimonials" class="point"> what our Customers say about us - Testimonials</a>
+			With over 16 years POS experience working with top brands including Texaco, Esso, Kwik Fit, Dreams
+			and Majestic Wine. Our aim is to help you maximise your marketing efforts by supplying you with
+			well-made products at great prices.<br><br>
+			We supply a wide range of Point of Sale products, not all appear on our web site so if you can’t see
+			what you’re looking for give us a call, we are sure we will be able to help! If not, we may be able to
+			put you in touch with someone that can.<br><br>
+			Need something bespoke? we can help with that too.
+			<br><br>
+			We pride ourselves on our customer service, always going that little bit further to help, but don’t just
+			take our word for it, have a look and see what our Customers are saying about us - <a href="testimonials" class="point">Testimonials</a>
 			<br><br>
 			<ul class="list">
 				<li>Point of Sale Products.</li>
@@ -91,7 +100,7 @@ body{
 				<li>Bespoke manufacture</li>
 			</ul>
 		<br><br>
-		<!-- <h6>Commercial Project & Supply Chain Controller - Astley</h6> -->
+
 	</li>
 </ul>
 

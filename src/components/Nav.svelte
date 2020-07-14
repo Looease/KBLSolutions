@@ -9,7 +9,7 @@ header{
 		border-radius: 0px 0px 50px 50px;
 	}
 	img {
-		max-width: 180px;
+		max-width: 220px;
 		height: auto;
 		padding: 0px;
 		margin: 0px;
@@ -35,8 +35,8 @@ header{
 					</li>
 					<li class="nav-item dropdown">
 						<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="/products/index.svelte">Products and Services</a>
-						<div class="dropdown-menu">
-						<a class="dropdown-item" href="/products/" id="navLink" onclick="closeNav();">All products and services</a>
+						<div class="dropdown-menu" id="navLink" onclick="closeNav();">
+						<a class="dropdown-item" href="/products/" >All products and services</a>
 						<div class="dropdown-divider"></div>
 						<a class="dropdown-item" href="/products/landing/covid-19" id="navLink" onclick="closeNav();">Covid 19</a>
 						<div class="dropdown-divider"></div>

@@ -9,7 +9,7 @@ section{
 }
 #formatfont{
   margin: 0px;
-  font-size: 0.8em;
+  font-size: 0.7em;
 }
 
 .about, .contentbox{
@@ -49,12 +49,18 @@ section{
   <ul class="about">
     <li class="contentbox">
     <img src="img/logo.png" alt="KBL Solutions Logo" class="logo">
-      <h4 id="formatfont">Here at KBL, we aim to help you maximise your Marketing efforts by supplying you with good quality
-products at competitive prices.
-We supply a wide range of Point of Sale products, so many in fact that not all appear on our web site,
-so if you can’t see what you’re looking for give us a call, we are sure we will be able to help!<br>
-    <br>
-        Read more about us <a href="about" class="point">here</a>
+      <h4 id="formatfont">
+      Marketing display products for all your business needs.
+      <br>  <br>
+      Covid-19 health and safety marketing solutions.
+      <br>  <br>
+      Here at KBL, we aim to help you maximise your marketing efforts by supplying you with effective
+      products at great prices.
+      We supply a wider range of Point of Sale products than appear on our web site, so if you can’t see
+      what you’re looking for, feel free to give us a call and we can walk you through your marketing
+      requirements, where we are sure we will be able to help.
+      <br>
+      Read more about us here <a href="about" class="point">here</a>
       </h4>
     </li>
     <li class="arrow">
