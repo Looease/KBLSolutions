@@ -32,6 +32,15 @@ section{
     font-size: 0.7em;
   }
 }
+@media screen and (max-width:603px){
+  .logo{
+    display: none;
+  }
+  #formatfont{
+    padding: 25% 12% 15% 12%; 
+  }
+
+}
 </style>
 
 
