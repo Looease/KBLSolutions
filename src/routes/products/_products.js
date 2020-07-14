@@ -864,13 +864,12 @@ const products = [
         ],
         description: 'At the scene of an emergency, the Compact Privacy Screen protects the confidentiality of victims while guarding against gawkers, helping vehicle and foot traffic flow safely. Unlike other screens which have to be transported on purpose built trailers, The Compact Privacy screen comes in 4 hand held carry bags that can be easily transported in the back of a Vehicle.',
         specifications: [{
-            label: 'Compact Privacy Screen'
-           },
-            {
-                value: 'Tool less setup by one person in approximately four minutes',
-                value: '16x7 ft heavy-duty screen, fire-retardant, water-repellent and ultraviolet-resistant.',
-                value: 'Supplied in 4 light weight, hand held carry bags 1 for the screen and 1 for each of the three leg stands. The Leg stands have dual springs that aid in wind deflection. Each leg is adjustable to ensure stability on uneven terrain'
-            }
+            label: 'Compact Privacy Screen',
+            value: 'Tool less setup by one person in approximately four minutes',
+            value: '16x7 ft heavy-duty screen, fire-retardant, water-repellent and ultraviolet-resistant.',
+            value: 'Supplied in 4 light weight, hand held carry bags 1 for the screen and 1 for each of the three leg stands. The Leg stands have dual springs that aid in wind deflection. Each leg is adjustable to ensure stability on uneven terrain'
+
+          },
         ],
         downloads: [{
             name: 'Compact Privacy Screen Specification',

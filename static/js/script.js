@@ -15,6 +15,20 @@ document.getElementById("navbar").style.background="transparent";
 }
 }
 
+//Close Nav//
+
+function closeNav() {
+  event.stopPropagation()
+
+  var x = document.getElementById("navLink");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+};
+
+
 
 //Product slider
 
