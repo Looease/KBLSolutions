@@ -29,7 +29,6 @@ function closeNav() {
 };
 
 
-
 //Product slider
 
 var swiper = new Swiper(".swiper-container", {

@@ -27,16 +27,12 @@ h1{
 section{
 	width: 100%;
 }
-.row{
-	margin-right: 10px;
-	margin-left: 10px;
-	display: flex;
-	flex-wrap: wrap;
-}
 .container, .row{
 	width: 100%;
 	display: flex;
 	flex-direction: row;
+	text-align: center;
+	flex-wrap: wrap;
 }
 .card{
 	margin: 2%;
@@ -60,14 +56,14 @@ img{
 	color: black;
 }
 @media (max-width: 992px){
-.container,	.row{
+.container{
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
 	}
 	.card{
-		width: 40%;
-		margin-left: 20%;
+		width: 33%;
+		margin: 0px 33% 10px 33%;
 	}
 	img{
 		width: 90%;
@@ -75,16 +71,20 @@ img{
 }
 @media (max-width: 750px){
 	.card{
-		width: 60%;
-		margin-left: 10%;
+		width: 75%;
+		margin: 0px 13% 10px 17%;
+		padding: 0px;
 	}
 	img{
 		width: 90%;
 	}
+	h6{
+		padding: 5px;
+		text-align: center;
+	}
 }
 
 </style>
-
 <h1>{group.name}</h1>
 <section class="section-name  padding-y-sm" id="grid">
 <ul class="container">
