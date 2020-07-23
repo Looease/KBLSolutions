@@ -1,10 +1,11 @@
 <style>
 header{
+	position: fixed;
 	height: 20vh;
 	border-radius: 0px 0px 10px 10px;
 }
  	nav{
-		position: absolute;
+		/* position: fixed; */
 		width: 100%;
 		border-radius: 0px 0px 50px 50px;
 	}

@@ -14,6 +14,7 @@ section{
 #formatfont{
   margin: 0px;
   font-size: 0.7em;
+  color: black;
 }
 
 .about, .contentbox{
@@ -80,7 +81,8 @@ section{
     <div class="section" id="section1">
       <br>
       <h1 class="pands" id="gone">Products and Services</h1>
-      <br>
+      <br>  <br>
+
       <Carousel />
     </div>
     <!-- Contact -->

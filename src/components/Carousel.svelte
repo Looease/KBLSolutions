@@ -4,38 +4,63 @@
 </script>
 
 <style>
+    span{
+      color: #2C86D2;
+    }
     .carousel {
         width: 75%;
         height: 75%;
         margin-left: auto;
         margin-right: auto;
     }
-
     .slide-content {
-        height: 80%;
+        margin: 20px;
+        height: 60vh;
         text-align: center;
         font-size: 18px;
         background: #fff;
         display: flex;
         justify-content: center;
         align-items: center;
+        flex-direction: column;
     }
+    .slide-content:hover{
+      box-shadow: 2px 2px 12px rgba(47,47,47,0.40);
+      transform: scale(1.03);
+      transition: all ease 0.3s;
+    }
+    .slide-content p, .cart{
+      padding: 20px 10px 20px 10px;
+      color: #2C86D2;
+    }
+    .slide-content img{
+      height: auto;
+      display: block;
+      max-width: 100%;
+      max-height: 275px;
+      -o-object-fit: cover;
+      object-fit: cover;
+      cursor: pointer;
+    }
+
 </style>
 
 <div class="carousel">
-    <Carousel>
+    <Carousel perPage={{  900: 3, 650: 2, 500: 1 }}>
 
         <span class="control" slot="left-control">
             <ChevronLeftIcon />
         </span>
 
+
         <div class="slide-content">
-            <p class="time">Forecourt/Pavement Signs</p>
-            <a href="/products/forecourt-signs">
-                <img src="img/sign/forecourt/26.jpg" alt="" class="img-box">
-                <div class="cart">
-                    Find out more
-                </div>
+            <p class="time">Compact Privacy Screen</p>
+            <a href="/products/compact-screen">
+            <img src="img/sign/compact/42.jpg" alt="" class="img-box">
+            <br>
+            <div class="cart">
+                Find out more
+            </div>
             </a>
         </div>
 
@@ -49,15 +74,16 @@
             </a>
         </div>
 
-        <div class="slide-content">
-            <p class="time">Compact Privacy Screen</p>
-            <a href="/products/compact-screen">
-            <img src="img/sign/compact/42.jpg" alt="" class="img-box">
-            <div class="cart">
-                Find out more
-            </div>
-            </a>
-        </div>
+
+          <div class="slide-content">
+              <p class="time">Forecourt/Pavement Signs</p>
+              <a href="/products/forecourt-signs">
+                  <img src="img/sign/forecourt/26.jpg" alt="" class="img-box">
+                  <div class="cart">
+                      Find out more
+                  </div>
+              </a>
+          </div>
 
         <div class="slide-content">
             <p class="time">A-Board Pavement Sign</p>
@@ -80,7 +106,7 @@
         </div>
 
         <div class="slide-content">
-            <p class="time">Menu / Floor Standing Displays / Info Holders</p>
+            <p class="time">Menu / Floor Displays/ Info Holders</p>
             <a href="/products/menus">
             <img src="img/sign/menu/31.jpg" alt="" class="img-box">
             <div class="cart">
