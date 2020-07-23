@@ -1,8 +1,4 @@
 <script context="module">
-import Quickquote from '../../components/Quickquote.svelte';
-import Sidebar from '../../components/Sidebar.svelte';
-
-
 	export async function preload({ params, query }) {
 		// the `slug` parameter is available because
 		// this file is called [slug].svelte
@@ -20,6 +16,8 @@ import Sidebar from '../../components/Sidebar.svelte';
 	export let products;
 
 	import { onMount } from 'svelte';
+	import Quickquote from '../../components/Quickquote.svelte';
+	import Sidebar from '../../components/Sidebar.svelte';
 
 	/* onMount in Svelte runs after
 	 the component has 'loaded'/rendered */
@@ -105,20 +103,22 @@ import Sidebar from '../../components/Sidebar.svelte';
 	 	<main class="col-sm-6">
 			<article class="content-body">
 
-							<h1 class="title">{products.name}</h1>
-							<p>{products.teaser}</p>
-        <!-- Use Svelte to loop over features (only show if present) -->
-        {#if products.features}
-            <ul class="list-check mb-4" >
-                {#each products.features as feature}
-                    <li>{feature}</li>
-                {/each}
-            </ul>
-        {/if}
-				<span class="price h4">
-				{#if products.price}
-						<h2>£{products.price}</h2>
+				<h1 class="title">{products.name}</h1>
+				<p>{products.teaser}</p>
+
+				<!-- Use Svelte to loop over features (only show if present) -->
+				{#if products.features}
+					<ul class="list-check mb-4" >
+						{#each products.features as feature}
+							<li>{feature}</li>
+						{/each}
+					</ul>
 				{/if}
+
+				<span class="price h4">
+					{#if products.price}
+							<h2>£{products.price}</h2>
+					{/if}
 				</span>
 					<Quickquote />
 

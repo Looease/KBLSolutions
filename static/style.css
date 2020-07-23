@@ -135,10 +135,7 @@ p{
      margin: 0;
      padding: 0;
    }
-   .swiper-container {
-     width: 75%;
-     height: 75%;
-   }
+
    .swiper-slide {
      height: 80%;
      text-align: center;
@@ -199,8 +196,6 @@ min-height: 65px;
   color: #2C86D2;
 }
 .cart{
-  position: absolute;
-  bottom: 0px;
   height: 39px;
   width: 100%;
   background-color: #2C86D2;
