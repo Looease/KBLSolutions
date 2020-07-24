@@ -1,15 +1,15 @@
 <script>
-  // This export enables you to pass 
+  // This export enables you to pass
   // props into components
 	export let product;
 </script>
-asdasd
+
 <section class="padding-bottom">
   <div class="card card-body">
     <h4 class="title py-3">Quick quote request</h4>
     <form action="https://formspree.io/mrgljdow" method="POST" class="quickQuoteForm">
       <div class="form-group">
-        <input class="form-control" value="{product}" type="text">
+        <input class="form-control" name="{product}" value="{product}" type="text">
       </div>
       <div class="form-group">
         <div class="input-group">

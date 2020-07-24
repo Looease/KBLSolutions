@@ -6,6 +6,7 @@ body{
 	  background-image: url(../img/bandw.jpg);
 	  background-repeat: no-repeat;
 	  background-size: cover;
+
 }
 
 .point{

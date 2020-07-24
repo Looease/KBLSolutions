@@ -1,3 +1,10 @@
+<style>
+#footercontainer div ul, #footercontainer div ul li, h6{
+  color: white;
+}
+
+</style>
+
 <!-- ========================= FOOTER ========================= -->
 <footer class="section-footer bg-secondary">
   <div class="container" id="footercontainer">

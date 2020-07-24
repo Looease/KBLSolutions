@@ -1,6 +1,6 @@
 <style>
 article{
-  background-image: url(../img/bandw.jpg);
+  background-image: linear-gradient(rgba(191, 191, 191, 0.7),rgba(191, 191, 191, 0.7)), url(../img/bandw.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
