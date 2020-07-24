@@ -1,11 +1,28 @@
+<script>
+<script context="module">
+	export async function preload({ params, query }) {
+		// the `slug` parameter is available because
+        // this file is called [slug].svelte
+		const res = await this.fetch(`..routes/products/_products${params.slug}.json`);
+		const data = await res.json();
+		if (res.status === 200) {
+			return { group: data };
+		} else {
+			this.error(res.status, data.message);
+		}
+	}
+</script>
 
+<script>
+	export let group;
+</script>
 
 <section class="padding-bottom">
 <div class="card card-body">
   <h4 class="title py-3">Quick quote request</h4>
   <form action="https://formspree.io/mrgljdow" method="POST" class="quickQuoteForm">
     <div class="form-group">
-      <input class="form-control" name="Free Standing Safety Screens" value="{"FIX WITH JAVASCRIPT"}" type="text">
+      <input class="form-control" name="{products.name}" value="{products.name}" type="text">
     </div>
     <div class="form-group">
       <div class="input-group">

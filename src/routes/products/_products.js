@@ -654,7 +654,7 @@ const products = [
             src: 'https://looease.github.io/KBL/img/sign/covid/55.jpg'
         }],
         products: [
-            {
+                {
                 slug: 'safety-screens',
                 name: 'Free Standing Safety Screens',
                 teaser: 'Strong and versatile safety screens for office and retail partitioning. We offer a Choice of clear or frosted panels supported by an aluminium frame and poles. The panel components are available from stock and can be made-to-order in multiple shapes and sizes',
