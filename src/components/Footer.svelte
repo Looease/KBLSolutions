@@ -27,7 +27,6 @@
             <li> <a href="about">About us</a></li>
             <li> <a href="/#section1">Products and Services</a></li>
             <li> <a href="/testimonials">Testimonials</a></li>
-            <li> <a href="/terms">Rules and terms</a></li>
           </ul>
         </aside>
         <aside class="col-md col-6">
@@ -40,10 +39,9 @@
           </ul>
         </aside>
         <aside class="col-md">
-          <h6 class="title">Social</h6>
+          <h6 class="title">Terms and Conditions</h6>
           <ul class="list-unstyled">
-            <!-- <li><a href="#"> <i class="fab fa-facebook"></i> Facebook </a></li> -->
-            <li><a href="linkedin.com"> <i class="fab fa-linkedin"></i> Linkedin </a></li>
+          <li> <a href="/terms">Terms and Conditions</a></li>
           </ul>
         </aside>
       </div> <!-- row.// -->

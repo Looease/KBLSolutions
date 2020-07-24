@@ -56,6 +56,10 @@ img{
 	color: black;
 }
 @media (max-width: 992px){
+h1{
+	margin: 0;
+	padding: 150px 0px 0px 0px;
+}
 .container{
 		display: flex;
 		flex-direction: column;
@@ -66,7 +70,8 @@ img{
 		margin: 0px 33% 10px 33%;
 	}
 	img{
-		width: 90%;
+		width: 50%;
+		height: auto;
 	}
 }
 @media (max-width: 750px){

@@ -128,7 +128,7 @@
         <div class="slide-content">
             <p class="time">Replacement Front Sheets</p>
             <a href="/products/replacement-front-sheet">
-            <img src="img/sign/frontsheet/.jpg" alt="" class="img-box">
+            <img src="img/comingsoon.jpg" alt="" class="img-box">
             <div class="cart">
                 Find out more
             </div>

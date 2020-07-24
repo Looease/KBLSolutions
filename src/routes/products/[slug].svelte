@@ -54,8 +54,12 @@
 		td{
 			width: 100%;
 		}
+		figure{
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
 		.feature-image{
-			padding: 0 0 0 10%;
 			max-width: 100%;
 			display: flex;
 			justify-content: center;
@@ -71,6 +75,14 @@
 			max-width: 40px;
 			max-height: 40px;
 		}
+		@media screen and (max-width:600px){
+			.feature-image{
+			padding-right: 5%;
+			max-width: 95%;
+			height: auto;
+			}
+		}
+
 
 </style>
 
@@ -83,7 +95,7 @@
 		<aside class="col-sm-6 border-right">
 			<article class="gallery-wrap">
 				<div class="img-big-wrap">
-					
+
     <!-- <div class="hero"> -->
     {#if products.images}
         <figure>

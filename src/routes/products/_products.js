@@ -461,10 +461,7 @@ const products = [
                     alt: 'Swinger Swing Sign Poster -Top-opening poster pocket unprinted.',
                     src: '/img/sign/forecourt/22.jpg'
                 },
-                {
-                    alt: 'Swinger Swing Sign Poster - Top-opening poster pocket unprinted',
-                    src: '/img/sign/forecourt/29.jpg'
-                }
+
               ],
                 features: [
                     'Gloss white aluminium panel (500 x 750mm) – ideal for direct to surface print or vinyl graphics.',
@@ -513,11 +510,11 @@ const products = [
                 teaser: 'Our top selling Swinger model. Contact us for print prices',
                 images: [{
                     alt: 'Swinger 3000',
-                    src: 'https://www.adversetdisplay.co.uk/images/cms/products_23_0_detail.jpg?1542105898'
+                    src: 'img/sign/forecourt/2930.jpg'
                 },
                 {
-                    alt: 'alt text',
-                    src: 'https://www.adversetdisplay.co.uk/images/cms/products_23_2_detail.jpg?1542105898'
+                    alt: 'Swinger 3000',
+                    src: 'img/sign/forecourt/28.jpg'
                 }],
                 features: [
                   'Gloss white aluminium panel (500 x 750mm) – ideal for direct to surface print or vinyl graphics.',
@@ -655,7 +652,7 @@ const products = [
         }],
         products: [
                 {
-                slug: 'safety-screens',
+                slug: 'safety-screen',
                 name: 'Free Standing Safety Screens',
                 teaser: 'Strong and versatile safety screens for office and retail partitioning. We offer a Choice of clear or frosted panels supported by an aluminium frame and poles. The panel components are available from stock and can be made-to-order in multiple shapes and sizes',
                 images: [{
@@ -1010,77 +1007,8 @@ const products = [
                         label: 'Quantity per pallet',
                         value: '9'
                     },
-                    {
-                        label: 'Product Code - '
-                       },
-                        {
-                            label: '20x30"',
-                            value: 'xxx'
-                        },
-                        {
-                            label: 'External Size(mm)	',
-                            value: 'xxx'
-                        },
-                        {
-                            label: 'Frame Size(mm)',
-                            value: 'xxx'
-                        },
-                        {
-                            label: 'Depth(mm)',
-                            value: 'xxx'
-                        },
-                        {
-                            label: 'Visible Area(mm)',
-                            value: 'xxx'
-                        },
-                        {
-                            label: 'Box Size(mm)',
-                            value: 'xxx'
-                        },
-                        {
-                            label: 'Gross Weight Inc. Box (g)',
-                            value: 'xxx'
-                        },
-                        {
-                            label: 'Quantity per pallet',
-                            value: 'xxx'
-                        },
-                        {
-                            label: 'Product Code - ABSL3040'
-                           },
-                            {
-                                label: 'ABSL3040',
-                                value: 'xxx'
-                            },
-                            {
-                                label: 'External Size(mm)	',
-                                value: 'xxx'
-                            },
-                            {
-                                label: 'Frame Size(mm)',
-                                value: 'xxx'
-                            },
-                            {
-                                label: 'Depth(mm)',
-                                value: 'xxx'
-                            },
-                            {
-                                label: 'Visible Area(mm)',
-                                value: 'xxx'
-                            },
-                            {
-                                label: 'Box Size(mm)',
-                                value: 'xxx'
-                            },
-                            {
-                                label: 'Gross Weight Inc. Box (g)',
-                                value: 'xxx'
-                            },
-                            {
-                                label: 'Quantity per pallet',
-                                value: 'xxx'
-                            },
-        ],
+
+                  ],
         downloads: [{
             name: 'A-Board Specification',
             file: 'spec/aboardspec.pdf'
@@ -1183,95 +1111,7 @@ const products = [
                           label: 'Quantity per pallet',
                           value: '200'
                       },
-                      {
-                          label: 'Product Code -SECWALLA0PPSL'
-                         },
-                          {
-                              label: 'A0',
-                              value: 'xxx (mm)'
-                          },
-                          {
-                              label: 'External Size(mm)	',
-                              value: 'xxx'
-                          },
-                          {
-                              label: 'Visible Area(mm)',
-                              value: 'xxx'
-                          },
-                          {
-                              label: 'Box Size(mm)',
-                              value: 'xxx'
-                          },
-                          {
-                              label: 'Gross Weight Inc. Box (g)',
-                              value: 'xxx'
-                          },
-                          {
-                              label: 'Quantity per pallet',
-                              value: 'xxx'
-                          },
-                          {
-                              label: 'Product Code - SECWALL3040PPSL'
-                             },
-                              {
-                                  label: '3040"',
-                                  value: 'xxx'
-                              },
-                              {
-                                  label: 'External Size(mm)	',
-                                  value: 'xxx'
-                              },
-                              {
-                                  label: 'Visible Area(mm)',
-                                  value: 'xxx'
-                              },
-                              {
-                                  label: 'Box Size(mm)',
-                                  value: 'xxx'
-                              },
-                              {
-                                  label: 'Gross Weight Inc. Box (g)',
-                                  value: 'xxx'
-                              },
-                              {
-                                  label: 'Quantity per pallet',
-                                  value: 'xxx'
-                              },
-                              {
-                                  label: 'Product Code - SECWALL3040PPSL'
-                                 },
-                                  {
-                                      label: '6040"',
-                                      value: 'xxx (mm)'
-                                  },
-                                  {
-                                      label: 'External Size(mm)	',
-                                      value: 'xxx'
-                                  },
-                                  {
-                                      label: 'Frame Size(mm)',
-                                      value: 'xxx'
-                                  },
-                                  {
-                                      label: 'Depth(mm)',
-                                      value: 'xxx'
-                                  },
-                                  {
-                                      label: 'Visible Area(mm)',
-                                      value: 'xxx'
-                                  },
-                                  {
-                                      label: 'Box Size(mm)',
-                                      value: 'xxx'
-                                  },
-                                  {
-                                      label: 'Gross Weight Inc. Box (g)',
-                                      value: 'xxx'
-                                  },
-                                  {
-                                      label: 'Quantity per pallet',
-                                      value: 'xxx'
-                                  },
+
         ],
         downloads: [{
             name: 'Lockable Poster Specification',
@@ -1303,7 +1143,7 @@ const products = [
         },
         {
             alt: 'Snap Frames 25mm / 32mm Mitred corners',
-            src: '/img/sign/snap/35.jpg'
+            src: '/img/sign/snap/40.jpg'
         }
       ],
         features: [
@@ -1439,7 +1279,7 @@ const products = [
                 teaser: 'Acrylic Menu / Info Board',
                 images: [{
                     alt: 'Acrylic Menu / Info Board',
-                    src: '/img/sign/menu/34.jpg'
+                    src: '/img/comingsoon.jpg'
                 }],
                 features: [
                     'Front opening snapframes for quick and easy poster change',
@@ -1450,13 +1290,8 @@ const products = [
                 ],
                 description: 'Acrylic Menu / Info Boards',
                 specifications: [{
-                      label:'Acrylic Menu / Info Board'
-                    },
-                    {
-                        label: 'A4 A4 (AMBA4C)',
-                        value: 'Height - XXX, Frame XXX, Base XXX',
-                        value: 'XXX'
-
+                      label:'Acrylic Menu / Info Board',
+                      value: ' A4 (AMBA4C)',
                     },
                 ],
                 downloads: [],
@@ -1475,8 +1310,12 @@ const products = [
         features: [
             'Contact us for measurements',
         ],
-        description: '',
-        specifications: [],
+        description: 'Bespoke replacement front sheets',
+        specifications: [{
+                label:'Replacement Front Sheets',
+                  value: 'Contact us for measurements',
+                }
+        ],
         downloads: []
     },
     {
