@@ -2,6 +2,11 @@
 
 <svelte:head>
 <style>
+body{
+	  background-image: url(../img/bandw.jpg);
+	  background-repeat: no-repeat;
+	  background-size: cover;
+}
 
 .point{
 	color: #2F89CE;

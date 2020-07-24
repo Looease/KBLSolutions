@@ -1,10 +1,11 @@
 <style>
 article{
-  background-image: url(../bandw.jpg);
+  background-image: url(../img/bandw.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
 h1{
+margin-top: 175px;
 background-color: #FFF;
 width: 250px;
 }
@@ -52,7 +53,7 @@ bottom: -24px;
 }
 
 </style>
-<br><br><br><br><br><br>
+
 <article class="content-body">
   <h1>Testimonials</h1>
 <section class="section-name padding-y testimonials">
