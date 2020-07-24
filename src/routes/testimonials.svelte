@@ -3,13 +3,10 @@ article{
   background-image: url(../bandw.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-
 }
 h1{
-    padding-top: 1000px;
-/* background-color: #FFF; */
-padding-top: 150px;
-padding-left: 50px;
+background-color: #FFF;
+width: 250px;
 }
 h1, h6{
 color: #2F89CE;
@@ -55,6 +52,7 @@ bottom: -24px;
 }
 
 </style>
+<br><br><br><br><br><br>
 <article class="content-body">
   <h1>Testimonials</h1>
 <section class="section-name padding-y testimonials">

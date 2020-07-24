@@ -21,16 +21,12 @@ h6{
 section{
 	width: 100%;
 }
-.row{
-	margin-right: 10px;
-	margin-left: 10px;
-	display: flex;
-	flex-wrap: wrap;
-}
 .container, .row{
 	width: 100%;
 	display: flex;
 	flex-direction: row;
+  flex-wrap: wrap;
+  text-align: center;
 }
 .card{
 	margin: 2%;
