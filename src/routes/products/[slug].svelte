@@ -16,6 +16,7 @@
 	export let products;
 
 	import { onMount } from 'svelte';
+
 	import Quickquote from '../../components/Quickquote.svelte';
 	import Sidebar from '../../components/Sidebar.svelte';
 
@@ -36,10 +37,6 @@
 		});
 	});
 </script>
-
-
-
-<!-- <Quickquote.svelte/> -->
 
 <style>
 		*{
@@ -86,6 +83,7 @@
 		<aside class="col-sm-6 border-right">
 			<article class="gallery-wrap">
 				<div class="img-big-wrap">
+					
     <!-- <div class="hero"> -->
     {#if products.images}
         <figure>
@@ -120,8 +118,9 @@
 							<h2>£{products.price}</h2>
 					{/if}
 				</span>
-					<Quickquote />
 
+					<!-- Passing the product name as a 'prop'-->
+					<Quickquote product={products.name} />
 			</article>
 		</main>
 
