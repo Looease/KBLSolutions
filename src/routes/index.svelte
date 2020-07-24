@@ -89,8 +89,7 @@ section{
       <div class="section" id="section2">
         <section class="section-name padding-y ">
           <ul class="formbox">
-            <li class="forminfo">
-              <form action="https://formspree.io/mrgljdow" method="POST" >
+              <form action="https://formspree.io/mrgljdow" method="POST" class="indexForm">
                 <h1>Contact Us</h1>
                   <label>
                     <input type="text" name="name" placeholder="Your Name">
@@ -103,12 +102,14 @@ section{
                   </label>
                   <br>
                   <label>
-                    <input type="text" name="subject" placeholder="Subject">
+                    <input type="text" name="subject" placeholder="Subject">      
+                  </label>
+                  <label>
                     <textarea name="message" placeholder="Message"></textarea>
                   </label>
+                  <br>  <br>
                   <input type="submit" value="Send" class="button">
                 </form>
-            </li>
           </ul>
         </section>
       </div>
