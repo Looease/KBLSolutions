@@ -66,7 +66,7 @@
 
         <div class="slide-content">
             <p class="time">Covid 19</p>
-            <a href="/products/covid-19">
+            <a href="/products/landing/covid-19">
             <img src="img/sign/covid/48.jpg" alt="" class="img-box">
             <div class="cart">
                 Find out more
@@ -77,7 +77,7 @@
 
           <div class="slide-content">
               <p class="time">Forecourt/Pavement Signs</p>
-              <a href="/products/forecourt-signs">
+              <a href="/products/landing/forecourt-signs">
                   <img src="img/sign/forecourt/26.jpg" alt="" class="img-box">
                   <div class="cart">
                       Find out more
@@ -107,7 +107,7 @@
 
         <div class="slide-content">
             <p class="time">Menu / Floor Displays/ Info Holders</p>
-            <a href="/products/menus">
+            <a href="/products/landing/menus">
             <img src="img/sign/menu/31.jpg" alt="" class="img-box">
             <div class="cart">
             Find out more

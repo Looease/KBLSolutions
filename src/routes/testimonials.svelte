@@ -3,8 +3,10 @@ article{
   background-image: url(../bandw.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+
 }
 h1{
+    padding-top: 1000px;
 /* background-color: #FFF; */
 padding-top: 150px;
 padding-left: 50px;
@@ -25,6 +27,7 @@ section ul li h6{
   flex-wrap: wrap;
   list-style: none;
  }
+
 .bubble {
   margin: 20px;
 position: relative;
@@ -55,7 +58,7 @@ bottom: -24px;
 <article class="content-body">
   <h1>Testimonials</h1>
 <section class="section-name padding-y testimonials">
-  <ul class="testimonials">
+  <ul class="testimonials" id="testimonials">
     <li class="bubble bubble-bottom-left" id="one">"We have worked with KBL Solutions on more than one occasion and have always found them to be
     Very efficient, easy to communicate with and very reliable whilst meeting difficult deadlines.We will continue to work with them on future projects. Would highly recommend."
     <br><br>
@@ -75,8 +78,13 @@ bottom: -24px;
     <li class="bubble bubble-bottom-left" id="three">
       “I’m always happy to work with Karen at KBL. They are friendly, approachable and good communicators. They provide a prompt service. Keep up the good work”
     <br><br>
-    <h6>Inventory Administrator - Tate Business Group</h6>
+    <h6>Topps Tiles</h6>
   </li>
+  <li class="bubble bubble-bottom-left" id="three">
+    "Having worked with KBL Solutions for several years we have always found Karen very helpful and efficient. Very quick turnaround times for orders and communication throughout is exceptional."
+  <br><br>
+  <h6>Inventory Administrator - Tate Business Group</h6>
+</li>
     <li class="bubble bubble-bottom-left" id="five">
       "We have always found Karen @ KBL Solutions to be extremely helpful and efficient with any orders we place with her.  The service we receive is second-to-none."
     <br><br>

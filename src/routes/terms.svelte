@@ -1,11 +1,13 @@
 <style>
+
 h1{
-  padding-top: 150px;
+  padding-top: 250px;
   padding-left: 50px;
 }
 ol{
 padding: 10px 50px 50px 50px;
 text-align: left;
+color: black;
 }
 li{
   margin: 20px;
