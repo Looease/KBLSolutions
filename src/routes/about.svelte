@@ -70,6 +70,7 @@ body{
 body{
 	background-image: linear-gradient(rgba(191, 191, 191, 0.8),rgba(191, 191, 191, 0.8)),
 	url(img/window.jpg);
+	background-color: #B5B1AD;
 	background-size: cover;
 }
 .about{
@@ -89,12 +90,12 @@ body{
 				<h1>About Us</h1>
 			<br>
 			With over 16 years POS experience working with top brands including Texaco, Esso, Kwik Fit, Dreams
-			and Majestic Wine. Our aim is to help you maximise your marketing efforts by supplying you with
+			and Majestic Wine, our aim is to help you maximise your marketing efforts by supplying you with
 			well-made products at great prices.<br><br>
-			We supply a wide range of Point of Sale products, not all appear on our web site so if you can’t see
+			We supply a wide range of Point of Sale products, not all of which appear on our web site. If you can’t see
 			what you’re looking for give us a call, we are sure we will be able to help! If not, we may be able to
 			put you in touch with someone that can.<br><br>
-			Need something bespoke? we can help with that too.
+			Need something bespoke? We can help with that too.
 			<br><br>
 			We pride ourselves on our customer service, always going that little bit further to help, but don’t just
 			take our word for it, have a look and see what our Customers are saying about us - <a href="testimonials" class="point">Testimonials</a>
@@ -103,7 +104,7 @@ body{
 				<li>Point of Sale Products.</li>
 				<li>Competitive Prices.</li>
 				<li>Customer Service.</li>
-				<li>Bespoke manufacture</li>
+				<li>Bespoke manufacture.</li>
 			</ul>
 		<br><br>
 

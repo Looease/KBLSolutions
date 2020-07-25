@@ -41,10 +41,6 @@ const products = [
                     value: '580 x 830'
                 },
                 {
-                    label: 'Gross Weight Inc. Box (kg) (Empty/Full)	',
-                    value: '18.5/65'
-                },
-                {
                     label: 'Product Code - SA0'
                 },
                 {
@@ -54,10 +50,6 @@ const products = [
                 {
                     label: 'Display Area(mm)',
                     value: '827 x 1178'
-                },
-                {
-                    label: 'Gross Weight Inc. Box (kg) (Empty/Full)',
-                    value: '27/99'
                 },
                 {
                     label: 'Product Code - S4030'
@@ -71,10 +63,6 @@ const products = [
                     value: '827 x 1178'
                 },
                 {
-                    label: 'Gross Weight Inc. Box (kg) (Empty/Full)',
-                    value: '31/103'
-                },
-                {
                     label: 'Product Code - S6040'
                 },
                 {
@@ -84,10 +72,6 @@ const products = [
                 {
                     label: 'Display Area(mm)',
                     value: '1002 x 1512'
-                },
-                {
-                    label: 'Gross Weight Inc. Box (kg) (Empty/Full)',
-                    value: '42/150'
                 },
               ],
                 downloads: [{
@@ -153,10 +137,6 @@ const products = [
                     value: '666 x 913'
                 },
                 {
-                    label: 'Gross Weight Inc. Box (kg)',
-                    value: '12'
-                },
-                {
                     label: 'Colour',
                     value: 'Silver'
                 },
@@ -178,10 +158,6 @@ const products = [
                 {
                     label: 'External Dimensions(mm)',
                     value: '913 x 1261'
-                },
-                {
-                    label: 'Gross Weight Inc. Box (kg)',
-                    value: '15'
                 },
                 {
                     label: 'Colour',
@@ -207,10 +183,6 @@ const products = [
                     value: '834 x 1088'
                 },
                 {
-                    label: 'Gross Weight Inc. Box (kg)',
-                    value: '13'
-                },
-                {
                     label: 'Colour',
                     value: 'Silver'
                 },
@@ -232,10 +204,6 @@ const products = [
                 {
                     label: 'External Dimensions(mm)',
                     value: '1088 x 1596'
-                },
-                {
-                    label: 'Gross Weight Inc. Box (kg)',
-                    value: '20'
                 },
                 {
                     label: 'Colour',
@@ -294,10 +262,6 @@ const products = [
                     value: '975'
                 },
                 {
-                    label: 'Gross Weight Inc. Box (g)',
-                    value: '8300'
-                },
-                {
                     label: 'Product Code - EWMA1SL'
                 },
                 {
@@ -321,10 +285,6 @@ const products = [
                     value: '1220'
                 },
                 {
-                    label: 'Gross Weight Inc. Box (g)',
-                    value: '12160'
-                },
-                {
                     label: 'Product Code - EWMAOSL4030SL'
                 },
                 {
@@ -346,10 +306,6 @@ const products = [
                 {
                     label: 'H1(mm)',
                     value: '1600'
-                },
-                {
-                    label: 'Gross Weight Inc. Box (g)',
-                    value: '19200'
                 }
               ],
                 downloads: [{
@@ -403,10 +359,6 @@ const products = [
                     value: '1050 x 670 x 230'
                 },
                 {
-                    label: 'Gross Weight Inc. Box (g)	',
-                    value: '15600'
-                },
-                {
                     label: 'Quantity per Pallet	',
                     value: '14'
                 },
@@ -432,10 +384,6 @@ const products = [
                 {
                     label: 'Individual Box Size(mm)	',
                     value: 'Board Box = 1380 x 940 x 100, Base Box = 1020 x 640 x 230'
-                },
-                {
-                    label: 'Gross Weight Inc. Box (g)	',
-                    value: '15600'
                 },
                 {
                     label: 'Quantity per Pallet	',
@@ -930,10 +878,6 @@ const products = [
                 value: '980 x 540 x 120'
             },
             {
-                label: 'Gross Weight Inc. Box (g)',
-                value: '8000'
-            },
-            {
                 label: 'Quantity per pallet',
                 value: '46'
             },
@@ -965,10 +909,6 @@ const products = [
                     value: '1240 x 710 x 120'
                 },
                 {
-                    label: 'Gross Weight Inc. Box (g)',
-                    value: '12400'
-                },
-                {
                     label: 'Quantity per pallet',
                     value: '20'
                 },
@@ -998,10 +938,6 @@ const products = [
                     {
                         label: 'Box Size(mm)',
                         value: '1570 x 980 x 140'
-                    },
-                    {
-                        label: 'Gross Weight Inc. Box (g)',
-                        value: '16200'
                     },
                     {
                         label: 'Quantity per pallet',
@@ -1050,10 +986,6 @@ const products = [
                   value: '395 x 295 x 40'
               },
               {
-                  label: 'Gross Weight Inc. Box (g)',
-                  value: '1680'
-              },
-              {
                   label: 'Quantity per pallet',
                   value: '1680'
               },
@@ -1077,10 +1009,6 @@ const products = [
                       value: '515 x 385 x 40'
                   },
                   {
-                      label: 'Gross Weight Inc. Box (g)',
-                      value: '2490'
-                  },
-                  {
                       label: 'Quantity per pallet',
                       value: '400'
                   },
@@ -1102,10 +1030,6 @@ const products = [
                       {
                           label: 'Box Size(mm)',
                           value: '690 x 505 x 40'
-                      },
-                      {
-                          label: 'Gross Weight Inc. Box (g)',
-                          value: '3700'
                       },
                       {
                           label: 'Quantity per pallet',
@@ -1224,21 +1148,11 @@ const products = [
                     'Portrait or Landscape',
                     'Heavy 2.70kg Base provides stability in crowded areas'
                 ],
-                description: 'Floor stickers are the perfect way to advise on social distancing. Our Floor stickers are full colour printed on a permanent monomeric vinyl then laminated with a textured anti-slip laminate. These custom floor stickers can then be cut to custom shapes using a Zund CNC cutter, so there are no die or setup charges, even with low quantities.',
+                description: 'Flexible Menu Board offers multi-function for height and menu position together wit a variety of standing angles.',
                 specifications: [{
                   label:'Flexible Menu /Info Board Portrait or Landscape'
-                },
-                {
-                    label: 'A3 (FMBA4S)',
-                    value: 'Height - XXX, Frame XXX x XXX, Base XXX x XXX',
-                    value: 'XXX'
-
-                },
-                {
-                    label: 'A4 (DMBA4S)',
-                    value: 'Height - XXX, Frame XXX x XXX, Base XXXx XXX',
-                    weight: 'XXX'
-                }],
+                }
+              ],
                 downloads: [],
                 price: '51'
             },
@@ -1264,7 +1178,6 @@ const products = [
                 {
                     label: 'A4 (ZZBSA4S))',
                     value: 'Height -1620mm',
-                    value: 'Weight - 2.70kg',
                     value: '8mm thick',
                     value: 'Powder coated Ral 9006 aluminium base is 2.70kg',
                     value: 'Supplied unassembled together with easy to follow instructions'

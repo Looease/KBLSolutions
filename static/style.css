@@ -200,9 +200,6 @@ textarea{
 /*Responsive*/
 
 @media screen and (max-width:1200px){
-  /* .contentbox{
-    font-size: 0.7em;
-  } */
   .box{
     width: 90%;
     margin: 30px;
@@ -269,6 +266,13 @@ textarea{
 
   }
 @media screen and (max-width:601px){
+  #navbar{
+    position: absolute;
+    background-color: transparent;
+    padding: 0px;
+    margin: 0px;
+    border-radius: 5px;
+  }
   #section0{
     background-image: linear-gradient(rgba(191, 191, 191, 0.8),rgba(191, 191, 191, 0.8)),
     url(img/window.jpg);

@@ -47,17 +47,55 @@ img{
 	max-height: 240px;
 }
 @media (max-width: 992px){
+h1{
+	margin: 0;
+	padding: 150px 0px 0px 0px;
+}
+.container{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+	.card{
+		width: 33%;
+		margin: 0px 33% 10px 33%;
+	}
+	img{
+		width: 50%;
+		height: auto;
+	}
+}
+@media (max-width: 750px){
+	.card{
+		width: 75%;
+		margin: 0px 13% 10px 17%;
+		padding: 0px;
+	}
+	img{
+		width: 90%;
+	}
+	h6{
+		padding: 5px;
+		text-align: center;
+	}
+}
+
+
+
+/* @media (max-width: 992px){
+
 .container,	.row{
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
 	}
 	.card{
-		width: 40%;
-		margin-left: 20%;
+      width: 33%;
+      margin: 0px 33% 10px 33%;
 	}
 	img{
-		width: 90%;
+    width: 50%;
+    height: auto;
 	}
 }
 @media (max-width: 750px){
@@ -68,7 +106,8 @@ img{
 	img{
 		width: 90%;
 	}
-}
+} */
+
 
 </style>
 
