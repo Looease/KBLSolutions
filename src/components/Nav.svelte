@@ -37,8 +37,8 @@ header{
 						<div class="dropdown-menu" id="navLink" onclick="closeNav();">
 						<a class="dropdown-item" href="/products/" >All products and services</a>
 						<div class="dropdown-divider"></div>
-						<!-- <a class="dropdown-item" href="/products/landing/covid-19" id="navLink" onclick="closeNav();">Covid 19</a>
-						<div class="dropdown-divider"></div> -->
+						<a class="dropdown-item" href="/products/landing/covid-19" id="navLink" onclick="closeNav();">Covid 19</a>
+						<div class="dropdown-divider"></div>
 							<a class="dropdown-item" href="/products/compact-screen" id="navLink" onclick="closeNav();">Compact Privacy Screen</a>
 							<div class="dropdown-divider"></div>
 							<a class="dropdown-item" href="/products/landing/forecourt-signs" id="navLink" onclick="closeNav();">Forecourt Signs</a>

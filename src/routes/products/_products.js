@@ -1241,8 +1241,9 @@ const products = [
         }],
         features: [
             'Tool less setup be one person in approximately four minutes',
+            'We offer lots mofd illuminated displays so please get in touch.',
         ],
-        description: '',
+        description: 'We offer lots of illuminated displays so please get in touch.',
         specifications: [],
         downloads: [{
             name: 'Convex Light Box Specification',
