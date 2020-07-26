@@ -51,11 +51,11 @@ header{
 							<div class="dropdown-divider"></div>
 							<a class="dropdown-item" href="/products/snap-frame" id="navLink" onclick="closeNav();">Snap Frames</a>
 							<div class="dropdown-divider"></div>
-							<a class="dropdown-item" href="/products/replacement-front-sheet" id="navLink" onclick="closeNav();">Replacement Front Sheets</a>
-							<div class="dropdown-divider"></div>
-							<a class="dropdown-item" href="/products/illuminated-displays" id="navLink" onclick="closeNav();">Illuminated Displays</a>
+							<a class="dropdown-item" href="/products/landing/illuminated-display" id="navLink" onclick="closeNav();">Illuminated and LED Displays</a>
 							<div class="dropdown-divider"></div>
 							<a class="dropdown-item" href="/products/roller-banners" id="navLink" onclick="closeNav();">Roller Banners</a>
+							<div class="dropdown-divider"></div>
+							<a class="dropdown-item" href="/products/replacement-front-sheet" id="navLink" onclick="closeNav();">Replacement Front Sheets</a>
 							<div class="dropdown-divider"></div>
 						</div>
 						<li class="nav-item">

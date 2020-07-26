@@ -81,34 +81,6 @@ h1{
 }
 
 
-
-/* @media (max-width: 992px){
-
-.container,	.row{
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-	}
-	.card{
-      width: 33%;
-      margin: 0px 33% 10px 33%;
-	}
-	img{
-    width: 50%;
-    height: auto;
-	}
-}
-@media (max-width: 750px){
-	.card{
-		width: 60%;
-		margin-left: 10%;
-	}
-	img{
-		width: 90%;
-	}
-} */
-
-
 </style>
 
 <h1>Products and Services</h1>

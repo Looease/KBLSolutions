@@ -760,25 +760,27 @@ const products = [
                 price: '460'
             },
             {
-                slug: 'safety-screens',
+                slug: 'lamp-post',
                 name: 'Lampost/Small Poster Sign',
-                teaser: 'Strong and versatile safety screens for office and retail partitioning. We offer a Choice of clear or frosted panels supported by an aluminium frame and poles. The panel components are available from stock and can be made-to-order in multiple shapes and sizes',
+                teaser: 'Easy to fit lampost signs.',
                 images: [{
                     alt: 'Lampost/Small Poster Sign',
                     src: '/img/sign/covid/47.jpg'
-                },
-                {
-                    alt: 'Free Standing Safety Screens',
-                    src: '/img/sign/covid/51.jpg'
                 }
               ],
                 features: [
-                    'Easy to fit',
-                    'Easy change poster backing',
-                    'Simple set up'
+                       'Easy to fit',
+                       'Easy change poster backing',
+                       'Simple set up'
                 ],
+                description: 'Lampost/Small Poster Sign.',
+                specifications: [
+                  {label: 'Contact for specifications.'}
+                ],
+                downloads: [ ],
                 price: '160'
             },
+
         ]
     },
     {
@@ -803,7 +805,7 @@ const products = [
         }
       ],
         features: [
-            'Tool less setup be one person in approximately four minutes',
+            'Tool less setup by one person in approximately four minutes',
             'Fire-retardant, UV-resistant, and water-repellent.',
             '3 WindMaster® stands have dual springs that withstand wind and individually adjustable legs'
         ],
@@ -1013,10 +1015,10 @@ const products = [
                       value: '400'
                   },
                   {
-                      label: 'Product Code - SECWALLA2PPSL'
+                      label: 'Product Code - SECWALLA4PPSL'
                      },
                       {
-                          label: 'A2',
+                          label: 'A4',
                           value: '594x420 (mm)'
                       },
                       {
@@ -1035,6 +1037,23 @@ const products = [
                           label: 'Quantity per pallet',
                           value: '200'
                       },
+                      {
+                          label: 'Product Code - SECWALLA1PSL',
+                            value: 'A1'
+                         },
+                         {
+                              label: 'Product Code - SECWALLA0PSL',
+                                value: 'A0'
+                             },
+                              {
+                                  label: 'Product Code - SECWALL30403040PSL',
+                                    value: '3040"'
+                                 },
+                                  {
+                                      label: 'Product Code - SECWALL6040PSL',
+                                      value: '6040"',
+
+                                     },
 
         ],
         downloads: [{
@@ -1076,7 +1095,7 @@ const products = [
             '0.5mm anti-glare poster cover',
             'Choice of 12 stock finishes'
         ],
-        description: 'A-boards at great prices. This is our lowest priced pavement sign and our best selling. Quick poster change system, strong aluminum and steel construction and easy fold away mechanism for night time storage.',
+        description: 'Easy snap open and closed poster frame system. Extruded aluminium frame with mitred corners. Supplied with an anti glare poster cover and a strong plastic back panel. Finished in 12 different stock finishes this is favoured by retailers, restaurants and the leisure industries.',
         specifications: [],
         downloads: [{
             name: '25mm Silver Snap Frame Specification',
@@ -1187,8 +1206,8 @@ const products = [
                 price: '51'
             },
             {
-                slug: 'decorative-menu',
-                name: 'Decorative Menu / Info Board - Portrait or Landscape (DMBA4S / DMBA3S)',
+                slug: 'acrylic-menu',
+                name: 'Acrylic Menu / Info Board - Portrait or Landscape',
                 teaser: 'Acrylic Menu / Info Board',
                 images: [{
                     alt: 'Acrylic Menu / Info Board',
@@ -1211,57 +1230,6 @@ const products = [
                 price: '29'
             },
         ]
-    },
-    {
-        slug: 'replacement-front-sheet',
-        name: 'Replacement Front Sheets',
-        teaser: 'Replacement Front Sheets for all of our signs',
-        images: [{
-            alt: 'Replacement Front Sheets',
-            src: 'img/comingsoon.jpg'
-        }],
-        features: [
-            'Contact us for measurements',
-        ],
-        description: 'Bespoke replacement front sheets',
-        specifications: [{
-                label:'Replacement Front Sheets',
-                  value: 'Contact us for measurements',
-                }
-        ],
-        downloads: []
-    },
-    {
-        slug: 'illuminated-displays',
-        name: 'Illuminated Displays',
-        teaser: 'Stylish and practical free-standing light coloumn. Illuminates posters printed on backlit film or duratrans.',
-        images: [{
-            alt: 'Illuminated Displays',
-            src: '/img/sign/illuminated/45.jpg'
-        }],
-        features: [
-            'Tool less setup be one person in approximately four minutes',
-            'We offer lots mofd illuminated displays so please get in touch.',
-        ],
-        description: 'We offer lots of illuminated displays so please get in touch.',
-        specifications: [],
-        downloads: [{
-            name: 'Convex Light Box Specification',
-            file: 'spec/lightboxconvexspec.pdf'
-        },
-        {
-            name: 'Outdoor Edge Light Poster Specification',
-            file: 'spec/lightboxexternalspec.pdf'
-        },
-        {
-            name: 'LED Edge Light Poster Frame Specification',
-            file: 'spec/lightboxledspec.pdf'
-        },
-        {
-            name: 'Totem Light Box Specification',
-            file: 'spec/lightboxtotemspec.pdf'
-        }
-      ]
     },
     {
         slug: 'roller-banners',
@@ -1295,6 +1263,109 @@ const products = [
     },
 
 
+    {
+        slug: 'illuminated-display',
+        name: 'Illuminated and LED Displays',
+        description: '',
+        images: [{
+            alt: 'Illuminated and LED Displays',
+            src: '/img/sign/illuminated/45.jpg'
+        }],
+        products: [
+            {
+                slug: 'totem-light',
+                name: 'Totem Lightbox',
+                teaser: 'Stylish and practical free-standing light coloumn. Illuminates posters printed on backlit film or duratrans.',
+                images: [{
+                    alt: 'Totem Lightbox',
+                    src: '/img/sign/illuminated/45.jpg'
+                }],
+                features: [
+                    'Illuminates posters printed on backlit film or duratrans',
+                    'The snap frames enable you to change the display material easily whenever desired. ',
+                    'Product is double sided.',
+                ],
+                description: 'Stylish and practical free-standing light coloumn. Illuminates posters printed on backlit film or duratrans.',
+                specifications: [{
+                      label:'See PDF - Totem Light Box Specification'
+                    },
+                ],
+                downloads: [{
+                    name: 'Totem Light Box Specification',
+                    file: 'spec/lightboxtotemspec.pdf'
+                }],
+                price: '215'
+            },
+            {
+                slug: 'led-light',
+                name: 'LED Edge Light',
+                teaser: 'LED edge light poster frames offer fantastic illumination and a super slim frame profile.',
+                images: [{
+                    alt: 'LED Edge Light Poster Frame',
+                    src: '/img/sign/illuminated/65.jpg'
+                }],
+                features: [
+                    'Energy saving LED illumination technology',
+                    'Snap open frame for easy graphic change',
+                    'High illumination and even light distribution'
+                ],
+                description: 'LED edge light poster frames offer fantastic illumination and a super slim frame profile. Our LED light boxes are just 22mm deep. Because these light boxes are low voltage the power consumption is a fraction of traditional fluorescent tube powered light boxes. This is the environmental friendly light box which will save you money on running costs.',
+                specifications: [{
+                  label:'See PDF - LED Edge Light'
+                }
+              ],
+                downloads: [{
+                  name: 'LED Edge Light Specification',
+                  file: 'spec/lightboxledspec.pdf'
+                }
+                ],
+                price: '100'
+            },
+            {
+                slug: 'outdoor-led',
+                name: 'Outdoor Edge Light Poster ',
+                teaser: 'Stylish Decorative Menuboard',
+                images: [{
+                    alt: 'Outdoor Edge Light Poster',
+                    src: '/img/sign/illuminated/71.jpg'
+                }],
+                features: [
+                    'Very bright LED illumination',
+                    'Low power consumption saves on running cost and maintenance.',
+                    'Heavy duty tamper resistant frame.',
+                    'Bespoke sizes and colours manufactured to order.'
+                ],
+                description: '',
+                specifications: [{
+                  label:'See PDF - Outdoor Edge Light Poster'
+                }],
+                downloads: [{
+                  name: 'Outdoor Edge Light Poster Specification',
+                  file: 'spec/lightboxexternalspec.pdf'
+                }],
+                price: '55'
+            }
+        ]
+    },
+    {
+        slug: 'replacement-front-sheet',
+        name: 'Replacement Front Sheets',
+        teaser: 'Replacement Front Sheets for all of our signs',
+        images: [{
+            alt: 'Replacement Front Sheets',
+            src: 'img/comingsoon.jpg'
+        }],
+        features: [
+            'Contact us for measurements',
+        ],
+        description: 'Bespoke replacement front sheets',
+        specifications: [{
+                label:'Replacement Front Sheets',
+                  value: 'Contact us for measurements',
+                }
+        ],
+        downloads: []
+    }
 
 ];
 

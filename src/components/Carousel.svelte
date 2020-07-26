@@ -126,18 +126,8 @@
         </div>
 
         <div class="slide-content">
-            <p class="time">Replacement Front Sheets</p>
-            <a href="/products/replacement-front-sheet">
-            <img src="img/comingsoon.jpg" alt="" class="img-box">
-            <div class="cart">
-                Find out more
-            </div>
-            </a>
-        </div>
-
-        <div class="slide-content">
-            <p class="time">Illuminated Displays</p>
-            <a href="/products/illuminated-displays">
+            <p class="time">Illuminated and LED Displays</p>
+            <a href="/products/landing/illuminated-display">
             <img src="img/sign/illuminated/45.jpg" alt="" class="img-box">
             <div class="cart">
                 Find out more
@@ -149,6 +139,16 @@
             <p class="time">Roller Banners</p>
             <a href="/products/roller-banners">
             <img src="img/sign/covid/56.jpg" alt="" class="img-box">
+            <div class="cart">
+                Find out more
+            </div>
+            </a>
+        </div>
+
+        <div class="slide-content">
+            <p class="time">Replacement Front Sheets</p>
+            <a href="/products/replacement-front-sheet">
+            <img src="img/comingsoon.jpg" alt="" class="img-box">
             <div class="cart">
                 Find out more
             </div>
