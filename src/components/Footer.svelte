@@ -13,9 +13,9 @@
         <aside class="col-md col-6">
           <h6 class="title">Products</h6>
           <ul class="list-unstyled">
-            <li> <a href="/landing/covid-19">Covid-19</a></li>
+            <li> <a href="/products/landing/covid-19">Covid-19</a></li>
             <li> <a href="/products/compact-screen">Compact privacy screen</a></li>
-            <li> <a href="/landing/forecourt-signs">Forecourt Sign</a></li>
+            <li> <a href="/products/landing/forecourt-signs">Forecourt Sign</a></li>
             <li> <a href="/products/a-board">A-Board Pavement Sign</a></li>
             <li> <a href="/products/landing/menus">Menus</a></li>
             <li> <a href="/products/snap-frame">Snap Frame</a></li>
