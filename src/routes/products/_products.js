@@ -103,7 +103,7 @@ const products = [
                     file: 'spec/Sentinel6040.pdf'
                 },
               ],
-                price: '155'
+                price: '163-£299'
             },
             {
                 slug: 'ecomaster-pavement-sign',
@@ -121,6 +121,12 @@ const products = [
                     'Suitable for external use'
                 ],
                 description: '',
+                subprice: [
+                    'ECOWMA1SL - £161',
+                    'ECOWMA0SL - £188',
+                    'ECOWM4030SL - £182',
+                    'ECOWM6040SL - £264',
+                ],
                 specifications: [{
                     label: 'Product Code - ECOWMA1SL'
                 },
@@ -219,7 +225,7 @@ const products = [
                     file: 'spec/forecourtecomasterspec.docx'
                 }
               ],
-                price: '160'
+                price: '161 - £264'
             },
             {
                 slug: 'eseries-forecourt-sign',
@@ -238,6 +244,11 @@ const products = [
                     'Wheels on base for easy transportation'
                 ],
                 description: 'Waterbase Pavement Sign. The Snap Frame profile allows easy poster change. Supplied with protective front sheets. Easily moved into new positions or inside over night.',
+                subprice: [
+                    'EWMA1SL - £105',
+                    'EWMAOSL4030SL - £145',
+                    'EWMAOSL4030SL - £135',
+                ],
                 specifications: [{
                     label: 'Product Code - EWMAOSL4030SL'
                 },
@@ -309,14 +320,11 @@ const products = [
                 }
               ],
                 downloads: [{
-                    name: 'Lockable Poster Specification',
-                    file: 'spec/lockposterspec.pdf'
-                },
-                {
-                    name: 'Lockable Poster Showboard',
-                    file: 'spec/forecourteseries.jpg'
-                }],
-                price: '105'
+                    name: 'ESeries Specification',
+                    file: 'spec/forecourteseries.jpg.pdf'
+                }
+              ],
+                price: '105 - £145'
             },
             {
                 slug: 'waterbase-pavement-swing',
@@ -335,6 +343,10 @@ const products = [
                     'Wheels on base for easy transportation'
                 ],
                 description: 'Our Economy Forecourt/Pavement Sign, features a Water-fillable base and Springs for added stability. The Snap Frame allows easy poster change. Supplied with protective front sheets. Easily moved into new positions or inside overnight.',
+                subprice: [
+                    'EFSA1SL - £73.95',
+                    'EFSA0SL - £116.45',
+                ],
                 specifications: [{
                     label: 'Product Code - EFSA1SL'
                 },
@@ -395,7 +407,7 @@ const products = [
                     file: 'spec/forecourtecospec.pdf'
                 }
               ],
-                price: '74'
+                price: '74 - £117'
             },
             {
                 slug: 'swinger-swinger-swing',
@@ -447,7 +459,7 @@ const products = [
                     file: 'spec/swingsign2specification.pdf'
                 },
                 {
-                    name: 'Lockable Poster Showboard',
+                    name: 'Swinger 2 Showboard',
                     file: 'spec/swingsign2.pdf'
                 }],
                 price: '58'
@@ -579,12 +591,8 @@ const products = [
 
               ],
                 downloads: [{
-                    name: 'Lockable Poster Specification',
-                    file: 'spec/lockposterspec.pdf'
-                },
-                {
-                    name: 'Lockable Poster Showboard',
-                    file: 'spec/lockposter.pdf'
+                    name: 'Economy Sing Sign pdf ',
+                    file: ''
                 }],
                 price: '58'
             },
@@ -712,7 +720,7 @@ const products = [
                 ],
                 downloads: [{
                     name: '',
-                    file: 'spec/lockposterspec.pdf'
+                    file: ''
                 }],
                 price: '300'
             },
@@ -852,6 +860,13 @@ const products = [
             'Locking leg stays'
         ],
         description: 'A-boards at great prices. This is our lowest priced pavement sign and our best selling. Quick poster change system, strong aluminum and steel construction and easy fold away mechanism for night time storage.',
+        subprice: [
+            'ABSLA2 - £32.45',
+            'ABSLA1 - £42.45',
+            'ABSLA0 - £66.95',
+            'ABSL2030 - £38.45',
+            'ABSL3040 - £62.45'
+        ],
         specifications: [{
             label: 'Product Code - ABSLA2'
            },
@@ -951,7 +966,7 @@ const products = [
             name: 'A-Board Specification',
             file: 'spec/aboardspec.pdf'
         }],
-        price:'32.45'
+        price:'33 - £67'
     },
     {
         slug: 'lockable-poster',
@@ -968,6 +983,15 @@ const products = [
             'Can be fixed landscape or portrait'
         ],
         description: 'Poster frames which are lockable and waterproof. Available in eleven stock sizes and seventeen finishes. These poster frames can be displayed portrait or landscape and door-stays keep the door open whilst the image is changed. These are high specification display solutions and our most popular external poster frames.',
+        subprice: [
+            'SECWALLA4PSL - £27',
+            'SECWALLA3PSL - £32',
+            'SECWALLA2PSL - £42',
+            'SECWALLA1PSL - £72',
+            'SECWALLA0PSL - £110',
+            'SECWALL3040PSL - £108',
+            'SECWALL6040PSL - £124',
+        ],
         specifications: [{
               label: 'Product Code - SECWALLA4PPSL'
              },
@@ -1073,7 +1097,7 @@ const products = [
             file: 'spec/lockpostersilversecure.pdf'
         }
       ],
-      price: '30'
+      price: '27 - £124'
 
     },
     {
@@ -1096,6 +1120,17 @@ const products = [
             'Choice of 12 stock finishes'
         ],
         description: 'Easy snap open and closed poster frame system. Extruded aluminium frame with mitred corners. Supplied with an anti glare poster cover and a strong plastic back panel. Finished in 12 different stock finishes this is favoured by retailers, restaurants and the leisure industries.',
+        subprice: [
+            'Available in Black, White, Silver, Red, Blue, Green and Grey.',
+            'SF25MA5 - £3.45 - £12.05',
+            'SF25MA4 - £3.95 - £12.05',
+            'SF25MA3 - £5.45 - £25.62',
+            'SF25MA2 - £7.95 - £36.45',
+            'SF25MA1 - £12.50 - £55.75',
+            'SF25M4030 - £23.95 - £31.10',
+            'SECWALL6040 - £11.45 - £49.55',
+            'SF25M3040 - £18.45 -£75.78  '
+        ],
         specifications: [],
         downloads: [{
             name: '25mm Silver Snap Frame Specification',
@@ -1105,7 +1140,8 @@ const products = [
             name: '32mm Silver Snap Frame Specification',
             file: 'spec/32mmSilverSnapFrame.pdf'
         }
-      ]
+      ],
+        price: '3.45 - £75.78'
     },
     {
         slug: 'menus',
@@ -1132,6 +1168,11 @@ const products = [
                     'Silver anodised aluminium leg (50 x 25mm oval)'
                 ],
                 description: 'Decorative Menu Board is multi-function and can be rotated to either portrait of landscape. Silver anodised aluminium. Profile 25mm. Unassembled. Supplied with easy to follow assembly instructions.',
+                subprice: [
+                    'DMBA4S - £29',
+                    'DMBA3S - £33'
+
+                ],
                 specifications: [{
                       label:'Decorative Menu / Info Board Portrait or Landscape'
                     },
@@ -1152,7 +1193,7 @@ const products = [
                     name: 'Decorative Menu Specification',
                     file: 'spec/decorativemenuspec.pdf'
                 }],
-                price: '29'
+                price: '29 - £33'
             },
             {
                 slug: 'flexible-menus',
@@ -1168,12 +1209,16 @@ const products = [
                     'Heavy 2.70kg Base provides stability in crowded areas'
                 ],
                 description: 'Flexible Menu Board offers multi-function for height and menu position together wit a variety of standing angles.',
+                subprice: [
+                    'FMBA4S - £50.95',
+                    'FMBA3S - £69.45'
+                ],
                 specifications: [{
                   label:'Flexible Menu /Info Board Portrait or Landscape'
                 }
               ],
                 downloads: [],
-                price: '51'
+                price: '51 - £70'
             },
             {
                 slug: 'zigzag-brochure-menus',
@@ -1191,6 +1236,9 @@ const products = [
                     'Silver anodised aluminium leg (50 x 25mm oval)'
                 ],
                 description: '',
+                subprice: [
+                    'ZZBSA4S - £106.45'
+                ],
                 specifications: [{
                   label:'Zig Zag Brochure/ Info Stand'
                 },
@@ -1203,7 +1251,7 @@ const products = [
                 },
                 ],
                 downloads: [],
-                price: '51'
+                price: '106.45'
             },
             {
                 slug: 'acrylic-menu',
@@ -1221,13 +1269,16 @@ const products = [
                     'Silver anodised aluminium leg (50 x 25mm oval)'
                 ],
                 description: 'Acrylic Menu / Info Boards',
+                subprice: [
+                    'AMBA4C - £55.45'
+                ],
                 specifications: [{
                       label:'Acrylic Menu / Info Board',
                       value: ' A4 (AMBA4C)',
                     },
                 ],
                 downloads: [],
-                price: '29'
+                price: '55.45'
             },
         ]
     },
@@ -1286,6 +1337,11 @@ const products = [
                     'Product is double sided.',
                 ],
                 description: 'Stylish and practical free-standing light coloumn. Illuminates posters printed on backlit film or duratrans.',
+                subprice: [
+                    '600mm - £213.15',
+                    '700mm - £238.60',
+                    '800mm - £291.96'
+                ],
                 specifications: [{
                       label:'See PDF - Totem Light Box Specification'
                     },
@@ -1310,6 +1366,13 @@ const products = [
                     'High illumination and even light distribution'
                 ],
                 description: 'LED edge light poster frames offer fantastic illumination and a super slim frame profile. Our LED light boxes are just 22mm deep. Because these light boxes are low voltage the power consumption is a fraction of traditional fluorescent tube powered light boxes. This is the environmental friendly light box which will save you money on running costs.',
+                subprice: [
+                    'SLSSLB25SSA4 - £55.65',
+                    'SLSSLB25SSA3 - £79.50',
+                    'SLSSLB25SSA2 - £102.65',
+                    'SLSSLB25SSA1 - £162.65',
+                    'SLSSLB25SSAO - £253.25'
+                ],
                 specifications: [{
                   label:'See PDF - LED Edge Light'
                 }
@@ -1319,7 +1382,7 @@ const products = [
                   file: 'spec/lightboxledspec.pdf'
                 }
                 ],
-                price: '100'
+                price: '56 - £254'
             },
             {
                 slug: 'outdoor-led',
@@ -1336,6 +1399,12 @@ const products = [
                     'Bespoke sizes and colours manufactured to order.'
                 ],
                 description: '',
+                subprice: [
+                    'SLDSLB25SSA4 - £97.50',
+                    'SLDSLB25SSA3 - £121.10',
+                    'SLDSLB25SSA2 - £172.65',
+                    'SLDSLB25SSA1 - £250.65'
+                ],
                 specifications: [{
                   label:'See PDF - Outdoor Edge Light Poster'
                 }],
@@ -1359,6 +1428,12 @@ const products = [
             'Contact us for measurements',
         ],
         description: 'Bespoke replacement front sheets',
+        subprice: [
+            'Replacement  Covers / Front sheets Anti-Glare (A5-40x60") - £0.26 - £13.95',
+            'Replacement  Covers /Front sheets Oversize - Anti-Glare (A1 - 4060") - £4.70 - £14.25',
+            'Replacement Covers/ Front sheets  Waterproof - Anti-Glare for 25mm profile  (A5 - 3040") - £0.30 - £7.65"',
+            'Replacement Covers/ Front sheets  Waterproof - Anti-Glare for 35mm profile (A5 - 4030") - £10.16 - £15.95'
+        ],
         specifications: [{
                 label:'Replacement Front Sheets',
                   value: 'Contact us for measurements',

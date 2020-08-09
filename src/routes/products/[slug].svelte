@@ -75,6 +75,10 @@
 			max-width: 40px;
 			max-height: 40px;
 		}
+		h4, .subprice{
+			margin-left: 5%;
+		}
+
 		@media screen and (max-width:600px){
 			.feature-image{
 			padding-right: 5%;
@@ -109,6 +113,16 @@
     {/if}
 		</div> <!-- img-big-wrap.// -->
 			</article> <!-- gallery-wrap .end// -->
+			<br>
+
+			{#if products.subprice}
+				<h4 class="price">Price</h4>
+				<ul class="subprice">
+					{#each products.subprice as subprice}
+						<li>{subprice}</li>
+					{/each}
+				</ul>
+			{/if}
 	 </aside>
 	 	<main class="col-sm-6">
 			<article class="content-body">
@@ -146,7 +160,10 @@
     	<div class="content">
 				<div class="col-md-8">
 	        <h3 class="title-description">Description</h3>
-	        <p>{products.description}</p>
+	        <li>{products.description}</li>
+
+
+
 
 	        <!-- Use Svelte to loop over downloads (only show if present) -->
 	        {#if products.downloads}
