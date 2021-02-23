@@ -112,6 +112,8 @@ section{
                 </form>
                 <br>
           </ul>
+          <br>
+          <br>
           <h1>sales@kblsolutions.co.uk</h1>
 
         </section>
