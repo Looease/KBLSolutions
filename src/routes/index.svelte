@@ -114,7 +114,7 @@ section{
           </ul>
           <br>
           <br>
-          <h1>sales@kblsolutions.co.uk</h1>
+          <h1>Email us: sales@kblsolutions.co.uk</h1>
 
         </section>
       </div>
