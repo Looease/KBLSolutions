@@ -111,7 +111,8 @@ section{
                   <input type="submit" value="Send" class="button">
                 </form>
                 <br>
-                <h1>sales@kblsolutions.co.uk</h1>
           </ul>
+          <h1>sales@kblsolutions.co.uk</h1>
+
         </section>
       </div>
