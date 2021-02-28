@@ -102,7 +102,7 @@ h1{
 				<img src={product.images[0].src} alt={product.images[0].alt} />
 
 				<h6>{product.name}</h6>
-				<p class="black">From £{product.price}</p>
+				<p class="black">£{product.price}</p>
 			</a>
         </li>
     {/each}

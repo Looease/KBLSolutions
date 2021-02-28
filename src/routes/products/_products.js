@@ -10,8 +10,8 @@ const products = [
       ],
         products: [
             {
-                slug: 'sentinel-silver-frame',
-                name: 'Sentinel Silver Frame Forecourt Sign',
+                slug: 'sentinel-silver-frame-a1',
+                name: 'Sentinel Silver Frame A1 Forecourt Sign',
                 teaser: 'Sentinel Silver frame, double sided magnetic poster holder and black water-fillable base.',
                 images: [{
                     alt: 'Sentinel Silver frame, double sided magnetic poster holder and black water-fillable base.',
@@ -29,6 +29,9 @@ const products = [
                     'Built in wheels - easy to move with purpose designed trolley'
                 ],
                 description: 'The ultimate forecourt poster sign. Nothing does it better than Sentinel in a choice of 4 high impace poster sizes.',
+                subprice: [
+                    'SA1 - £163',
+                ],
                 specifications: [{
                     label: 'Product Code - SA1'
                 },
@@ -40,7 +43,50 @@ const products = [
                     label: 'Display Area(mm)	',
                     value: '580 x 830'
                 },
+              ],
+                downloads: [{
+                    name: 'Sentinel (no header) Specifications',
+                    file: 'spec/sentinelproductspecifications.pdf'
+                },
                 {
+                    name: 'Sentinel (header) Specifications',
+                    file: 'spec/forecourtsentinelheader.pdf'
+                },
+                {
+                    name: 'Sentinel Instructions',
+                    file: 'spec/sentinelinstructions.pdf'
+                },
+                {
+                    name: 'Sentinel A1 Artwork',
+                    file: 'spec/SentinelA1.pdf'
+                },
+              ],
+                price: '163'
+            },
+            {
+                slug: 'sentinel-silver-frame-a0',
+                name: 'Sentinel Silver Frame A0 Forecourt Sign',
+                teaser: 'Sentinel Silver frame, double sided magnetic poster holder and black water-fillable base.',
+                images: [{
+                    alt: 'Sentinel Silver frame, double sided magnetic poster holder and black water-fillable base.',
+                    src: '/img/sign/forecourt/16.jpg'
+                },
+                {
+                    alt: 'alt text',
+                    src: '/img/sign/forecourt/21.jpg'
+                }],
+                features: [
+                    'Stainless steel tamper-proof fixings',
+                    'Magnetic poster covers provide superior weather resistance and poster security',
+                    'Water fillable polythylene base made using recycled materials',
+                    'Black base as standard to hide dirt and marks',
+                    'Built in wheels - easy to move with purpose designed trolley'
+                ],
+                description: 'The ultimate forecourt poster sign. Nothing does it better than Sentinel in a choice of 4 high impace poster sizes.',
+                subprice: [
+                    'SA0 - £210',
+                ],
+                specifications: [{
                     label: 'Product Code - SA0'
                 },
                 {
@@ -51,18 +97,104 @@ const products = [
                     label: 'Display Area(mm)',
                     value: '827 x 1178'
                 },
+              ],
+                downloads: [{
+                    name: 'Sentinel (no header) Specifications',
+                    file: 'spec/sentinelproductspecifications.pdf'
+                },
                 {
+                    name: 'Sentinel (header) Specifications',
+                    file: 'spec/forecourtsentinelheader.pdf'
+                },
+                {
+                    name: 'Sentinel Instructions',
+                    file: 'spec/sentinelinstructions.pdf'
+                },
+                {
+                    name: 'Sentinel A0 Artwork',
+                    file: 'spec/SentinelAO.pdf'
+                },
+                ],
+                price: '210'
+            },
+            {
+                slug: 'sentinel-silver-frame-s4030',
+                name: 'Sentinel Silver Frame 4030" Forecourt Sign',
+                teaser: 'Sentinel Silver frame, double sided magnetic poster holder and black water-fillable base.',
+                images: [{
+                    alt: 'Sentinel Silver frame, double sided magnetic poster holder and black water-fillable base.',
+                    src: '/img/sign/forecourt/16.jpg'
+                },
+                {
+                    alt: 'alt text',
+                    src: '/img/sign/forecourt/21.jpg'
+                }],
+                features: [
+                    'Stainless steel tamper-proof fixings',
+                    'Magnetic poster covers provide superior weather resistance and poster security',
+                    'Water fillable polythylene base made using recycled materials',
+                    'Black base as standard to hide dirt and marks',
+                    'Built in wheels - easy to move with purpose designed trolley'
+                ],
+                description: 'The ultimate forecourt poster sign. Nothing does it better than Sentinel in a choice of 4 high impace poster sizes.',
+                subprice: [
+                    'S4030 - £249.95',
+                ],
+                specifications: [{
                     label: 'Product Code - S4030'
                 },
                 {
-                    label: 'A0',
-                    value: '979 x 1603 x 704 (w x h x d mm)'
+                    label: '4030"',
+                    value: '762 x 1016 (w x h mm)'
                 },
                 {
                     label: 'Display Area(mm)',
                     value: '827 x 1178'
                 },
+              ],
+                downloads: [{
+                    name: 'Sentinel (no header) Specifications',
+                    file: 'spec/sentinelproductspecifications.pdf'
+                },
                 {
+                    name: 'Sentinel (header) Specifications',
+                    file: 'spec/forecourtsentinelheader.pdf'
+                },
+                {
+                    name: 'Sentinel Instructions',
+                    file: 'spec/sentinelinstructions.pdf'
+                },
+                {
+                    name: 'Sentinel 4030" Artwork',
+                    file: 'spec/Sentinel4030.pdf'
+                },
+              ],
+                price: '249.95'
+            },
+            {
+                slug: 'sentinel-silver-frame-s6040',
+                name: 'Sentinel Silver Frame 6060" Forecourt Sign',
+                teaser: 'Sentinel Silver frame, double sided magnetic poster holder and black water-fillable base.',
+                images: [{
+                    alt: 'Sentinel Silver frame, double sided magnetic poster holder and black water-fillable base.',
+                    src: '/img/sign/forecourt/16.jpg'
+                },
+                {
+                    alt: 'alt text',
+                    src: '/img/sign/forecourt/21.jpg'
+                }],
+                features: [
+                    'Stainless steel tamper-proof fixings',
+                    'Magnetic poster covers provide superior weather resistance and poster security',
+                    'Water fillable polythylene base made using recycled materials',
+                    'Black base as standard to hide dirt and marks',
+                    'Built in wheels - easy to move with purpose designed trolley'
+                ],
+                description: 'The ultimate forecourt poster sign. Nothing does it better than Sentinel in a choice of 4 high impace poster sizes.',
+                subprice: [
+                    'S6040 - £298.95',
+                ],
+                specifications: [{
                     label: 'Product Code - S6040'
                 },
                 {
@@ -87,23 +219,11 @@ const products = [
                     file: 'spec/sentinelinstructions.pdf'
                 },
                 {
-                    name: 'Sentinel A1 Artwork',
-                    file: 'spec/Sentinel6040A1.pdf'
-                },
-                {
-                    name: 'Sentinel A0 Artwork',
-                    file: 'spec/SentinelAO.pdf'
-                },
-                {
-                    name: 'Sentinel 4030" Artwork',
-                    file: 'spec/Sentinel4030.pdf'
-                },
-                {
                     name: 'Sentinel 6040" Artwork',
                     file: 'spec/Sentinel6040.pdf'
                 },
               ],
-                price: '163-£299'
+                price: '298.95'
             },
             {
                 slug: 'ecomaster-pavement-sign',
@@ -225,7 +345,7 @@ const products = [
                     file: 'spec/forecourtecomasterspec.docx'
                 }
               ],
-                price: '161 - £264'
+                price: '161'
             },
             {
                 slug: 'eseries-forecourt-sign',
@@ -324,7 +444,7 @@ const products = [
                     file: 'spec/forecourteseries.jpg.pdf'
                 }
               ],
-                price: '105 - £145'
+                price: '105'
             },
             {
                 slug: 'waterbase-pavement-swing',
@@ -407,7 +527,7 @@ const products = [
                     file: 'spec/forecourtecospec.pdf'
                 }
               ],
-                price: '74 - £117'
+                price: '74'
             },
             {
                 slug: 'swinger-swinger-swing',
@@ -431,6 +551,12 @@ const products = [
                     'Clip-on Tactical Headers also available, giving extra promotional space at minimal cost.'
                 ],
                 description: 'Gloss white aluminium panel (500 x 750mm) – ideal for direct to surface print or vinyl graphics. Alternative top opening polycarbonate double sided A2 poster pocket with magnetic seals. Poster pocket designed with header area for permanent branding - ideal for either direct to surface print or vinyl graphics. Stylish steel tube frame (32mm diameter) – available in black or white from stock. Frames available in any RAL colour (minimum order quantity 25). Patented D-Flex panel hangers make panel fitting quick and easy. Solid black recycled PVC base provides excellent stability. Clip-on Tactical Headers also available, giving extra promotional space at minimal cost.',
+                subprice: [
+                    'SSSPNL500750WHT (Unprinted) - £46.45',
+                    'SSSPNL500750BLK (Unprinted) - £46.45',
+                    'SSSPSRA2WHT - £57.95',
+                    'SSSPSRA2BLK - £57.95',
+                ],
                 specifications: [{
                     label: 'Swinger Swing Sign Panel(solid black PVC base) - Unprinted'
                 },
@@ -462,7 +588,7 @@ const products = [
                     name: 'Swinger 2 Showboard',
                     file: 'spec/swingsign2.pdf'
                 }],
-                price: '58'
+                price: '47'
             },
             {
                 slug: 'swinger-3000',
@@ -484,29 +610,13 @@ const products = [
                   'Clip-on Tactical Headers also available, giving extra promotional space at minimal cost.'
                ],
                 description: 'Gloss white aluminium panel (500 x 750mm) – ideal for direct to surface print or vinyl graphics. Alternative top opening polycarbonate double sided A2 poster pocket with magnetic seals. Poster pocket designed with header area for permanent branding - ideal for either direct to surface print or vinyl graphics. Stylish steel tube frame (32mm diameter) – available in black or white from stock. Frames available in any RAL colour (minimum order quantity 25). Patented D-Flex panel hangers make panel fitting quick and easy. Solid black recycled PVC base provides excellent stability. Clip-on Tactical Headers also available, giving extra promotional space at minimal cost.',
+                subprice: [
+                    'S3SSPNL588917WHT - £84.95',
+                    'S3SSPNL588917WHT - £84.95',
+                    'S3SSPSTR2030WHT - £99',
+                    'S3SSPSTR2030BLK  - £99',
+                ],
                 specifications: [{
-                    label: 'Swinger Swing Sign Panel(solid black PVC base) - Unprinted'
-                },
-                {
-                    label: 'Colour',
-                    value: 'SSSPNL500750WHT (White)/SSSPNL500750BLK (Black)'
-                },
-                {
-                    label: 'Display Area(mm)',
-                    value: '500 x 750'
-                },
-                {
-                    label: 'Swinger Swing Sign Poster(solid black PVC base)With top-opening poster pocket - Unprinted'
-                },
-                {
-                    label: 'Colour',
-                    value: 'SSSPSRA2WHT (White)/SSSPSRA2BLK (Black)'
-                },
-                {
-                    label: 'Display Area(mm)',
-                    value: 'A2'
-                },
-                {
                     label: 'Swinger 3 Swing Sign Panel(water-fillable polyethylene base)- Unprinted'
                 },
                 {
@@ -545,7 +655,7 @@ const products = [
                     name: 'Swinger 3000 20 x 30" Artwork',
                     file: 'spec/Swinger3Poster20x30.pdf'
                 }],
-                price: '58'
+                price: '84.95'
             },
             {
                 slug: 'economy-swing-swing',
@@ -566,6 +676,12 @@ const products = [
                     'Clip-on Tactical Headers also available, giving extra promotional space at minimal cost.'
                 ],
                 description: 'Gloss white aluminium panel (430 x 625mm) – ideal for direct to surface print or vinyl graphics. Alternative top opening polycarbonate double sided A3 poster pocket with magnetic seals. Poster pocket designed with header area for permanent branding - ideal for either direct to surface print or vinyl graphics. Stylish 32mm round steel tube frame – available in black or white from stock. Frames available in any RAL colour (minimum order quantity 25). Patented D-Flex panel hangers make panel fitting quick and easy. Solid black recycled PVC base provides excellent stability. Clip-on Tactical Headers also available, giving extra promotional space at minimal cost.',
+                subprice: [
+                    'ECOSSPNL430625BLK - £40.45',
+                    'ECOSSPNL430625WHT - £40.45',
+                    'ECOSSPSTA3WHT - £53',
+                    'ECOSSPSTA3BLK - £53',
+                ],
                 specifications: [{
                     label: 'Economy Swing Sign Panel(solid black PVC base) Unprinted'
                 },
@@ -594,7 +710,7 @@ const products = [
                     name: 'Economy Sing Sign pdf ',
                     file: ''
                 }],
-                price: '58'
+                price: '41'
             },
         ]
     },
@@ -966,7 +1082,7 @@ const products = [
             name: 'A-Board Specification',
             file: 'spec/aboardspec.pdf'
         }],
-        price:'33 - £67'
+        price:'33'
     },
     {
         slug: 'lockable-poster',
@@ -1097,7 +1213,7 @@ const products = [
             file: 'spec/lockpostersilversecure.pdf'
         }
       ],
-      price: '27 - £124'
+      price: '27'
 
     },
     {
@@ -1141,7 +1257,7 @@ const products = [
             file: 'spec/32mmSilverSnapFrame.pdf'
         }
       ],
-        price: '3.45 - £75.78'
+        price: '3.45'
     },
     {
         slug: 'menus',
@@ -1193,7 +1309,7 @@ const products = [
                     name: 'Decorative Menu Specification',
                     file: 'spec/decorativemenuspec.pdf'
                 }],
-                price: '29 - £33'
+                price: '29'
             },
             {
                 slug: 'flexible-menus',
@@ -1218,7 +1334,7 @@ const products = [
                 }
               ],
                 downloads: [],
-                price: '51 - £70'
+                price: '51'
             },
             {
                 slug: 'zigzag-brochure-menus',
@@ -1382,7 +1498,7 @@ const products = [
                   file: 'spec/lightboxledspec.pdf'
                 }
                 ],
-                price: '56 - £254'
+                price: '56'
             },
             {
                 slug: 'outdoor-led',
