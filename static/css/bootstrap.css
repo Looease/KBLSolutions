@@ -3088,12 +3088,12 @@ fieldset:disabled a.btn {
   padding: 0.5rem 1rem;
 
  }
- .top{
+ /* .top{
    border-radius: 10px 10px 0px 0px;
  }
  .bottom{
    border-radius: 0px 0px 10px 10px;
- }
+ } */
   .nav-link:hover, .nav-link:focus {
     text-decoration: none; }
   .nav-link.disabled {
@@ -3201,9 +3201,6 @@ fieldset:disabled a.btn {
   padding-left: 0;
   margin-bottom: 0;
   list-style: none; }
-  .navbar-nav .nav-link {
-    padding-right: 0;
-    padding-left: 0; }
   .navbar-nav .dropdown-menu {
     position: static;
     float: none; }
