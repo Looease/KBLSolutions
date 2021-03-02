@@ -115,6 +115,6 @@ section{
           <br>
           <br>
           <h3><a href="mailto:sales@kblsolutions.co.uk">Email us: sales@kblsolutions.co.uk</a></h3>
-
+          <h3><a href="mailto:info@kblsolutions.co.uk">info@kblsolutions.co.uk</a></h3>
         </section>
       </div>

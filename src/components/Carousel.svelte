@@ -117,7 +117,7 @@
 
         <div class="slide-content">
             <p class="time">Snap Frames</p>
-            <a href="/products/snap-frame">
+            <a href="products/landing/snap-frames">
             <img src="img/sign/snap/38.jpg" alt="" class="img-box">
             <div class="cart">
                 Find out more

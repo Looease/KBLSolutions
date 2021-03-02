@@ -49,7 +49,7 @@ header{
 							<div class="dropdown-divider"></div>
 							<a class="dropdown-item" href="/products/landing/menus" id="navLink" onclick="closeNav();">Menu/Info Holders</a>
 							<div class="dropdown-divider"></div>
-							<a class="dropdown-item" href="/products/snap-frame" id="navLink" onclick="closeNav();">Snap Frames</a>
+							<a class="dropdown-item" href="/products/landing/snap-frames" id="navLink" onclick="closeNav();">Snap Frames</a>
 							<div class="dropdown-divider"></div>
 							<a class="dropdown-item" href="/products/landing/illuminated-display" id="navLink" onclick="closeNav();">Illuminated and LED Displays</a>
 							<div class="dropdown-divider"></div>

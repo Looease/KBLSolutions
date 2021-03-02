@@ -1216,48 +1216,155 @@ const products = [
       price: '27'
 
     },
+
     {
-        slug: 'snap-frame',
-        name: 'Snap Frames 25mm / 32mm Mitred corners',
-        teaser: 'Easy snap open and closed poster frame system. Extruded aluminium frame with mitred corners. Supplied with an anti glare poster cover and a strong plastic back panel. Finished in 12 different stock finishes this is favoured by retailers, restaurants and the leisure industries.',
-        images: [{
-            alt: 'Snap Frames 25mm / 32mm Mitred corners',
-            src: '/img/sign/snap/38.jpg'
-        },
-        {
-            alt: 'Snap Frames 25mm / 32mm Mitred corners',
-            src: '/img/sign/snap/40.jpg'
-        }
-      ],
-        features: [
-            '25 / 32 mm extruded aluminum frame',
-            'Strong 1.5mm plastic back panel',
-            '0.5mm anti-glare poster cover',
-            'Choice of 12 stock finishes'
-        ],
-        description: 'Easy snap open and closed poster frame system. Extruded aluminium frame with mitred corners. Supplied with an anti glare poster cover and a strong plastic back panel. Finished in 12 different stock finishes this is favoured by retailers, restaurants and the leisure industries.',
-        subprice: [
-            'Available in Black, White, Silver, Red, Blue, Green and Grey.',
-            'SF25MA5 - £3.45 - £12.05',
-            'SF25MA4 - £3.95 - £12.05',
-            'SF25MA3 - £5.45 - £25.62',
-            'SF25MA2 - £7.95 - £36.45',
-            'SF25MA1 - £12.50 - £55.75',
-            'SF25M4030 - £23.95 - £31.10',
-            'SECWALL6040 - £11.45 - £49.55',
-            'SF25M3040 - £18.45 -£75.78  '
-        ],
-        specifications: [],
-        downloads: [{
-            name: '25mm Silver Snap Frame Specification',
-            file: 'spec/25mmSilverSnapFrame.pdf'
-        },
-        {
-            name: '32mm Silver Snap Frame Specification',
-            file: 'spec/32mmSilverSnapFrame.pdf'
-        }
-      ],
-        price: '3.45'
+            slug: 'snap-frames',
+            name: 'Snap Frames',
+            description: '',
+            images: [{
+                alt: 'Snap Frames',
+                src: '/img/sign/snap/38.jpg'
+            }],
+            products: [
+                    {
+                    slug: 'snap-frame-silver-25mm',
+                    name: 'Silver Snap Frames 25mm',
+                    teaser: 'Easy snap open and closed poster frame system. Extruded aluminium frame with mitred corners. Supplied with an anti glare poster cover and a strong plastic back panel. Finished in 12 different stock finishes this is favoured by retailers, restaurants and the leisure industries.',
+                    images: [{
+                        alt: 'Silver Snap Frames 25mm',
+                        src: '/img/sign/snap/38.jpg'
+                    },
+                ],
+                    features: [
+                        '25 extruded aluminum frame',
+                        'Strong 1.5mm plastic back panel',
+                        '0.5mm anti-glare poster cover',
+                        'Choice of 12 stock finishes'
+                    ],
+                    description: 'Easy snap open and closed poster frame system. Extruded aluminium frame with mitred corners. Supplied with an anti glare poster cover and a strong plastic back panel. Finished in 12 different stock finishes this is favoured by retailers, restaurants and the leisure industries.',
+                    subprice: [
+                        'Available in Silver',
+                        'SF25MA5SL - £3.45',
+                        'SF25MA4SL - £3.95',
+                        'SF25MA3SL - £5.45',
+                        'SF25MA2SL - £7.95',
+                        'SF25MA1SL - £12.50',
+                        'SF25M4030SL - £23.95',
+                    ],
+                    specifications: [],
+                    downloads: [{
+                        name: '25mm Silver Snap Frame Specification',
+                        file: 'spec/25mmSilverSnapFrame.pdf'
+                    },
+                ],
+                    price: '3.45'
+                    },
+                {
+                    slug: 'snap-frame-silver-32mm',
+                    name: 'Silver Snap Frames 32mm',
+                    teaser: 'Easy snap open and closed poster frame system. Extruded aluminium frame with mitred corners. Supplied with an anti glare poster cover and a strong plastic back panel. Finished in 12 different stock finishes this is favoured by retailers, restaurants and the leisure industries.',
+                    images: [{
+                        alt: 'Snap Frames 32mm Mitred corners',
+                        src: '/img/sign/snap/38.jpg'
+                    },
+                ],
+                    features: [
+                        '32 mm extruded aluminum frame',
+                        'Strong 1.5mm plastic back panel',
+                        '0.5mm anti-glare poster cover',
+                        'Choice of 12 stock finishes'
+                    ],
+                    description: 'Easy snap open and closed poster frame system. Extruded aluminium frame with mitred corners. Supplied with an anti glare poster cover and a strong plastic back panel. Finished in 12 different stock finishes this is favoured by retailers, restaurants and the leisure industries.',
+                    subprice: [
+                        'Available in Silver',
+                        'SF32MA4S - £5.95',
+                        'SF32MA3S - £7.45',
+                        'SF32MA2S - £9.45',
+                        'SF32MA1S - £13.95',
+                        'SF32MAOS - £20.95',
+                        'SF32M2030S - £36.45',
+                        'SF32M4030S - £18.95',
+                        'SF32M6040S - £32.95'
+                    ],
+                    specifications: [],
+                    downloads: [{
+                        name: '32mm Silver Snap Frame Specification',
+                        file: 'spec/32mmSilverSnapFrame.pdf'
+                    }
+                ],
+                    price: '3.45'
+                    },
+                {
+                slug: 'snap-frame-black-25mm',
+                name: 'Black Snap Frames 25mm',
+                teaser: 'Easy snap open and closed poster frame system. Extruded aluminium frame with mitred corners. Supplied with an anti glare poster cover and a strong plastic back panel. Finished in 12 different stock finishes this is favoured by retailers, restaurants and the leisure industries.',
+                images: [{
+                    alt: 'Snap Frames 25mm / 32mm Mitred corners',
+                    src: '/img/sign/snap/40.jpg'
+                }
+              ],
+                features: [
+                    '25 extruded aluminum frame',
+                    'Strong 1.5mm plastic back panel',
+                    '0.5mm anti-glare poster cover',
+                    'Choice of 12 stock finishes'
+                ],
+                description: 'Easy snap open and closed poster frame system. Extruded aluminium frame with mitred corners. Supplied with an anti glare poster cover and a strong plastic back panel. Finished in 12 different stock finishes this is favoured by retailers, restaurants and the leisure industries.',
+                subprice: [
+                    'Available in Black.',
+                    'SF25MA5BLK - £3.95',
+                    'SF25MA4BLK - £4.25',
+                    'SF25MA3BLK - £5.95',
+                    'SF25MA2BLK - £8.45',
+                    'SF25MA1BLK - £12.95',
+                    'SF25MAOBLK - £24.45',
+                    'SF25M2030BLK - £11.95',
+                    'SF25M3040BLK - £19.95'
+                ],
+                specifications: [],
+                downloads: [{
+                    name: '25mm Silver Snap Frame Specification',
+                    file: 'spec/25mmSilverSnapFrame.pdf'
+                },
+              ],
+                price: '3.45'
+            },
+            {
+                slug: 'snap-frame-black-32mm',
+                name: 'Black Snap Frames 32mm ',
+                teaser: 'Easy snap open and closed poster frame system. Extruded aluminium frame with mitred corners. Supplied with an anti glare poster cover and a strong plastic back panel. Finished in 12 different stock finishes this is favoured by retailers, restaurants and the leisure industries.',
+                images: [{
+                    alt: 'Snap Frames 32mm Mitred corners',
+                    src: '/img/sign/snap/40.jpg'
+                }
+              ],
+                features: [
+                    '32 mm extruded aluminum frame',
+                    'Strong 1.5mm plastic back panel',
+                    '0.5mm anti-glare poster cover',
+                    'Choice of 12 stock finishes'
+                ],
+                description: 'Easy snap open and closed poster frame system. Extruded aluminium frame with mitred corners. Supplied with an anti glare poster cover and a strong plastic back panel. Finished in 12 different stock finishes this is favoured by retailers, restaurants and the leisure industries.',
+                subprice: [
+                    'Available in Black.',
+                    'SF32MA4BLK - £7.25',
+                    'SF32MA3BLK - £9.45',
+                    'SF32MA2BLK - £13.95',
+                    'SF32MA1BLK - £20.95',
+                    'SF32MAOBLK - £31.95',
+                    'SF32M2030BLK - £17.45',
+                    'SF32M4030BLK - £27.95',
+                    'SF32M6040BLK - £44.95'
+                ],
+                specifications: [],
+                downloads: [{
+                    name: '32mm Silver Snap Frame Specification',
+                    file: 'spec/32mmSilverSnapFrame.pdf'
+                }
+              ],
+                price: '3.45'
+            },
+        ]
     },
     {
         slug: 'menus',
