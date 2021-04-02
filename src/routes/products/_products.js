@@ -1249,6 +1249,8 @@ const products = [
                         'SF25MA3SL - £5.45',
                         'SF25MA2SL - £7.95',
                         'SF25MA1SL - £12.50',
+                        '20 x 30" - £11.45', 
+                        '30 x 40" - £19.95',
                         'SF25M4030SL - £23.95',
                     ],
                     specifications: [],
