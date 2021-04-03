@@ -1259,7 +1259,7 @@ const products = [
                         file: 'spec/25mmSilverSnapFrame.pdf'
                     },
                 ],
-                    price: '3.45'
+                    price: '3.45 - £23.95'
                     },
                 {
                     slug: 'snap-frame-silver-32mm',
@@ -1294,7 +1294,7 @@ const products = [
                         file: 'spec/32mmSilverSnapFrame.pdf'
                     }
                 ],
-                    price: '3.45'
+                    price: '5.95 - £32.95'
                     },
                 {
                 slug: 'snap-frame-black-25mm',
@@ -1329,7 +1329,7 @@ const products = [
                     file: 'spec/25mmSilverSnapFrame.pdf'
                 },
               ],
-                price: '3.45'
+                price: '3.95 - £24.45'
             },
             {
                 slug: 'snap-frame-black-32mm',
@@ -1364,7 +1364,7 @@ const products = [
                     file: 'spec/32mmSilverSnapFrame.pdf'
                 }
               ],
-                price: '3.45'
+                price: '7.25 - £44.95'
             },
         ]
     },
