@@ -84,7 +84,7 @@ const products = [
                 ],
                 description: 'The ultimate forecourt poster sign. Nothing does it better than Sentinel in a choice of 4 high impace poster sizes.',
                 subprice: [
-                    'SA0 - £210',
+                    'SA0 - £249',
                 ],
                 specifications: [{
                     label: 'Product Code - SA0'
@@ -115,7 +115,7 @@ const products = [
                     file: 'spec/SentinelAO.pdf'
                 },
                 ],
-                price: '210'
+                price: '249'
             },
             {
                 slug: 'sentinel-silver-frame-s4030',
@@ -138,7 +138,7 @@ const products = [
                 ],
                 description: 'The ultimate forecourt poster sign. Nothing does it better than Sentinel in a choice of 4 high impace poster sizes.',
                 subprice: [
-                    'S4030 - £249.95',
+                    'S4030 - £210',
                 ],
                 specifications: [{
                     label: 'Product Code - S4030'
@@ -169,7 +169,7 @@ const products = [
                     file: 'spec/Sentinel4030.pdf'
                 },
               ],
-                price: '249.95'
+                price: '210'
             },
             {
                 slug: 'sentinel-silver-frame-s6040',
@@ -588,7 +588,7 @@ const products = [
                     name: 'Swinger 2 Showboard',
                     file: 'spec/swingsign2.pdf'
                 }],
-                price: '47'
+                price: '46.45 - £57.95'
             },
             {
                 slug: 'swinger-3000',
@@ -655,7 +655,7 @@ const products = [
                     name: 'Swinger 3000 20 x 30" Artwork',
                     file: 'spec/Swinger3Poster20x30.pdf'
                 }],
-                price: '84.95'
+                price: '84.95 - £99'
             },
             {
                 slug: 'economy-swing-swing',
@@ -710,7 +710,7 @@ const products = [
                     name: 'Economy Sing Sign pdf ',
                     file: ''
                 }],
-                price: '41'
+                price: '41 - £53'
             },
         ]
     },
