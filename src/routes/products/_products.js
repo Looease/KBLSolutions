@@ -679,16 +679,21 @@ const products = [
                 },
                 {
                     name: 'Swinger 3000 Instructions',
-                    file: 'Swinger3Instructions.pdf'
+                    file: 'spec/Swinger3Instructions.pdf'
                 },
                 {
                     name: 'Swinger 3000 Artwork',
-                    file: 'Swinger3Artwork.pdf'
+                    file: 'spec/Swinger3Artwork.pdf'
                 },
                 {
                     name: 'Swinger 3000 20 x 30" Artwork',
                     file: 'spec/Swinger3Poster20x30.pdf'
-                }],
+                },
+                {
+                    name: 'Swinger 3000 Instructions',
+                    file: 'spec/ecoswingerinstructions.pdf'
+                }
+            ],
                 price: '84.95 - £99'
             },
             {
