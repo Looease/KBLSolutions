@@ -651,7 +651,8 @@ const products = [
                     'S3SSPSTR2030BLK  - £99',
                 ],
                 specifications: [{
-                    label: 'Swinger 3 Swing Sign Panel(water-fillable polyethylene base)- Unprinted'
+                    label: 'Swinger 3 Swing Sign Panel(water-fillable polyethylene base) Unprinted', 
+                    value: '', 
                 },
                 {
                     label: 'Colour',
@@ -662,7 +663,8 @@ const products = [
                     value: '588 x 917'
                 },
                 {
-                    label: 'Swinger 3 Swing Sign Poster(water-fillable polyethylene base)With top-opening poster pocket - Unprinted'
+                    label: 'Swinger 3 Swing Sign Poster(water-fillable polyethylene base)With top-opening poster pocket - Unprinted',
+                    value:'',
                 },
                 {
                     label: 'Colour',
