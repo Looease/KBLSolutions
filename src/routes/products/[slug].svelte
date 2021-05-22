@@ -168,6 +168,8 @@
 	        <!-- Use Svelte to loop over downloads (only show if present) -->
 	        {#if products.downloads}
 	            <ul>
+					<br>
+					<h3>Downloads</h3>
 	                {#each products.downloads as {name, file}}
 	                    <li>
 	                        <img src="img/pdf.jpg" alt="PDF Download" class="pdf"><a href={file}>{name}</a>

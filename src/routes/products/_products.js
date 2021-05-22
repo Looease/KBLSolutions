@@ -28,7 +28,7 @@ const products = [
                     'Black base as standard to hide dirt and marks',
                     'Built in wheels - easy to move with purpose designed trolley'
                 ],
-                description: 'The ultimate forecourt poster sign. Nothing does it better than Sentinel in a choice of 4 high impace poster sizes.',
+                description: 'The ultimate forecourt poster sign. Nothing does it better than Sentinel in a choice of 4 high impact poster sizes.',
                 subprice: [
                     'SA1 - £163',
                 ],
@@ -45,20 +45,28 @@ const products = [
                 },
               ],
                 downloads: [{
+                    name: 'Sentinel Description',
+                    file: 'spec/sentinel/SENTINEL.pdf'
+                },
+                {
                     name: 'Sentinel (no header) Specifications',
-                    file: 'spec/sentinelproductspecifications.pdf'
+                    file: 'spec/sentinel/sentinelproductspecifications.pdf'
                 },
                 {
                     name: 'Sentinel (header) Specifications',
-                    file: 'spec/forecourtsentinelheader.pdf'
+                    file: 'spec/sentinel/forecourtsentinelheader.pdf'
                 },
                 {
                     name: 'Sentinel Instructions',
-                    file: 'spec/sentinelinstructions.pdf'
+                    file: 'spec/sentinel/sentinelinstructions.pdf'
                 },
                 {
                     name: 'Sentinel A1 Artwork',
-                    file: 'spec/SentinelA1.pdf'
+                    file: 'spec/sentinel/SentinelA1.pdf'
+                },
+                {
+                    name: 'Sentinel Dimensions and  Weight',
+                    file: 'spec/sentinel/Sentineldimsandweights.PNG'
                 },
               ],
                 price: '163'
@@ -84,10 +92,10 @@ const products = [
                 ],
                 description: 'The ultimate forecourt poster sign. Nothing does it better than Sentinel in a choice of 4 high impace poster sizes.',
                 subprice: [
-                    'SA0 - £249',
+                    'A0 - £249',
                 ],
                 specifications: [{
-                    label: 'Product Code - SA0'
+                    label: 'Product Code - A0'
                 },
                 {
                     label: '30" x 40"',
@@ -99,20 +107,28 @@ const products = [
                 },
               ],
                 downloads: [{
+                    name: 'Sentinel Description',
+                    file: 'spec/sentinel/SENTINEL.pdf'
+                },
+                {
                     name: 'Sentinel (no header) Specifications',
-                    file: 'spec/sentinelproductspecifications.pdf'
+                    file: 'spec/sentinel/sentinelproductspecifications.pdf'
                 },
                 {
                     name: 'Sentinel (header) Specifications',
-                    file: 'spec/forecourtsentinelheader.pdf'
+                    file: 'spec/sentinel/forecourtsentinelheader.pdf'
                 },
                 {
                     name: 'Sentinel Instructions',
-                    file: 'spec/sentinelinstructions.pdf'
+                    file: 'spec/sentinel/sentinelinstructions.pdf'
                 },
                 {
                     name: 'Sentinel A0 Artwork',
-                    file: 'spec/SentinelAO.pdf'
+                    file: 'spec/sentinel/SentinelAO.pdf'
+                },
+                {
+                    name: 'Sentinel Dimensions and  Weight',
+                    file: 'spec/sentinel/Sentineldimsandweights.PNG'
                 },
                 ],
                 price: '249'
@@ -153,8 +169,12 @@ const products = [
                 },
               ],
                 downloads: [{
+                    name: 'Sentinel Description',
+                    file: 'spec/sentinel/SENTINEL.pdf'
+                },
+                {
                     name: 'Sentinel (no header) Specifications',
-                    file: 'spec/sentinelproductspecifications.pdf'
+                    file: 'spec/sentinel/sentinelproductspecifications.pdf'
                 },
                 {
                     name: 'Sentinel (header) Specifications',
@@ -162,18 +182,22 @@ const products = [
                 },
                 {
                     name: 'Sentinel Instructions',
-                    file: 'spec/sentinelinstructions.pdf'
+                    file: 'spec/sentinel/sentinelinstructions.pdf'
                 },
                 {
                     name: 'Sentinel 4030" Artwork',
-                    file: 'spec/Sentinel4030.pdf'
+                    file: 'spec/sentinel/Sentinel4030.pdf'
+                },
+                {
+                    name: 'Sentinel Dimensions and  Weight',
+                    file: 'spec/sentinel/Sentineldimsandweights.PNG'
                 },
               ],
                 price: '210'
             },
             {
                 slug: 'sentinel-silver-frame-s6040',
-                name: 'Sentinel Silver Frame 6060" Forecourt Sign',
+                name: 'Sentinel Silver Frame 6040" Forecourt Sign',
                 teaser: 'Sentinel Silver frame, double sided magnetic poster holder and black water-fillable base.',
                 images: [{
                     alt: 'Sentinel Silver frame, double sided magnetic poster holder and black water-fillable base.',
@@ -207,20 +231,28 @@ const products = [
                 },
               ],
                 downloads: [{
+                    name: 'Sentinel Description',
+                    file: 'spec/sentinel/SENTINEL.pdf'
+                },
+                {
                     name: 'Sentinel (no header) Specifications',
-                    file: 'spec/sentinelproductspecifications.pdf'
+                    file: 'spec/sentinel/sentinelproductspecifications.pdf'
                 },
                 {
                     name: 'Sentinel (header) Specifications',
-                    file: 'spec/forecourtsentinelheader.pdf'
+                    file: 'spec/sentinel/forecourtsentinelheader.pdf'
                 },
                 {
                     name: 'Sentinel Instructions',
-                    file: 'spec/sentinelinstructions.pdf'
+                    file: 'spec/sentinel/sentinelinstructions.pdf'
                 },
                 {
                     name: 'Sentinel 6040" Artwork',
-                    file: 'spec/Sentinel6040.pdf'
+                    file: 'spec/sentinel/Sentinel6040.pdf'
+                },
+                {
+                    name: 'Sentinel Dimensions and  Weight',
+                    file: 'spec/sentinel/Sentineldimsandweights.PNG'
                 },
               ],
                 price: '298.95'
@@ -366,7 +398,7 @@ const products = [
                 description: 'Waterbase Pavement Sign. The Snap Frame profile allows easy poster change. Supplied with protective front sheets. Easily moved into new positions or inside over night.',
                 subprice: [
                     'EWMA1SL - £105',
-                    'EWMAOSL4030SL - £145',
+                    'EWMAOSLAOSL - £145',
                     'EWMAOSL4030SL - £135',
                 ],
                 specifications: [{
@@ -531,7 +563,7 @@ const products = [
             },
             {
                 slug: 'swinger-swinger-swing',
-                name: 'Swinger Swing Sign - Panel/ Poster',
+                name: 'Swinger 2 Swing Sign - Panel/ Poster',
                 teaser: 'Our top selling Swinger model. Contact us for print prices.',
                 images: [{
                     alt: 'Swinger Swing Sign - unprinted',
@@ -541,8 +573,10 @@ const products = [
                     alt: 'Swinger Swing Sign Poster -Top-opening poster pocket unprinted.',
                     src: '/img/sign/forecourt/22.jpg'
                 },
-
-              ],
+                {
+                    alt: 'Swinger 2',
+                    src: 'spec/EconomySwingerSign.png'
+                }],
                 features: [
                     'Gloss white aluminium panel (500 x 750mm) – ideal for direct to surface print or vinyl graphics.',
                     'Alternative top opening polycarbonate double sided A2 poster pocket with magnetic seals.',
@@ -707,8 +741,8 @@ const products = [
 
               ],
                 downloads: [{
-                    name: 'Economy Sing Sign pdf ',
-                    file: ''
+                    name: 'Economy Sing Sign Instructions',
+                    file: 'spec/ecoswingerinstructions.pdf'
                 }],
                 price: '41 - £53'
             },
