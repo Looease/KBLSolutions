@@ -30,7 +30,7 @@ const products = [
                 ],
                 description: 'The ultimate forecourt poster sign. Nothing does it better than Sentinel in a choice of 4 high impact poster sizes.',
                 subprice: [
-                    'SA1 - £175',
+                    'SA1 - £218.95',
                 ],
                 specifications: [{
                     label: 'Product Code - SA1'
@@ -69,7 +69,7 @@ const products = [
                     file: 'spec/sentinel/Sentineldimsandweights.PNG'
                 },
               ],
-                price: '175'
+                price: '218.95'
             },
             {
                 slug: 'sentinel-silver-frame-a0',
@@ -92,9 +92,8 @@ const products = [
                 ],
                 description: 'The ultimate forecourt poster sign. Nothing does it better than Sentinel in a choice of 4 high impace poster sizes.',
                 subprice: [
-                    '1 off purchase: £340',
-                    '5+: £332.75',
-                    '10+: £331.25',
+                    '1 Sentinel Silver Frame: £300.95',
+                    '10+: £289.95',
                 ],
                 specifications: [{
                     label: 'Product Code - A0'
@@ -133,7 +132,7 @@ const products = [
                     file: 'spec/sentinel/Sentineldimsandweights.PNG'
                 },
                 ],
-                price: '340'
+                price: '300.95'
             },
             {
                 slug: 'sentinel-silver-frame-s4030',
@@ -156,7 +155,7 @@ const products = [
                 ],
                 description: 'The ultimate forecourt poster sign. Nothing does it better than Sentinel in a choice of 4 high impace poster sizes.',
                 subprice: [
-                    'S4030 - £229',
+                    'S4030 - £257.95',
                 ],
                 specifications: [{
                     label: 'Product Code - S4030'
@@ -195,7 +194,7 @@ const products = [
                     file: 'spec/sentinel/Sentineldimsandweights.PNG'
                 },
               ],
-                price: '229'
+                price: '257.95'
             },
             {
                 slug: 'sentinel-silver-frame-s6040',
@@ -218,7 +217,7 @@ const products = [
                 ],
                 description: 'The ultimate forecourt poster sign. Nothing does it better than Sentinel in a choice of 4 high impace poster sizes.',
                 subprice: [
-                    'S6040 - £329',
+                    'S6040 - £360.25',
                 ],
                 specifications: [{
                     label: 'Product Code - S6040'
@@ -257,7 +256,7 @@ const products = [
                     file: 'spec/sentinel/Sentineldimsandweights.PNG'
                 },
               ],
-                price: '329'
+                price: '360.25'
             },
             {
                 slug: 'ecomaster-pavement-sign',
@@ -588,10 +587,10 @@ const products = [
                 ],
                 description: 'Gloss white aluminium panel (500 x 750mm) – ideal for direct to surface print or vinyl graphics. Alternative top opening polycarbonate double sided A2 poster pocket with magnetic seals. Poster pocket designed with header area for permanent branding - ideal for either direct to surface print or vinyl graphics. Stylish steel tube frame (32mm diameter) – available in black or white from stock. Frames available in any RAL colour (minimum order quantity 25). Patented D-Flex panel hangers make panel fitting quick and easy. Solid black recycled PVC base provides excellent stability. Clip-on Tactical Headers also available, giving extra promotional space at minimal cost.',
                 subprice: [
-                    'SSSPNL500750WHT (Unprinted) - £47',
-                    'SSSPNL500750BLK (Unprinted) - £47',
-                    'SSSPSRA2WHT - £58',
-                    'SSSPSRA2BLK - £58',
+                    'SSSPNL500750WHT (Unprinted) - £50.95',
+                    'SSSPNL500750BLK (Unprinted) - £50.95',
+                    'SSSPSRA2WHT - £59',
+                    'SSSPSRA2BLK - £59',
                 ],
                 specifications: [{
                     label: 'Swinger Swing Sign Panel(solid black PVC base) - Unprinted'
@@ -624,7 +623,7 @@ const products = [
                     name: 'Swinger 2 Showboard',
                     file: 'spec/swingsign2.pdf'
                 }],
-                price: '47 - £58'
+                price: '50.95 - £59'
             },
             {
                 slug: 'swinger-3000',
@@ -647,10 +646,10 @@ const products = [
                ],
                 description: 'Gloss white aluminium panel (500 x 750mm) – ideal for direct to surface print or vinyl graphics. Alternative top opening polycarbonate double sided A2 poster pocket with magnetic seals. Poster pocket designed with header area for permanent branding - ideal for either direct to surface print or vinyl graphics. Stylish steel tube frame (32mm diameter) – available in black or white from stock. Frames available in any RAL colour (minimum order quantity 25). Patented D-Flex panel hangers make panel fitting quick and easy. Solid black recycled PVC base provides excellent stability. Clip-on Tactical Headers also available, giving extra promotional space at minimal cost.',
                 subprice: [
-                    'S3SSPNL588917WHT - £84',
-                    'S3SSPNL588917WHT - £84',
-                    'S3SSPSTR2030WHT - £97',
-                    'S3SSPSTR2030BLK  - £97',
+                    'S3SSPNL588917WHT - £94.62',
+                    'S3SSPNL588917WHT - £94.62',
+                    'S3SSPSTR2030WHT - £110.25',
+                    'S3SSPSTR2030BLK  - £110.25',
                 ],
                 specifications: [{
                     label: 'Swinger 3 Swing Sign Panel(water-fillable polyethylene base) Unprinted', 
@@ -698,7 +697,7 @@ const products = [
                     file: 'spec/ecoswingerinstructions.pdf'
                 }
             ],
-                price: '84 - £97'
+                price: '94.62 - £110.25'
             },
             {
                 slug: 'economy-swing-swing',
@@ -720,10 +719,10 @@ const products = [
                 ],
                 description: 'Gloss white aluminium panel (430 x 625mm) – ideal for direct to surface print or vinyl graphics. Alternative top opening polycarbonate double sided A3 poster pocket with magnetic seals. Poster pocket designed with header area for permanent branding - ideal for either direct to surface print or vinyl graphics. Stylish 32mm round steel tube frame – available in black or white from stock. Frames available in any RAL colour (minimum order quantity 25). Patented D-Flex panel hangers make panel fitting quick and easy. Solid black recycled PVC base provides excellent stability. Clip-on Tactical Headers also available, giving extra promotional space at minimal cost.',
                 subprice: [
-                    'ECOSSPNL430625BLK - £45',
-                    'ECOSSPNL430625WHT - £45',
-                    'ECOSSPSTA3WHT - £55.25',
-                    'ECOSSPSTA3BLK - £55.25',
+                    'ECOSSPNL430625BLK - £42.25',
+                    'ECOSSPNL430625WHT - £42.25',
+                    'ECOSSPSTA3WHT - £59.75',
+                    'ECOSSPSTA3BLK - £59.75',
                 ],
                 specifications: [{
                     label: 'Economy Swing Sign Panel(solid black PVC base) Unprinted'
@@ -753,7 +752,7 @@ const products = [
                     name: 'Economy Sing Sign Instructions',
                     file: 'spec/ecoswingerinstructions.pdf'
                 }],
-                price: '45 - £55.25'
+                price: '42.95 - £59.75'
             },
         ]
     },
