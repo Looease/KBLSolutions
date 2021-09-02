@@ -92,9 +92,9 @@ const products = [
                 ],
                 description: 'The ultimate forecourt poster sign. Nothing does it better than Sentinel in a choice of 4 high impace poster sizes.',
                 subprice: [
-                    '1 off purchase - £340',
-                    '5+ - £332.75',
-                    '10+ - £331.25',
+                    '1 off purchase: £340',
+                    '5+: £332.75',
+                    '10+: £331.25',
                 ],
                 specifications: [{
                     label: 'Product Code - A0'
