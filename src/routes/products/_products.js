@@ -92,7 +92,9 @@ const products = [
                 ],
                 description: 'The ultimate forecourt poster sign. Nothing does it better than Sentinel in a choice of 4 high impace poster sizes.',
                 subprice: [
-                    'A0 - £278',
+                    '1 off purchase - £340',
+                    '5+ - £332.75',
+                    '10+ - £331.25',
                 ],
                 specifications: [{
                     label: 'Product Code - A0'
@@ -131,7 +133,7 @@ const products = [
                     file: 'spec/sentinel/Sentineldimsandweights.PNG'
                 },
                 ],
-                price: '278'
+                price: '340'
             },
             {
                 slug: 'sentinel-silver-frame-s4030',
