@@ -113,6 +113,8 @@ section{
                 <br>
           </ul>
           <br>
+          <h3>Call us:</h3> 
+          <h3><a href="tel:+447894825001">+447894825001</a></h3>
           <br>
           <h3>Email us:</h3> 
           <h3><a href="mailto:sales@kblsolutions.co.uk">sales@kblsolutions.co.uk</a></h3>

@@ -62,19 +62,7 @@
                 Find out more
             </div>
             </a>
-        </div>
-
-        <div class="slide-content">
-            <p class="time">Covid 19</p>
-            <a href="/products/landing/covid-19">
-            <img src="img/sign/covid/48.jpg" alt="" class="img-box">
-            <div class="cart">
-                Find out more
-            </div>
-            </a>
-        </div>
-
-
+        </div> 
           <div class="slide-content">
               <p class="time">Forecourt/Pavement Signs</p>
               <a href="/products/landing/forecourt-signs">
@@ -134,27 +122,6 @@
             </div>
             </a>
         </div>
-
-        <div class="slide-content">
-            <p class="time">Roller Banners</p>
-            <a href="/products/roller-banners">
-            <img src="img/sign/covid/56.jpg" alt="" class="img-box">
-            <div class="cart">
-                Find out more
-            </div>
-            </a>
-        </div>
-
-        <div class="slide-content">
-            <p class="time">Replacement Front Sheets</p>
-            <a href="/products/replacement-front-sheet">
-            <img src="img/comingsoon.jpg" alt="" class="img-box">
-            <div class="cart">
-                Find out more
-            </div>
-            </a>
-        </div>
-
         <span class="control" slot="right-control">
             <ChevronRightIcon />
         </span>

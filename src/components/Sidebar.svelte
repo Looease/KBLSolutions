@@ -1,4 +1,4 @@
-<style>
+<!-- <style>
 .box{
   display: flex;
   flex-direction: column;
@@ -15,5 +15,5 @@
     <p>
       Did you know that 70% of purchase decisions are made once inside the store. External POS including Forecourt signs and wall frames are a great way of driving customers into your store.
     </p>
-</div> <!-- box.// -->
-</aside> <!-- col.// -->
+</div> 
+</aside>  -->
