@@ -57,8 +57,6 @@ section{
       <h4 id="formatfont">
       Marketing display products for all your business needs.
       <br>  <br>
-      Covid-19 health and safety marketing solutions.
-      <br>  <br>
       Here at KBL, we aim to help you maximise your marketing efforts by supplying you with effective
       products at great prices.
       We supply a wider range of Point of Sale products than appear on our web site, so if you can’t see

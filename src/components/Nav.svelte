@@ -37,8 +37,6 @@ header{
 						<div class="dropdown-menu" id="navLink" onclick="closeNav();">
 						<a class="dropdown-item" href="/products/" >All products and services</a>
 						<div class="dropdown-divider"></div>
-						<a class="dropdown-item" href="/products/landing/covid-19" id="navLink" onclick="closeNav();">Covid 19</a>
-						<div class="dropdown-divider"></div>
 							<a class="dropdown-item" href="/products/compact-screen" id="navLink" onclick="closeNav();">Compact Privacy Screen</a>
 							<div class="dropdown-divider"></div>
 							<a class="dropdown-item" href="/products/landing/forecourt-signs" id="navLink" onclick="closeNav();">Forecourt Signs</a>
@@ -53,14 +51,8 @@ header{
 							<div class="dropdown-divider"></div>
 							<a class="dropdown-item" href="/products/landing/illuminated-display" id="navLink" onclick="closeNav();">Illuminated and LED Displays</a>
 							<div class="dropdown-divider"></div>
-							<a class="dropdown-item" href="/products/roller-banners" id="navLink" onclick="closeNav();">Roller Banners</a>
-							<div class="dropdown-divider"></div>
 							<a class="dropdown-item" href="/products/replacement-front-sheet" id="navLink" onclick="closeNav();">Replacement Front Sheets</a>
-							<div class="dropdown-divider"></div>
 						</div>
-						<li class="nav-item">
-							<a class="nav-link" href="/products/landing/covid-19" onclick="closeNav();">Covid 19</a>
-						</li>
 						<li class="nav-item">
 							<a class="nav-link" href="testimonials" onclick="closeNav();">Testimonials</a>
 						</li>
