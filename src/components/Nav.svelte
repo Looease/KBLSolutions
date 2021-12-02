@@ -18,7 +18,6 @@ header{
 <header class="section-header" id="navbar">
 	<section>
 	<nav class="navbar navbar-main navbar-expand-lg navbar-light" >
-		<!-- <a class=""><img src="logo.png"  id="logo"></a> -->
 		<div class="container">
 			<a class="navbar-brand" href="/"><img src="img/logo.png" alt="KBL Solutions logo"></a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main_nav1" aria-controls="main_nav" aria-expanded="false" aria-label="Toggle navigation" >
@@ -63,7 +62,7 @@ header{
 				<div class="">
 
 				</div>
-		</div> <!-- container .// -->
+		</div> 
 	</nav>
-	</section> <!-- header-main .// -->
-</header> <!-- section-header.// -->
+	</section> 
+</header>

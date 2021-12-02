@@ -1,5 +1,3 @@
-
-
 <svelte:head>
 <style>
 body{
@@ -8,18 +6,14 @@ body{
 	  background-size: cover;
 
 }
-
 .point{
 	color: #2F89CE;
 }
 .about{
-	margin: 100px 20px 20px 20px;
-
-	padding: 50px;
+	/* margin: 100px 20px 20px 20px; */
+	/* padding: 50px; */
 	display: flex;
-	/* flex-direction: row; */
 	justify-content: space-around;
-	/* flex-wrap: wrap; */
 	list-style: none;
  }
 .bubble {
@@ -74,7 +68,7 @@ body{
 	background-size: cover;
 }
 .about{
-	margin: 150px 20px 20px 20px;
+	/* margin: 150px 20px 20px 20px; */
 	padding: 0px;
 }
 }

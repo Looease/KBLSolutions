@@ -6,6 +6,10 @@
 section{
   min-height: 100vh;
 }
+#temp{
+  color: #000;
+  font-weight: 1000;
+}
 .logo{
   margin: 50px 0px 0px 0px;
   padding: 0px;
@@ -49,8 +53,7 @@ section{
 </style>
 
 
-<div class="section " id="section0">
-<!--About us Section -->
+<!-- <div class="section " id="section0">
   <ul class="about">
     <li class="contentbox">
     <img src="img/logo.png" alt="KBL Solutions Logo" class="logo">
@@ -73,20 +76,25 @@ section{
     </div>
     </li>
   </ul>
-</div>
-<!-- </div> -->
-  <!-- Product Selector -->
-    <div class="section" id="section1">
+</div> -->
+    <!-- <div class="section" id="section1">
       <br>
       <h1 class="pands" id="gone">Products and Services</h1>
       <br>  <br>
 
       <Carousel />
-    </div>
-    <!-- Contact -->
+    </div> -->
       <div class="section" id="section2">
         <section class="section-name padding-y ">
-          <ul class="formbox">
+          <ul class="about">
+            <li class="contentbox">
+            <img src="img/logo.png" alt="KBL Solutions Logo" class="logo">
+              <h1 id="temp">
+              Website being updated
+              </h1>
+            </li>
+          </ul>
+          <!-- <ul class="formbox">
               <form action="https://formspree.io/mrgljdow" method="POST" class="indexForm">
                 <h1>Contact Us</h1>
                   <label>
@@ -109,8 +117,7 @@ section{
                   <input type="submit" value="Send" class="button">
                 </form>
                 <br>
-          </ul>
-          <br>
+          </ul> -->
           <h3>Call us:</h3> 
           <h3><a href="tel:+447894825001">+447894825001</a></h3>
           <br>

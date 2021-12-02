@@ -10,7 +10,7 @@
   <div class="container" id="footercontainer">
     <section class="footer-top padding-y-lg text-white">
       <div class="row">
-        <aside class="col-md col-6">
+        <!-- <aside class="col-md col-6">
           <h6 class="title">Products</h6>
           <ul class="list-unstyled">
             <li> <a href="/products/compact-screen">Compact privacy screen</a></li>
@@ -19,15 +19,15 @@
             <li> <a href="/products/landing/menus">Menus</a></li>
             <li> <a href="/products/landing/snap-frames">Snap Frame</a></li>
           </ul>
-        </aside>
-        <aside class="col-md col-6">
+        </aside> -->
+        <!-- <aside class="col-md col-6">
           <h6 class="title">Company</h6>
           <ul class="list-unstyled">
             <li> <a href="about">About us</a></li>
             <li> <a href="/#section1">Products and Services</a></li>
             <li> <a href="/testimonials">Testimonials</a></li>
           </ul>
-        </aside>
+        </aside> -->
         <aside class="col-md col-6">
           <h6 class="title">Help</h6>
           <ul class="list-unstyled">
