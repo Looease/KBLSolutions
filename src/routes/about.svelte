@@ -10,11 +10,10 @@ body{
 	color: #2F89CE;
 }
 .about{
-	/* margin: 100px 20px 20px 20px; */
-	/* padding: 50px; */
 	display: flex;
 	justify-content: space-around;
 	list-style: none;
+	padding-bottom: 100px;
  }
 .bubble {
 	margin: 20px;

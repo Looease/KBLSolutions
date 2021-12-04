@@ -6,7 +6,7 @@
 
 <section class="padding-bottom">
   <div class="card card-body">
-    <h4 class="title py-3">Quick quote request</h4>
+    <h4 class="title py-3">Request a quote</h4>
     <form action="https://formspree.io/mrgljdow" method="POST" class="quickQuoteForm">
       <div class="form-group">
         <input class="form-control" name="{product}" value="{product}" type="text">

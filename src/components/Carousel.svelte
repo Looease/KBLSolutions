@@ -85,7 +85,7 @@
 
         <div class="slide-content">
             <p class="time">Lockable Poster Cases</p>
-            <a href="/products/lockable-poster">
+            <a href="/products/landing/exterior-poster-case">
             <img src="img/sign/lockposter/5.jpg" alt="" class="img-box" id="correct">
             <div class="cart">
                 Find out more

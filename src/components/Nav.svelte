@@ -1,11 +1,12 @@
 <style>
 header{
-	height: 20vh;
-	border-radius: 0px 0px 10px 10px;
+	height: 14vh;
+	background-color: #45A4D9;
 }
  	nav{
 		width: 100%;
-		border-radius: 0px 0px 50px 50px;
+		height: 120px;
+		background-color: #F6F7F9;
 	}
 	img {
 		max-width: 220px;
@@ -15,7 +16,7 @@ header{
 	}
 
 </style>
-<header class="section-header" id="navbar">
+<header class="section-header">
 	<section>
 	<nav class="navbar navbar-main navbar-expand-lg navbar-light" >
 		<div class="container">
@@ -42,7 +43,7 @@ header{
 							<div class="dropdown-divider"></div>
 							<a class="dropdown-item" href="/products/a-board" id="navLink" onclick="closeNav();">Aluminum A Boards</a>
 							<div class="dropdown-divider"></div>
-							<a class="dropdown-item" href="/products/lockable-poster" id="navLink" onclick="closeNav();">Lockable Posters</a>
+							<a class="dropdown-item" href="/products/landing/exterior-poster-case" id="navLink" onclick="closeNav();">Lockable Posters</a>
 							<div class="dropdown-divider"></div>
 							<a class="dropdown-item" href="/products/landing/menus" id="navLink" onclick="closeNav();">Menu/Info Holders</a>
 							<div class="dropdown-divider"></div>

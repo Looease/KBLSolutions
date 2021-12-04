@@ -13,11 +13,10 @@ section{
 .logo{
   margin: 50px 0px 0px 0px;
   padding: 0px;
-  width: 200px;
+  width: 250px;
 }
 #formatfont{
-  margin: 0px;
-  font-size: 0.7em;
+  font-size:0.8em;
   color: black;
 }
 
@@ -26,12 +25,12 @@ section{
   flex-direction: column;
   align-items: center;
 }
-.arrow{
+/* .arrow{
   list-style: none;
 }
 .fa-arrow-down{
  color: rgba(255, 255, 255, 0.5);
-}
+} */
 @media screen and (max-width:992px) {
   .logo{
     width: 150px;
@@ -52,9 +51,9 @@ section{
 }
 </style>
 
-
-<!-- <div class="section " id="section0">
-  <ul class="about">
+<!-- <div class="section"> -->
+<!-- <div class="section " id="section0"> -->
+  <!-- <ul class="about">
     <li class="contentbox">
     <img src="img/logo.png" alt="KBL Solutions Logo" class="logo">
       <h4 id="formatfont">
@@ -68,22 +67,28 @@ section{
       <br>
       Read more about us here <a href="about" class="point">here</a>
       </h4>
-    </li>
-    <li class="arrow">
+    </li> -->
+    
+
+    <!-- <li class="arrow">
     <div class="arrow bounce">
     <a class="fa fa-arrow-down fa-2x" href="/#section1">
     </a>
     </div>
     </li>
   </ul>
-</div> -->
-    <!-- <div class="section" id="section1">
+</div>
+    <div class="section" id="section1">
       <br>
-      <h1 class="pands" id="gone">Products and Services</h1>
-      <br>  <br>
+      <br>  <br> -->
 
+    
+    <!-- </div>
+    <div class="section" id="section20">
+      <h1 class="pands" id="gone">Products and Services</h1>
       <Carousel />
     </div> -->
+    
       <div class="section" id="section2">
         <section class="section-name padding-y ">
           <ul class="about">
