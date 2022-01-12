@@ -6,14 +6,15 @@
 section{
   min-height: 100vh;
 }
-#temp{
+/* #temp{
   color: #000;
   font-weight: 1000;
-}
+} */
 .logo{
-  margin: 50px 0px 0px 0px;
+  /* margin: 50px 0px 0px 0px; */
   padding: 0px;
-  width: 250px;
+  width: 300px;
+  height: auto;
 }
 #formatfont{
   font-size:0.8em;
@@ -51,9 +52,9 @@ section{
 }
 </style>
 
-<!-- <div class="section"> -->
-<!-- <div class="section " id="section0"> -->
-  <!-- <ul class="about">
+ <!-- <div class="section">  -->
+<div class="section " id="section0"> -->
+  <ul class="about">
     <li class="contentbox">
     <img src="img/logo.png" alt="KBL Solutions Logo" class="logo">
       <h4 id="formatfont">
@@ -64,10 +65,10 @@ section{
       We supply a wider range of Point of Sale products than appear on our web site, so if you can’t see
       what you’re looking for, feel free to give us a call and we can walk you through your marketing
       requirements, where we are sure we will be able to help.
-      <br>
+      <br><br>
       Read more about us here <a href="about" class="point">here</a>
       </h4>
-    </li> -->
+    </li>
     
 
     <!-- <li class="arrow">
@@ -75,31 +76,32 @@ section{
     <a class="fa fa-arrow-down fa-2x" href="/#section1">
     </a>
     </div>
-    </li>
+    </li> -->
   </ul>
+  <div class="section" id="section20">
+    <h1 class="pands" id="gone">Products and Services</h1>
+    <Carousel />
+  </div> 
 </div>
-    <div class="section" id="section1">
+    <!-- <div class="section" id="section1">
       <br>
-      <br>  <br> -->
+      <br>  <br>
 
     
-    <!-- </div>
-    <div class="section" id="section20">
-      <h1 class="pands" id="gone">Products and Services</h1>
-      <Carousel />
     </div> -->
+ 
     
       <div class="section" id="section2">
         <section class="section-name padding-y ">
-          <ul class="about">
+          <!-- <ul class="about">
             <li class="contentbox">
             <img src="img/logo.png" alt="KBL Solutions Logo" class="logo">
               <h1 id="temp">
               Website being updated
               </h1>
             </li>
-          </ul>
-          <!-- <ul class="formbox">
+          </ul> -->
+           <ul class="formbox">
               <form action="https://formspree.io/mrgljdow" method="POST" class="indexForm">
                 <h1>Contact Us</h1>
                   <label>
@@ -122,7 +124,7 @@ section{
                   <input type="submit" value="Send" class="button">
                 </form>
                 <br>
-          </ul> -->
+          </ul> 
           <h3>Call us:</h3> 
           <h3><a href="tel:+447894825001">+447894825001</a></h3>
           <br>

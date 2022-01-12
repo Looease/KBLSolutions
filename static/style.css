@@ -76,12 +76,12 @@ p {
   position: relative;
   background-color: rgba(255, 255, 255, 0);
   padding-top: 75px;
-  padding-bottom: 100px;
+  /* padding-bottom: 100px; */
   /* padding: 20px 20px 10px; */
   border: 3px rgba(255, 255, 255, 0);
   font-family: "Roboto", sans-serif;
-  width: 50%;
-  height: 500px;
+  width: 75%;
+  /* height: 500px; */
 }
 .point {
   color: #2f89ce;
@@ -107,7 +107,7 @@ p {
 #section0 {
   /* background-image: url(img/bag.jpg); */
   width: 100%;
-  height: 110vh;
+  height: 150vh;
 }
 #section0 h1 {
   position: relative;
@@ -138,7 +138,10 @@ p {
 #format {
   margin-left: 30px;
 }
-
+.pands {
+  border: 1px solid #f6f7f9;
+  background-color: #f6f7f9;
+}
 /* Form */
 
 .formbox {
@@ -283,7 +286,7 @@ textarea {
       ),
       url(img/window.jpg);
     width: 100%;
-    height: 110vh;
+    height: 140vh;
   }
   .contentbox {
     width: 100%;

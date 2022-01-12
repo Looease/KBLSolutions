@@ -140,7 +140,7 @@ const products = [
             file: "spec/sentinel/Sentineldimsandweights.PNG",
           },
         ],
-        price: "300.95",
+        price: "289.95 - £300.95",
       },
       {
         slug: "sentinel-silver-frame-s4030",
@@ -324,7 +324,7 @@ const products = [
             file: "spec/forecourtecomasterspec.docx",
           },
         ],
-        price: "169.69",
+        price: "164.63 - £169.69",
       },
       {
         slug: "ecomaster-pavement-sign-a0",
@@ -376,7 +376,7 @@ const products = [
             file: "spec/forecourtecomasterspec.docx",
           },
         ],
-        price: "196.49",
+        price: "190.63 - £196.49",
       },
       {
         slug: "ecomaster-pavement-sign-4030",
@@ -428,7 +428,7 @@ const products = [
             file: "spec/forecourtecomasterspec.docx",
           },
         ],
-        price: "182.20",
+        price: "176.76 - £182.20",
       },
       {
         slug: "ecomaster-pavement-sign-6040",
@@ -477,7 +477,7 @@ const products = [
             file: "spec/forecourtecomasterspec.docx",
           },
         ],
-        price: "279.12",
+        price: "270.79 - £279.12",
       },
       {
         slug: "eseries-forecourt-sign-A1",
@@ -531,7 +531,7 @@ const products = [
             file: "spec/forecourteseries.jpg.pdf",
           },
         ],
-        price: "114.14",
+        price: "110.73 - £114.14",
       },
       {
         slug: "eseries-forecourt-sign-A0",
@@ -585,7 +585,7 @@ const products = [
             file: "spec/forecourteseries.jpg.pdf",
           },
         ],
-        price: "168.03",
+        price: "163.01 - £168.03",
       },
       {
         slug: "eseries-forecourt-sign-4030",
@@ -636,7 +636,7 @@ const products = [
             file: "spec/forecourteseries.jpg.pdf",
           },
         ],
-        price: "150.70",
+        price: "146.20 - £150.70",
       },
       {
         slug: "waterbase-pavement-swing-a1",
@@ -694,7 +694,7 @@ const products = [
             file: "spec/forecourtecospec.pdf",
           },
         ],
-        price: "89.29",
+        price: "86.63 - £89.29",
       },
       {
         slug: "waterbase-pavement-swing-a0",
@@ -752,7 +752,7 @@ const products = [
             file: "spec/forecourtecospec.pdf",
           },
         ],
-        price: "151.37",
+        price: "146.85 - £151.37",
       },
       {
         slug: "swinger-swinger-swing",
@@ -1228,14 +1228,13 @@ const products = [
         subprice: [
           "Available in Silver",
           "SF32MA4S - 1-10 - £5.89, 100+ -£5.71",
-          "SF32MA3S - 1-10 - £8.57, 100+ -£8.57",
+          "SF32MA3S - 1-10 - £8.57, 100+ -£8.31",
           "SF32MA2S - 1-10 - £12.97, 100+ -£12.59",
           "SF32MA1S - 1-10 - £19.67, 100+ -£19.09",
           "SF32MAOS - 1-10 - £33.83, 100+ -£32.83",
           "SF32M2030S - 1-10 - £17.37, 100+ -£16.86",
           "SF32M4030S - 1-10 - £28.47, 100+ -£27.63",
-          "SF32M6040S - 1-10 - £47.81, 100+ -£48.24",
-          "UPDATED SILER ONLY - Not black/oak/assorted",
+          "SF32M6040S - 1-10 - £47.81, 100+ -£46.39",
         ],
         specifications: [],
         downloads: [
@@ -1244,7 +1243,7 @@ const products = [
             file: "spec/32mmSilverSnapFrame.pdf",
           },
         ],
-        price: "5.95 - £32.95",
+        price: "5.95 - £47.81",
       },
       {
         slug: "snap-frame-black-25mm",
@@ -1267,14 +1266,14 @@ const products = [
           "Easy snap open and closed poster frame system. Extruded aluminium frame with mitred corners. Supplied with an anti glare poster cover and a strong plastic back panel. Finished in 12 different stock finishes this is favoured by retailers, restaurants and the leisure industries.",
         subprice: [
           "Available in Black.",
-          "SF25MA5BLK - £3.95",
-          "SF25MA4BLK - £4.25",
-          "SF25MA3BLK - £5.95",
-          "SF25MA2BLK - £8.45",
-          "SF25MA1BLK - £12.95",
-          "SF25MAOBLK - £24.45",
-          "SF25M2030BLK - £11.95",
-          "SF25M3040BLK - £19.95",
+          "SF25MA5BLK - 1-10 - £3.34, 10+ - £3.24",
+          "SF25MA4BLK - 1-10 - £3.59,  10+ - £3.49",
+          "SF25MA3BLK - 1-10 - £5.50,  10+ -  £5.34",
+          "SF25MA2BLK - 1-10 - £8.70, 10+ -  £8.44",
+          "SF25MA1BLK - 1-10 - £14.11, 10+ - £13.70",
+          "SF25MAOBLK - 1-10 - £26.76, 10+ - £25.96",
+          "SF25M2030BLK - 1-10 - £13.07, 10+ - £12.67",
+          "SF25M3040BLK - 1-10 - £21.97,  10+ - £21.31",
         ],
         specifications: [],
         downloads: [
@@ -1283,7 +1282,7 @@ const products = [
             file: "spec/25mmSilverSnapFrame.pdf",
           },
         ],
-        price: "3.95 - £24.45",
+        price: "3.24 - £26.76",
       },
       {
         slug: "snap-frame-black-32mm",
@@ -1306,37 +1305,37 @@ const products = [
           "Easy snap open and closed poster frame system. Extruded aluminium frame with mitred corners. Supplied with an anti glare poster cover and a strong plastic back panel. Finished in 12 different stock finishes this is favoured by retailers, restaurants and the leisure industries.",
         subprice: [
           "Available in Black.",
-          "SF32MA4BLK - £7.25",
-          "SF32MA3BLK - £9.45",
-          "SF32MA2BLK - £13.95",
-          "SF32MA1BLK - £20.95",
-          "SF32MAOBLK - £31.95",
-          "SF32M2030BLK - £17.45",
-          "SF32M4030BLK - £27.95",
-          "SF32M6040BLK - £44.95",
+          "SF32MA4BLK - 1 - 10 -  £6.17, 10+ - £5.99",
+          "SF32MA3BLK - 1 - 10 -  £9.04, 10+ - £8.77",
+          "SF32MA2BLK - 1 - 10 -  £13.64, 10+ - £13.23",
+          "SF32MA1BLK - 1 - 10 -  £20.81, 10+ - £20.20",
+          "SF32MAOBLK - 1 - 10 -  £35.27, 10+ - £34.21",
+          "SF32M2030BLK - 1 - 10 -  £18.14, 10+ - £17.60",
+          "SF32M4030BLK - 1 - 10 -  £29.91, 10+ - £29.01",
+          "SF32M6040BLK - 1 - 10 -  £49.73, 10+ - £48.24",
         ],
         specifications: [],
         downloads: [
           {
-            name: "32mm Silver Snap Frame Specification",
+            name: "32mm Snap Frame Specification",
             file: "spec/32mmSilverSnapFrame.pdf",
           },
         ],
-        price: "7.25 - £44.95",
+        price: "5.99 - £49.73",
       },
       {
-        slug: "assorted-colours-snap-frame-25mm",
-        name: "Assorted Colours Snap Frames 25mm",
+        slug: "assorted-colours-snap-frame-32mm",
+        name: "Assorted Colours Snap Frames 32mm",
         teaser:
           "Easy snap open and closed poster frame system. Extruded aluminium frame with mitred corners. Supplied with an anti glare poster cover and a strong plastic back panel. Finished in 12 different stock finishes this is favoured by retailers, restaurants and the leisure industries.",
         images: [
           {
-            alt: "Silver Snap Frames 25mm",
+            alt: "Silver Snap Frames 32mm",
             src: "/img/comingsoon.jpg",
           },
         ],
         features: [
-          "25 extruded aluminum frame",
+          "32 extruded aluminum frame",
           "Strong 1.5mm plastic back panel",
           "0.5mm anti-glare poster cover",
           "Choice of 12 stock finishes",
@@ -1345,53 +1344,14 @@ const products = [
           "Easy snap open and closed poster frame system. Extruded aluminium frame with mitred corners. Supplied with an anti glare poster cover and a strong plastic back panel. Finished in 12 different stock finishes this is favoured by retailers, restaurants and the leisure industries.",
         subprice: [
           "Available in Silver",
-          "SF25MA5SL - £3.45",
-          "SF25MA4SL - £3.95",
-          "SF25MA3SL - £5.45",
-          "SF25MA2SL - £7.95",
-          "SF25MA1SL - £12.50",
-          '20 x 30" - £11.45',
-          '30 x 40" - £19.95',
-          "SF25M4030SL - £23.95",
-        ],
-        specifications: [],
-        downloads: [
-          {
-            name: "25mm Silver Snap Frame Specification",
-            file: "spec/25mmSilverSnapFrame.pdf",
-          },
-        ],
-        price: "3.45 - £23.95",
-      },
-      {
-        slug: "snap-frame-assorted-colours-32mm",
-        name: "Assorted Colours Snap Frames 32mm ",
-        teaser:
-          "Easy snap open and closed poster frame system. Extruded aluminium frame with mitred corners. Supplied with an anti glare poster cover and a strong plastic back panel. Finished in 12 different stock finishes this is favoured by retailers, restaurants and the leisure industries.",
-        images: [
-          {
-            alt: "Snap Frames 32mm Mitred corners",
-            src: "/img/comingsoon.jpg",
-          },
-        ],
-        features: [
-          "32 mm extruded aluminum frame",
-          "Strong 1.5mm plastic back panel",
-          "0.5mm anti-glare poster cover",
-          "Choice of 12 stock finishes",
-        ],
-        description:
-          "Easy snap open and closed poster frame system. Extruded aluminium frame with mitred corners. Supplied with an anti glare poster cover and a strong plastic back panel. Finished in 12 different stock finishes this is favoured by retailers, restaurants and the leisure industries.",
-        subprice: [
-          "Available in Black.",
-          "SF32MA4BLK - £7.25",
-          "SF32MA3BLK - £9.45",
-          "SF32MA2BLK - £13.95",
-          "SF32MA1BLK - £20.95",
-          "SF32MAOBLK - £31.95",
-          "SF32M2030BLK - £17.45",
-          "SF32M4030BLK - £27.95",
-          "SF32M6040BLK - £44.95",
+          "S32MA4AC - 1 - 10 - £6.56, 10+ - £6.36",
+          "SF32MAAC - 1 - 10 -  £9.53, 10+ - £9.24",
+          "SF32MAAC - 1 - 10 -  £14.21, 10+ - £13.79",
+          "SF32MA1AC - 1 - 10 -  £21.81, 10+ - £21.16",
+          "SF32MAOAC - 1 - 10 -  £36.80, 10+ - £35.70",
+          "SF32M2030AC - 1 - 10 -  £19.00, 10+ - £18.43",
+          "SF32M4030AC - 1 - 10 -  £31.34, 10+ - £30.41",
+          "SF32M6040AC - 1 - 10 -  £52.60, 10+ - £51.03",
         ],
         specifications: [],
         downloads: [
@@ -1400,46 +1360,7 @@ const products = [
             file: "spec/32mmSilverSnapFrame.pdf",
           },
         ],
-        price: "7.25 - £44.95",
-      },
-      {
-        slug: "snap-frame-oak-25mm",
-        name: "Oak Snap Frames 25mm",
-        teaser:
-          "Easy snap open and closed poster frame system. Extruded aluminium frame with mitred corners. Supplied with an anti glare poster cover and a strong plastic back panel. Finished in 12 different stock finishes this is favoured by retailers, restaurants and the leisure industries.",
-        images: [
-          {
-            alt: "Silver Snap Frames 25mm",
-            src: "/img/comingsoon.jpg",
-          },
-        ],
-        features: [
-          "25 extruded aluminum frame",
-          "Strong 1.5mm plastic back panel",
-          "0.5mm anti-glare poster cover",
-          "Choice of 12 stock finishes",
-        ],
-        description:
-          "Easy snap open and closed poster frame system. Extruded aluminium frame with mitred corners. Supplied with an anti glare poster cover and a strong plastic back panel. Finished in 12 different stock finishes this is favoured by retailers, restaurants and the leisure industries.",
-        subprice: [
-          "Available in Silver",
-          "SF25MA5SL - £3.45",
-          "SF25MA4SL - £3.95",
-          "SF25MA3SL - £5.45",
-          "SF25MA2SL - £7.95",
-          "SF25MA1SL - £12.50",
-          '20 x 30" - £11.45',
-          '30 x 40" - £19.95',
-          "SF25M4030SL - £23.95",
-        ],
-        specifications: [],
-        downloads: [
-          {
-            name: "25mm Silver Snap Frame Specification",
-            file: "spec/25mmSilverSnapFrame.pdf",
-          },
-        ],
-        price: "3.45 - £23.95",
+        price: "6.36 - £52.60",
       },
       {
         slug: "snap-frame-oak-32mm",
@@ -1462,29 +1383,29 @@ const products = [
           "Easy snap open and closed poster frame system. Extruded aluminium frame with mitred corners. Supplied with an anti glare poster cover and a strong plastic back panel. Finished in 12 different stock finishes this is favoured by retailers, restaurants and the leisure industries.",
         subprice: [
           "Available in Black.",
-          "SF32MA4BLK - £7.25",
-          "SF32MA3BLK - £9.45",
-          "SF32MA2BLK - £13.95",
-          "SF32MA1BLK - £20.95",
-          "SF32MAOBLK - £31.95",
-          "SF32M2030BLK - £17.45",
-          "SF32M4030BLK - £27.95",
-          "SF32M6040BLK - £44.95",
+          "S32M4O - 1 - 10 - £8.47, 10 + - £8.21",
+          "SF32MAO - 1 - 10 -  £12.20, 10 + - £11.84",
+          "SF32MA2O - 1 - 10 -  £18.51, 10 + - £17.97",
+          "SF32MA1O - 1 - 10 -  £28.47, 10 + - £27.63",
+          "SF32MAOO -  1 - 10 - £47.61, 10 + - £46.20",
+          "SF32M2030O - 1 - 10 -  £24.56, 10 + - £23.81",
+          "SF32M4030O - 1 - 10 -  £40.91, 10 + - £39.70",
+          "SF32M6040O - 1 - 10 -  £66.96, 10 + - £64.96",
         ],
         specifications: [],
         downloads: [
           {
-            name: "32mm Silver Snap Frame Specification",
+            name: "32mm Oak Frame Specification",
             file: "spec/32mmSilverSnapFrame.pdf",
           },
         ],
-        price: "7.25 - £44.95",
+        price: "8.21 - £66.96",
       },
     ],
   },
   {
     slug: "exterior-poster-case",
-    name: "SecureWall Hinged door,  key locking,  Exterior Poster Case  ",
+    name: "Secure Wall Hinged door,  key locking,  Exterior Poster Case  ",
     description: "",
     images: [
       {
@@ -1914,7 +1835,7 @@ const products = [
           },
         ],
         downloads: [],
-        price: "57.89 - £59.68",
+        price: "55.45 - £57.89",
       },
     ],
   },
@@ -1931,7 +1852,7 @@ const products = [
     products: [
       {
         slug: "totem-light",
-        name: "Totem Lightbox",
+        name: "Illuminated Totem Light Box Double Sided",
         teaser:
           "Stylish and practical free-standing light coloumn. Illuminates posters printed on backlit film or duratrans.",
         images: [
@@ -1947,7 +1868,11 @@ const products = [
         ],
         description:
           "Stylish and practical free-standing light coloumn. Illuminates posters printed on backlit film or duratrans.",
-        subprice: ["600mm - £213.15", "700mm - £238.60", "800mm - £291.96"],
+        subprice: [
+          "600mm - 1-10 - £203.99, 10+ - £197.91",
+          "700mm - 1-10 - £234.01, 10+ - £227.03",
+          "800mm - 1-10 - £282.96, 10+ - £274.52",
+        ],
         specifications: [
           {
             label: "See PDF - Totem Light Box Specification",
@@ -1959,11 +1884,11 @@ const products = [
             file: "spec/lightboxtotemspec.pdf",
           },
         ],
-        price: "215",
+        price: "197.91 - £282.96",
       },
       {
         slug: "led-light",
-        name: "LED Edge Light",
+        name: "Smart LED Illuminated Light Box Single Sided  25mm Profile",
         teaser:
           "LED edge light poster frames offer fantastic illumination and a super slim frame profile.",
         images: [
@@ -1980,11 +1905,10 @@ const products = [
         description:
           "LED edge light poster frames offer fantastic illumination and a super slim frame profile. Our LED light boxes are just 22mm deep. Because these light boxes are low voltage the power consumption is a fraction of traditional fluorescent tube powered light boxes. This is the environmental friendly light box which will save you money on running costs.",
         subprice: [
-          "SLSSLB25SSA4 - £55.65",
-          "SLSSLB25SSA3 - £79.50",
-          "SLSSLB25SSA2 - £102.65",
-          "SLSSLB25SSA1 - £162.65",
-          "SLSSLB25SSAO - £253.25",
+          "SLSSLB25SSA4 - 1 - 10 - £56.51, 10+ - £54.81",
+          "SLSSLB25SSA3 - 1 - 10 - £77.23, 10+ - £74.92",
+          "SLSSLB25SSA2 - 1 - 10 - £101.80, 10+ - £98.76",
+          "SLSSLB25SSA1 - 1 - 10 - £162.55, 10+ - £157.69",
         ],
         specifications: [
           {
@@ -1997,11 +1921,11 @@ const products = [
             file: "spec/lightboxledspec.pdf",
           },
         ],
-        price: "56",
+        price: "54.81 - £162.55",
       },
       {
         slug: "outdoor-led",
-        name: "Outdoor Edge Light Poster ",
+        name: "Smart LED Illuminated Light Box Double Sided  25mm",
         teaser: "Stylish Decorative Menuboard",
         images: [
           {
@@ -2017,10 +1941,10 @@ const products = [
         ],
         description: "",
         subprice: [
-          "SLDSLB25SSA4 - £97.50",
-          "SLDSLB25SSA3 - £121.10",
-          "SLDSLB25SSA2 - £172.65",
-          "SLDSLB25SSA1 - £250.65",
+          "SLDSLB25SSA4 - 1 - 10 - £89.29, 10+ - £86.63",
+          "SLDSLB25SSA3 - 1 - 10 - £115.91, 10+ - £112.45",
+          "SLDSLB25SSA2 - 1 - 10 - £165.23, 10+ - £160.29",
+          "SLDSLB25SSA1 - 1 - 10 - £239.91, 10+ - £232.75",
         ],
         specifications: [
           {
@@ -2033,35 +1957,139 @@ const products = [
             file: "spec/lightboxexternalspec.pdf",
           },
         ],
-        price: "55",
+        price: "86.63 - £239.91",
       },
     ],
   },
   {
-    slug: "replacement-front-sheet",
-    name: "Replacement Front Sheets",
-    teaser: "Replacement Front Sheets for all of our signs",
+    slug: "replacement-cover-sheet",
+    name: "Replacement  Covers / Front sheets Anti-Glare  ",
+    description: "",
     images: [
       {
-        alt: "Replacement Front Sheets",
-        src: "img/comingsoon.jpg",
+        alt: "Replacement  Covers / Front sheets Anti-Glare ",
+        src: "/img/comingsoon.jpg",
       },
     ],
-    features: ["Contact us for measurements"],
-    description: "Bespoke replacement front sheets",
-    subprice: [
-      'Replacement  Covers / Front sheets Anti-Glare (A5-40x60") - £0.26 - £13.95',
-      'Replacement  Covers /Front sheets Oversize - Anti-Glare (A1 - 4060") - £4.70 - £14.25',
-      'Replacement Covers/ Front sheets  Waterproof - Anti-Glare for 25mm profile  (A5 - 3040") - £0.30 - £7.65"',
-      'Replacement Covers/ Front sheets  Waterproof - Anti-Glare for 35mm profile (A5 - 4030") - £10.16 - £15.95',
-    ],
-    specifications: [
+    products: [
       {
-        label: "Replacement Front Sheets",
-        value: "Contact us for measurements",
+        slug: "replacement-front-sheet",
+        name: "Replacement Front Sheets/ Front sheets Anti-glare",
+        teaser: "Replacement Front Sheets for all of our signs",
+        images: [
+          {
+            alt: "Replacement Front Sheets",
+            src: "img/comingsoon.jpg",
+          },
+        ],
+        features: ["Contact us for measurements"],
+        description: "Bespoke replacement front sheets",
+        subprice: [
+          "A5 - 1 - 10 - £0.26",
+          "A4 - 1 - 10 - £0.48",
+          "A3 - 1 - 10 - £1.02",
+          "A2 - 1 - 10 - £2.20",
+          "A1 - 1 - 10 - £4.42",
+          "AO - 1 - 10 - £8.82",
+          '20X30" - 1 - 10 - £3.34',
+          '30X40" - 1 - 10 - £6.96',
+          '40X60" - 1 - 10 - £13.94',
+        ],
+        specifications: [
+          {
+            label: "Replacement Front Sheets",
+            value: "Contact us for measurements",
+          },
+        ],
+        downloads: [],
+        price: "0.26 - £13.94",
+      },
+      {
+        slug: "replacement-front-sheet-oversize",
+        name: "Replacement  Covers /Front sheets Oversize - Anti-Glare",
+        teaser: "Replacement Front Sheets for all of our signs",
+        images: [
+          {
+            alt: "Replacement Front Sheets",
+            src: "img/comingsoon.jpg",
+          },
+        ],
+        features: ["Contact us for measurements"],
+        description: "Bespoke replacement front sheets",
+        subprice: [
+          "OLA1 - 1 - 10 - £4.70",
+          "OLAO - 1 - 10 - £9.60",
+          "OL4030 - 1 - 10 - £7.22",
+          "OL4060 - 1 - 10 - £14.28",
+        ],
+        specifications: [
+          {
+            label: "Replacement Front Sheets",
+            value: "Contact us for measurements",
+          },
+        ],
+        downloads: [],
+        price: "4.70 - £14.28",
+      },
+      {
+        slug: "replacement-front-sheet-waterproof-25mm",
+        name: "Replacement Covers/ Front sheets  Waterproof - Anti-Glare for 25mm profile ",
+        teaser: "Replacement Front Sheets for all of our signs",
+        images: [
+          {
+            alt: "Replacement Front Sheets",
+            src: "img/comingsoon.jpg",
+          },
+        ],
+        features: ["Contact us for measurements"],
+        description: "Bespoke replacement front sheets",
+        subprice: [
+          "OL25A5 - 1 - 10 - £0.30",
+          "OL25A4 - 1 - 10 - £0.52",
+          "OL25A3 - 1 - 10 - £1.12",
+          "OL25A2 - 1 - 10 - £2.42",
+          "OL25A1 - 1 - 10 - £4.86",
+          "OL25AO - 1 - 10 - £9.70",
+          "OL252030 - 1 - 10 - £3.66",
+          "OL253040 - 1 - 10 - £7.66",
+        ],
+        specifications: [
+          {
+            label: "Replacement Front Sheets",
+            value: "Contact us for measurements",
+          },
+        ],
+        downloads: [],
+        price: "0.30 - £9.70",
+      },
+      {
+        slug: "replacement-front-sheet-waterproof-35mm",
+        name: "Replacement Covers/ Front sheets  Waterproof - Anti-Glare for 35mm profile",
+        teaser: "Replacement Front Sheets for all of our signs",
+        images: [
+          {
+            alt: "Replacement Front Sheets",
+            src: "img/comingsoon.jpg",
+          },
+        ],
+        features: ["Contact us for measurements"],
+        description: "Bespoke replacement front sheets",
+        subprice: [
+          "OL35AO - 1 - 10 - £10.16",
+          "OL352030 - 1 - 10 - £3.84",
+          "OL353040 - 1 - 10 - £8.00",
+          "OL354030 - 1 - 10 - £15.94",
+        ],
+        specifications: [
+          {
+            label: "Replacement Front Sheets",
+            value: "Contact us for measurements",
+          },
+        ],
+        downloads: [],
+        price: "3.84 - £15.94",
       },
     ],
-    downloads: [],
   },
 ];
 
