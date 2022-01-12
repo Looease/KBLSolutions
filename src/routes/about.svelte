@@ -14,7 +14,7 @@ body{
 	justify-content: space-around;
 	list-style: none;
 	padding-top: 10%;
-	height: 90vh;
+	height: 90%;
 	/* padding-bottom: 100px; */
  }
 .bubble {
@@ -70,8 +70,9 @@ body{
 }
 .about{
 	/* margin: 150px 20px 20px 20px; */
+	margin-top: 150px;
 	padding: 0px;
-	margin-top: 25%;
+	margin-top: 
 }
 }
 
