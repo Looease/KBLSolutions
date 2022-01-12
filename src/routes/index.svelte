@@ -34,19 +34,19 @@ section{
 } */
 @media screen and (max-width:992px) {
   .logo{
-    width: 150px;
+    width: 200px;
   }
   #formatfont{
-    padding: 0px 20px 0px 20px;
+    padding: 0 4% 0 4%;
     font-size: 0.7em;
   }
 }
 @media screen and (max-width:603px){
-  .logo{
+  /* .logo{
     display: none;
-  }
+  } */
   #formatfont{
-    padding: 25% 12% 15% 12%;
+    padding: 5%;
   }
 
 }

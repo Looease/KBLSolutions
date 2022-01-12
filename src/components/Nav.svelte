@@ -1,12 +1,13 @@
 <style>
 header{
 	height: 14vh;
-	background-color: #45A4D9;
+	/* background-color: #45A4D9; */
 }
  	nav{
 		width: 100%;
 		height: 120px;
 		background-color: #F6F7F9;
+		border-bottom: 5px solid #45A4D9;
 	}
 	img {
 		max-width: 220px;
@@ -14,6 +15,12 @@ header{
 		padding: 0px;
 		margin: 0px;
 	}
+	@media screen and (max-width:603px) {
+		img{
+			width:195px;
+			height: auto;			
+		}
+}
 
 </style>
 <header class="section-header">
