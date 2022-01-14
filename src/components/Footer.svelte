@@ -32,7 +32,6 @@
           <h6 class="title">Help</h6>
           <ul class="list-unstyled">
             <li> <a href="mailto:info@kblsolutions.co.uk">Contact us</a></li>
-            <li> <a href="mailto:info@kblsolutions.co.uk">Returns</a></li>
             <li> <a href="mailto:info@kblsolutions.co.uk">Order status</a></li>
           </ul>
         </aside>

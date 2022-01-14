@@ -6,7 +6,6 @@ article{
 }
 h1{
 margin-top: 175px;
-background-color: #FFF;
 width: 250px;
 }
 h1, h6{
