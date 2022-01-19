@@ -4,7 +4,7 @@
 
 </script>
 
-<Nav />
+<!-- <Nav /> -->
 
 <main>
 	<slot></slot>

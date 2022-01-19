@@ -11,15 +11,14 @@ section{
   font-weight: 1000;
 } */
 .logo{
-  /* margin: 50px 0px 0px 0px; */
   padding: 0px;
   width: 300px;
   height: auto;
 }
-#formatfont{
+/* #formatfont{
   font-size:0.8em;
   color: black;
-}
+} */
 
 .about, .contentbox{
   display: flex;
@@ -36,24 +35,24 @@ section{
   .logo{
     width: 200px;
   }
-  #formatfont{
+  /* #formatfont{
     padding: 0 4% 0 4%;
     font-size: 0.7em;
-  }
+  } */
 }
 @media screen and (max-width:603px){
   /* .logo{
     display: none;
   } */
-  #formatfont{
+  /* #formatfont{
     padding: 5%;
-  }
+  } */
 
 }
 </style>
 
  <!-- <div class="section">  -->
-<div class="section " id="section0"> -->
+<!-- <div class="section " id="section0">
   <ul class="about">
     <li class="contentbox">
     <img src="img/logo.png" alt="KBL Solutions Logo" class="logo">
@@ -68,7 +67,7 @@ section{
       <br><br>
       Read more about us <a href="about" class="point">here</a>
       </h4>
-    </li>
+    </li> -->
     
 
     <!-- <li class="arrow">
@@ -77,12 +76,12 @@ section{
     </a>
     </div>
     </li> -->
-  </ul>
+  <!-- </ul>
   <div class="section" id="section20">
     <h1 class="pands" id="gone">Products and Services</h1>
     <Carousel />
   </div> 
-</div>
+</div> -->
     <!-- <div class="section" id="section1">
       <br>
       <br>  <br>
@@ -93,14 +92,14 @@ section{
     
       <div class="section" id="section2">
         <section class="section-name padding-y ">
-          <!-- <ul class="about">
+          <ul class="about">
             <li class="contentbox">
             <img src="img/logo.png" alt="KBL Solutions Logo" class="logo">
               <h1 id="temp">
               Website being updated
               </h1>
             </li>
-          </ul> -->
+          </ul>
            <ul class="formbox">
               <form action="https://formspree.io/mrgljdow" method="POST" class="indexForm">
                 <h1>Contact Us</h1>
