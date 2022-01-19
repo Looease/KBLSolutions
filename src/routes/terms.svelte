@@ -17,18 +17,21 @@ li{
 
 <section>
 <h1>Terms and Conditions </h1>
+
 <ol>
+  <h4>Terms and Conditions: </h4>
+  <br>
   <h4>Delivery and Returns</h4>
     <ol>
     <h4>Delivery Prices Mainland UK</h4>
-    <li>Minimum charge £14.00 Standard 2-3 day service.</li>
-    <li>Minimum charge £18.00 Next day service.</li>
-    <li>Pallets £65.00</li>
+    <li>Minimum charge £18.00 Standard 2-3 day service.</li>
+    <li>Minimum charge £22.00 Next day service.</li>
+    <li>Pallets- quoted on request</li>
     <h4>Delivery Outside Mainland UK / The Highlands</h4>
     <li>Quoted on request.</li>
     <h4>Delivery Prices Ireland and Southern Ireland</h4>
     <li>Minimum charge £24.95 for Single Package.
-    <li> Minimum charge Pallets £80.00.</li>
+    <li>Pallets- quote on request.</li>
     <h4>Loss or Damage in Transit</h4> 
     No liability in respect of Goods lost or damaged in transit will attach to KBL Solutions unless:
     <li> Goods damaged in transit can only be replaced if signed for as ‘Damaged’. All products
