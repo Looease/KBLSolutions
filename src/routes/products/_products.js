@@ -1550,6 +1550,172 @@ const products = [
         price: "25.96 - 145.29",
       },
       {
+        slug: "key-lock-frame",
+        name: "SecurewallSD - Key Lock Frame",
+        teaser:
+          "Our Key Lock Frame range is high specification system which is ideal for outdoor locations.",
+        images: [
+          {
+            alt: "Lockable Poster Cases",
+            src: "/img/sign/lockposter/5.jpg",
+          },
+        ],
+        features: [
+          "45 mm extruded aluminum frame",
+          "Suitable for external use",
+          "Waterproof seal",
+          "2 mm strong plastic glazing",
+          "Can be fixed landscape or portrait",
+        ],
+        description:
+          "Our Key Lock Frame range is high specification system which is ideal for outdoor locations. Featuring a strong aluminium frame, tough plastic poster cover and waterproof seat to protect your printed graphics. These frames are finished in silver anodised aluminium which is highly weather resistant",
+        subprice: [
+          {
+            text: `A4`,
+            productCode: `SECWALLA4SD`,
+            price1to10: `£40.27`,
+            price10: `£37.06`,
+            price100: null,
+          },
+          {
+            text: `A3`,
+            productCode: `SECWALLA3SD`,
+            price1to10: `£50.41`,
+            price10: `£46.40`,
+            price100: null,
+          },
+          {
+            text: `A2`,
+            productCode: `SECWALLA2SD`,
+            price1to10: `£65.56`,
+            price10: ` £60.34`,
+            price100: null,
+          },
+          {
+            text: `A1`,
+            productCode: `SECWALLA1SD`,
+            price1to10: `£89.94`,
+            price10: `£82.77`,
+            price100: null,
+          },
+          {
+            text: `AO`,
+            productCode: `SECWALLA0SD`,
+            price1to10: `£115.03`,
+            price10: `£105.86`,
+            price100: null,
+          },
+          {
+            text: `3040"`,
+            productCode: `SECWALL3040SD`,
+            price1to10: `£127.13`,
+            price10: `£117.00`,
+            price100: null,
+          },
+          {
+            text: `6040`,
+            productCode: `SECWALL6040SD`,
+            price1to10: `£157.93`,
+            price10: `£145.34`,
+            price100: null,
+          },
+        ],
+        specifications: [
+          // {
+          //   label: "Product Code - SECWALLA4PPSL",
+          // },
+          // {
+          //   label: "A2",
+          //   value: "297x210 (mm)",
+          // },
+          // {
+          //   label: "External Size(mm)	",
+          //   value: "367 x 280",
+          // },
+          // {
+          //   label: "Visible Area(mm)",
+          //   value: "277 x 190",
+          // },
+          // {
+          //   label: "Box Size(mm)",
+          //   value: "395 x 295 x 40",
+          // },
+          // {
+          //   label: "Quantity per pallet",
+          //   value: "1680",
+          // },
+          // {
+          //   label: "Product Code - SECWALLA3PPSL",
+          // },
+          // {
+          //   label: "A3",
+          //   value: "420x297 (mm)",
+          // },
+          // {
+          //   label: "External Size(mm)	",
+          //   value: "490 x 367",
+          // },
+          // {
+          //   label: "Visible Area(mm)",
+          //   value: "400 x 277",
+          // },
+          // {
+          //   label: "Box Size(mm)",
+          //   value: "515 x 385 x 40",
+          // },
+          // {
+          //   label: "Quantity per pallet",
+          //   value: "400",
+          // },
+          // {
+          //   label: "Product Code - SECWALLA4PPSL",
+          // },
+          // {
+          //   label: "A4",
+          //   value: "594x420 (mm)",
+          // },
+          // {
+          //   label: "External Size(mm)	",
+          //   value: "664 x 490",
+          // },
+          // {
+          //   label: "Visible Area(mm)",
+          //   value: "574 x 400",
+          // },
+          // {
+          //   label: "Box Size(mm)",
+          //   value: "690 x 505 x 40",
+          // },
+          // {
+          //   label: "Quantity per pallet",
+          //   value: "200",
+          // },
+          // {
+          //   label: "Product Code - SECWALLA1PSL",
+          //   value: "A1",
+          // },
+          // {
+          //   label: "Product Code - SECWALLA0PSL",
+          //   value: "A0",
+          // },
+          // {
+          //   label: "Product Code - SECWALL30403040PSL",
+          //   value: '3040"',
+          // },
+          // {
+          //   label: "Product Code - SECWALL6040PSL",
+          //   value: '6040"',
+          // },
+        ],
+        downloads: [
+          {
+            name: "SecurewallSD - Key Lock Frame",
+            file: "spec/KBLSecureWallSD.pdf",
+          },
+        ],
+        price: "37.06 - £157.93",
+      },
+      {
         slug: "lockable-poster",
         name: "Exterior Poster Case ",
         teaser:
@@ -1827,7 +1993,7 @@ const products = [
           "Silver anodised aluminium leg (50 x 25mm oval)",
         ],
         description: "Acrylic Menu / Info Boards",
-        subprice: ["AMBA4C - 1-10 - £55.45", "10+ - £57.89"],
+        subprice: ["AMBA4C - 1-10 - £59.68", "10+ - £57.89"],
         specifications: [
           {
             label: "Acrylic Menu / Info Board",

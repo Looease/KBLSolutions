@@ -17,7 +17,6 @@
 
 	import { onMount } from 'svelte';
 
-	import Quickquote from '../../components/Quickquote.svelte';
 	import Sidebar from '../../components/Sidebar.svelte';
 
 	/* onMount in Svelte runs after
@@ -36,6 +35,11 @@
 			});
 		});
 	});
+
+	let selected;
+
+	let chosenItem = '';
+
 </script>
 
 <style>
@@ -78,15 +82,41 @@
 		h4, .subprice{
 			margin-left: 5%;
 		}
-
+		li{
+			margin-bottom: 5px;
+		}
+		select{
+        margin: 1% 0 3% 0;
+        width: 100px;
+        height: 35px;
+        border-radius: 4px;
+    	}
+		.priceContainer{
+			width: 50%;
+			display: flex;
+			justify-content: space-between;
+		}
+		@media screen and (max-width:1350px){
+			.priceContainer{
+			width: 65%;
+		}
+	}
+		@media screen and (max-width:1200px){
+			.priceContainer{
+			padding-top: 10px;
+			padding-bottom: 10px;
+			width: 100%;
+			display: flex;
+			flex-direction: column
+		}
+	}
 		@media screen and (max-width:600px){
 			.feature-image{
 			padding-right: 5%;
 			max-width: 95%;
 			height: auto;
 			}
-		}
-
+	}
 
 </style>
 
@@ -138,15 +168,84 @@
 						{/each}
 					</ul>
 				{/if}
+				<h5>Select a size:</h5>
 
-				<span class="price h4">
-					{#if products.price}
+				<form on:submit|preventDefault class="form-">
+					<select bind:value={selected} on:blur="{() => chosenItem = ''}">
+						{#each products.subprice as product}
+							<option value={product}>
+								{product.text}
+								</option>
+							
+						{/each}
+					</select>
+				</form>
+				<div>
+					Price per item:
+					<br><br>
+				<ul class="priceContainer">
+					<ul>
+						<li>1-10 items</li>
+						<li class="price h4">{selected ? selected.price1to10 : '[waiting...]'}</li>
+					</ul>
+					<ul>
+						<li>10+ items:</li>
+						<li class="price h4">{selected ? selected.price10 : '[waiting...]'}</li>
+					</ul>
+					<!-- {#if testers.price100 != null}
+					<ul>
+						<li>100+</li>
+						<li class="price h4">{selected ? selected.price10 : '[waiting...]'}</li>
+					</ul>
+					{/if} -->
+				</ul>
+			</div>
+				<br>
+				<!-- <span class="price h4">
+						{#if products.price}
 							<h2>£{products.price}</h2>
-					{/if}
-				</span>
+						{/if}
+				</span> -->
 
 					<!-- Passing the product name as a 'prop'-->
-					<Quickquote product={products.name} />
+					<section class="padding-bottom">
+						<div class="card card-body">
+						  <h4 class="title py-3">Request a quote</h4>
+						  <form action="https://formspree.io/mrgljdow" method="POST" class="quickQuoteForm">
+							<div class="form-group">
+							  <input class="form-control" name="{products.name}" value="{products.name}" type="text">
+							  <input class="form-control" name="{selected ? products.name && selected.text : '[waiting...]'}" value="{selected ? selected.text : '[waiting...]'}" type="text">
+
+							</div>
+							<div class="form-group">
+							  <div class="input-group">
+								<input class="form-control" placeholder="Quantity" name="Quantity" type="text">
+							  </div>
+							</div>
+							<div class="form-group text-muted">
+							  <label class="form-check form-check-inline">
+								<input class="form-check-input" type="checkbox" value="Request Price" name="Request Price">
+								<div class="form-check-label">Request price</div>
+							  </label>
+							  <label class="form-check form-check-inline">
+								<input class="form-check-input" type="checkbox" value="More info" name="More info">
+								<div class="form-check-label">Request more information</div>
+							  </label>
+							</div>
+							<label>
+							  <input class="form-control" type="text" name="name" placeholder="Your Name">
+							</label>
+							<label>
+							  <input class="form-control" type="email" name="_replyto" placeholder="Your Email address">
+							</label>
+							<div class="form-group">
+							  <input class="btn  btn-primary"  type="submit" value="Send">
+							  <!-- <button class="btn btn-warning">Request for quote</button> -->
+							</div>
+						  </form>
+						</div>
+					  </section>
+
 			</article>
 		</main>
 
