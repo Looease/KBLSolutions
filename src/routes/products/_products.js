@@ -1606,14 +1606,14 @@ const products = [
             price100: null,
           },
           {
-            text: `3040"`,
+            text: `30x40"`,
             productCode: `SECWALL3040SD`,
             price1to10: `£127.13`,
             price10: `£117.00`,
             price100: null,
           },
           {
-            text: `6040`,
+            text: `60x40"`,
             productCode: `SECWALL6040SD`,
             price1to10: `£157.93`,
             price10: `£145.34`,
