@@ -1,7 +1,7 @@
 <script>
-  // This export enables you to pass
-  // props into components
-	export let product;
+	export let productName;
+  export let productSize;
+
 </script>
 
 <section class="padding-bottom">
@@ -9,7 +9,8 @@
     <h4 class="title py-3">Request a quote</h4>
     <form action="https://formspree.io/mrgljdow" method="POST" class="quickQuoteForm">
       <div class="form-group">
-        <input class="form-control" name="{product}" value="{product}" type="text">
+        <input class="form-control" name="{productName}" value="{productName}" type="text">
+        <input class="form-control" name="{productSize}" value="{productSize}" type="text">
       </div>
       <div class="form-group">
         <div class="input-group">

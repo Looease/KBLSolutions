@@ -17,6 +17,7 @@
 
 	import { onMount } from 'svelte';
 
+	import Quickquote from '../../components/Quickquote.svelte'
 	import Sidebar from '../../components/Sidebar.svelte';
 
 	/* onMount in Svelte runs after
@@ -79,9 +80,6 @@
 			max-width: 40px;
 			max-height: 40px;
 		}
-		h4, .subprice{
-			margin-left: 5%;
-		}
 		li{
 			margin-bottom: 5px;
 		}
@@ -92,13 +90,15 @@
         border-radius: 4px;
     	}
 		.priceContainer{
-			width: 50%;
+			width: 60%;
 			display: flex;
 			justify-content: space-between;
+			/* align-items: center; */
 		}
 		@media screen and (max-width:1350px){
 			.priceContainer{
 			width: 65%;
+			/* align-items: flex-start; */
 		}
 	}
 		@media screen and (max-width:1200px){
@@ -143,24 +143,12 @@
     {/if}
 		</div> <!-- img-big-wrap.// -->
 			</article> <!-- gallery-wrap .end// -->
-			<br>
-
-			{#if products.subprice}
-				<h4 class="price">Price</h4>
-				<ul class="subprice">
-					{#each products.subprice as subprice}
-						<li>{subprice}</li>
-					{/each}
-				</ul>
-			{/if}
-	 </aside>
+		</aside>
 	 	<main class="col-sm-6">
 			<article class="content-body">
 
 				<h1 class="title">{products.name}</h1>
 				<p>{products.teaser}</p>
-
-				<!-- Use Svelte to loop over features (only show if present) -->
 				{#if products.features}
 					<ul class="list-check mb-4" >
 						{#each products.features as feature}
@@ -168,8 +156,9 @@
 						{/each}
 					</ul>
 				{/if}
-				<h5>Select a size:</h5>
 
+				{#if products.subprice}
+				<h5>Select an item:</h5>
 				<form on:submit|preventDefault class="form-">
 					<select bind:value={selected} on:blur="{() => chosenItem = ''}">
 						{#each products.subprice as product}
@@ -182,73 +171,49 @@
 				</form>
 				<div>
 					Price per item:
-					<br><br>
+					<br>
 				<ul class="priceContainer">
+					
 					<ul>
-						<li>1-10 items</li>
-						<li class="price h4">{selected ? selected.price1to10 : '[waiting...]'}</li>
+						<li>{selected && selected.quantityOpt1 ? selected.quantityOpt1 + ' items:' : ''}</li>
+						<li class="price h4">{selected ? selected.priceOpt1 : ''}</li>
 					</ul>
+			
 					<ul>
-						<li>10+ items:</li>
-						<li class="price h4">{selected ? selected.price10 : '[waiting...]'}</li>
+						<li>{selected && selected.quantityOpt2 ? selected.quantityOpt2 + ' items:' : ''}</li>
+						<li class="price h4">{selected ? selected.priceOpt2 : ''}</li>
 					</ul>
-					<!-- {#if testers.price100 != null}
+
 					<ul>
-						<li>100+</li>
-						<li class="price h4">{selected ? selected.price10 : '[waiting...]'}</li>
+						<li>{selected && selected.quantityOpt3 ? selected.quantityOpt3 + ' items:' : ''}</li>
+						<li class="price h4">{selected ? selected.priceOpt3 : ''}</li>
 					</ul>
-					{/if} -->
+				
+				
+
+					<!-- <ul>
+						<li>{selected ? selected.quantityOpt3 : ''} items:</li>
+						<li class="price h4">{selected ? selected.priceOpt2 : '[waiting...]'}</li>
+					</ul>				 -->
+	
 				</ul>
 			</div>
 				<br>
-				<!-- <span class="price h4">
+				{:else}
+				<span class="price h4">
 						{#if products.price}
 							<h2>£{products.price}</h2>
+							{:else}
+							<h5>Contact for pricing</h5>
 						{/if}
-				</span> -->
+				</span>
 
-					<!-- Passing the product name as a 'prop'-->
-					<section class="padding-bottom">
-						<div class="card card-body">
-						  <h4 class="title py-3">Request a quote</h4>
-						  <form action="https://formspree.io/mrgljdow" method="POST" class="quickQuoteForm">
-							<div class="form-group">
-							  <input class="form-control" name="{products.name}" value="{products.name}" type="text">
-							  <input class="form-control" name="{selected ? products.name && selected.text : '[waiting...]'}" value="{selected ? selected.text : '[waiting...]'}" type="text">
-
-							</div>
-							<div class="form-group">
-							  <div class="input-group">
-								<input class="form-control" placeholder="Quantity" name="Quantity" type="text">
-							  </div>
-							</div>
-							<div class="form-group text-muted">
-							  <label class="form-check form-check-inline">
-								<input class="form-check-input" type="checkbox" value="Request Price" name="Request Price">
-								<div class="form-check-label">Request price</div>
-							  </label>
-							  <label class="form-check form-check-inline">
-								<input class="form-check-input" type="checkbox" value="More info" name="More info">
-								<div class="form-check-label">Request more information</div>
-							  </label>
-							</div>
-							<label>
-							  <input class="form-control" type="text" name="name" placeholder="Your Name">
-							</label>
-							<label>
-							  <input class="form-control" type="email" name="_replyto" placeholder="Your Email address">
-							</label>
-							<div class="form-group">
-							  <input class="btn  btn-primary"  type="submit" value="Send">
-							  <!-- <button class="btn btn-warning">Request for quote</button> -->
-							</div>
-						  </form>
-						</div>
-					  </section>
+				{/if}
+					<Quickquote productName={products.name} productSize={selected ? products.name && selected.text : ''} />
+			
 
 			</article>
 		</main>
-
 
 
     </div>
@@ -261,11 +226,7 @@
 	        <h3 class="title-description">Description</h3>
 	        <li>{products.description}</li>
 
-
-
-
-	        <!-- Use Svelte to loop over downloads (only show if present) -->
-	        {#if products.downloads}
+			{#if products.downloads}
 	            <ul>
 					<br>
 					<h3>Downloads</h3>
