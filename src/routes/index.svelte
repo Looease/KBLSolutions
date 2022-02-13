@@ -30,6 +30,9 @@
 #section20{
     padding-top: 0px;
   }
+#text-area{
+  width: 100%;
+}
 
 }
 </style>
