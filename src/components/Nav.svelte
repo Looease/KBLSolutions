@@ -97,7 +97,7 @@ header{
 		</button>
 	
 		<div class="collapse navbar-collapse" id="main_nav">
-			<a class="navbar-brand" id="logo" href="/"><img src="img/logo.png" alt="KBL Solutions logo"></a>
+			<a class="navbar-brand" id="logo" onclick="closeNav();" href="/"><img src="img/logo.png" alt="KBL Solutions logo"></a>
 		  <ul class="navbar-nav">
 			  <li class="nav-item">
 				<a class="nav-link" href="about" id="navLink" onclick="closeNav();">About us</a>
