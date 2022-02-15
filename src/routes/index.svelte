@@ -143,24 +143,24 @@
       <form action="https://formspree.io/mrgljdow" method="POST">
           <div class="form-row">
             <div class="col form-group">
-              <label>First name</label>
+              <label for="first name">First name</label>
                 <input name="first-name" type="text" class="form-control" placeholder="">
             </div> <!-- form-group end.// -->
             <div class="col form-group">
-              <label>Last name</label>
+              <label for="last name">Last name</label>
                 <input name="last-name" type="text" class="form-control" placeholder="">
             </div> <!-- form-group end.// -->
           </div> <!-- form-row end.// -->
           <div class="form-group">
-            <label>Email</label>
+            <label for="email">Email</label>
             <input name="email" type="email" class="form-control" placeholder="">
           </div> <!-- form-group end.// -->
           <div class="form-group">
-            <label>Subject </label>
+            <label for="subject">Subject </label>
               <input name="subject" type="text" class="form-control" placeholder="">             
           </div>
           <div class="form-group">
-            <label>Message</label>
+            <label for="message">Message</label>
               <textarea name="message"  id="text-area" placeholder=""></textarea>
           
           </div>

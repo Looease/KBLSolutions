@@ -1892,8 +1892,32 @@ const products = [
           "Easy snap open and closed poster frame system. Extruded aluminium frame with mitred corners. Supplied with an anti glare poster cover and a strong plastic back panel. Finished in 12 different stock finishes this is favoured by retailers, restaurants and the leisure industries.",
         images: [
           {
-            alt: "Silver Snap Frames 32mm",
-            src: "/img/comingsoon.jpg",
+            alt: "Snap Frames 32mm",
+            src: "/img/sign/snap/32.jpg",
+          },
+          {
+            alt: "Blue Snap Frames 32mm",
+            src: "/img/sign/snap/32b.jpg",
+          },
+          {
+            alt: "Green Snap Frames 32mm",
+            src: "/img/sign/snap/32g.jpg",
+          },
+          {
+            alt: "Red Snap Frames 32mm",
+            src: "/img/sign/snap/32r.jpg",
+          },
+          {
+            alt: "Blue Snap Frames 25mm",
+            src: "/img/sign/snap/25b.jpg",
+          },
+          {
+            alt: "Red Snap Frames 25mm",
+            src: "/img/sign/snap/32r.jpg",
+          },
+          {
+            alt: "Green Snap Frames 25mm",
+            src: "/img/sign/snap/25g.jpg",
           },
         ],
         features: [
@@ -2014,7 +2038,15 @@ const products = [
         images: [
           {
             alt: "Snap Frames 32mm Mitred corners",
-            src: "/img/comingsoon.jpg",
+            src: "/img/sign/snap/23oo.jpg",
+          },
+          {
+            alt: "Snap Frames 32mm Mitred corners",
+            src: "/img/sign/snap/32o.jpg",
+          },
+          {
+            alt: "Snap Frames 32mm Mitred corners",
+            src: "/img/sign/snap/32p.jpg",
           },
         ],
         features: [
