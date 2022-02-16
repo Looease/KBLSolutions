@@ -2218,7 +2218,7 @@ const products = [
             text: `30x20"`,
             productCode: `SECLOCK553020`,
             quantityOpt1: `1-9`,
-            priceOpt1: `£140.34`,
+            priceOpt1: `£129.15`,
             quantityOpt2: `10+`,
             priceOpt2: `£140.34`,
             quantityOpt3: "",
