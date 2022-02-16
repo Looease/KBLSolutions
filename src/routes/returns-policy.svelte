@@ -16,7 +16,10 @@
     
     <section>
     <h1>Delivery and Returns</h1>
+    
     <ol>
+    <h4>Terms and Conditions: </h4>
+    <br>
     <h4>Delivery Prices Mainland UK</h4>
     <li>Minimum charge £18.00 Standard 2-3 day service.</li>
     <li>Minimum charge £22.00 Next day service.</li>

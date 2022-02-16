@@ -63,6 +63,11 @@ bottom: -24px;
     <h6>Commercial Project & Supply Chain Controller - Astley</h6>
   </li>
   <li class="bubble bubble-bottom-left" id="five">
+    "KBL are always there to help and on numerous occasions has helped with last minute orders delivered with great speed."
+    <br><br>
+  <h6>Head of Store Design and Development – JD Outdoor </h6>
+  </li>
+  <li class="bubble bubble-bottom-left" id="five">
     "KBL solutions delivered a brilliant service when we needed a very quick turnaround on an order. Great communication, efficient delivery and excellent quality product. Highly recommend Karen, will definitely be using KBL solutions going forward."
   <br><br>
   <h6>Managing Director - Sip It</h6>
