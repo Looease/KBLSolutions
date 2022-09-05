@@ -4,7 +4,7 @@
 
 <style>
 section{
-  min-height: 100vh;
+ padding: 0;
 }
 /* #temp{
   color: #000;
@@ -31,6 +31,10 @@ section{
 .fa-arrow-down{
  color: rgba(255, 255, 255, 0.5);
 } */
+
+#temp{
+  padding-bottom: 10%;
+}
 @media screen and (max-width:992px) {
   .logo{
     width: 200px;
@@ -100,35 +104,48 @@ section{
               </h1>
             </li>
           </ul>
-           <ul class="formbox">
-              <form action="https://formspree.io/mrgljdow" method="POST" class="indexForm">
-                <h1>Contact Us</h1>
-                  <label>
-                    <input type="text" name="name" placeholder="Your Name">
-                  </label>
-                  <label>
-                    <input type="phone" name="number" placeholder="Your Contact Number">
-                  </label>
-                  <label>
-                    <input type="email" name="_replyto" placeholder="Your Email address">
-                  </label>
-                  <br>
-                  <label>
-                    <input type="text" name="subject" placeholder="Subject">      
-                  </label>
-                  <label>
-                    <textarea name="message" placeholder="Message"></textarea>
-                  </label>
-                  <br>  <br>
-                  <input type="submit" value="Send" class="button">
-                </form>
-                <br>
-          </ul> 
-          <h3>Call us:</h3> 
-          <h3><a href="tel:+447894825001">+447894825001</a></h3>
-          <br>
-          <h3>Email us:</h3> 
-          <h3><a href="mailto:sales@kblsolutions.co.uk">sales@kblsolutions.co.uk</a></h3>
-          <h3><a href="mailto:info@kblsolutions.co.uk">info@kblsolutions.co.uk</a></h3>
-        </section>
+        </section>  
+
+
+
+
+
+
+
+          <section class="section-content padding-y-sm" id="temp">
+            <div class="container">
+            <article class="card card-body">
+            <div class="row">
+              <div class="col-md-4">	
+                <figure class="item-feature">
+                  <span class="text-primary"><i class="fa fa-phone"></i></span>	
+                  <figcaption class="pt-3">
+                    <h5 class="title">Call us</h5>
+                    <p><a href="tel:+447894825001">+447894825001</a></p>
+                  </figcaption>
+                </figure> <!-- iconbox // -->
+              </div><!-- col // -->
+              <div class="col-md-4">
+                <figure  class="item-feature">
+                  <span class="text-primary"><i class="fa fa-envelope"></i></span>	
+                  <figcaption class="pt-3">
+                    <h5 class="title">Email us</h5>
+                    <p><a href="mailto:sales@kblsolutions.co.uk">sales@kblsolutions.co.uk</a></p>
+                  </figcaption>
+                </figure> <!-- iconbox // -->
+              </div><!-- col // -->
+                <div class="col-md-4">
+                <figure  class="item-feature">
+                  <span class="text-primary"><i class="fa fa-envelope"></i></span>
+                  <figcaption class="pt-3">
+                    <h5 class="title">Get in touch </h5>
+                    <p><a href="mailto:info@kblsolutions.co.uk">info@kblsolutions.co.uk</a></p>
+                  </figcaption>
+                </figure> <!-- iconbox // -->
+              </div> <!-- col // -->
+            </div>
+            </article>
+            
+            </div> 
+          </section>
       </div>
