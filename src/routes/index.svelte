@@ -15,10 +15,10 @@ section{
   width: 300px;
   height: auto;
 }
-/* #formatfont{
+#formatfont{
   font-size:0.8em;
   color: black;
-} */
+}
 
 .about, .contentbox{
   display: flex;
@@ -39,10 +39,10 @@ section{
   .logo{
     width: 200px;
   }
-  /* #formatfont{
+  #formatfont{
     padding: 0 4% 0 4%;
     font-size: 0.7em;
-  } */
+  }
 }
 @media screen and (max-width:603px){
   /* .logo{
@@ -56,7 +56,7 @@ section{
 </style>
 
  <!-- <div class="section">  -->
-<!-- <div class="section " id="section0">
+<div class="section " id="section0">
   <ul class="about">
     <li class="contentbox">
     <img src="img/logo.png" alt="KBL Solutions Logo" class="logo">
@@ -71,21 +71,53 @@ section{
       <br><br>
       Read more about us <a href="about" class="point">here</a>
       </h4>
-    </li> -->
-    
+    </li> 
 
-    <!-- <li class="arrow">
-    <div class="arrow bounce">
-    <a class="fa fa-arrow-down fa-2x" href="/#section1">
-    </a>
-    </div>
-    </li> -->
-  <!-- </ul>
+    <section class="section-content padding-y-sm">
+      <div class="container">
+      <article class="card card-body">
+      <div class="row">
+        <div class="col-md-4">	
+          <figure class="item-feature">
+            <span class="text-primary"><i class="fa fa-phone"></i></span>	
+            <figcaption class="pt-3">
+              <h5 class="title">Call us</h5>
+              <p><a href="tel:+447894825001">+447894825001</a></p>
+            </figcaption>
+          </figure> <!-- iconbox // -->
+        </div><!-- col // -->
+        <div class="col-md-4">
+          <figure  class="item-feature">
+            <span class="text-primary"><i class="fa fa-envelope"></i></span>	
+            <figcaption class="pt-3">
+              <h5 class="title">Email us</h5>
+              <p><a href="mailto:sales@kblsolutions.co.uk">sales@kblsolutions.co.uk</a></p>
+            </figcaption>
+          </figure> <!-- iconbox // -->
+        </div><!-- col // -->
+          <div class="col-md-4">
+          <figure  class="item-feature">
+            <span class="text-primary"><i class="fa fa-envelope"></i></span>
+            <figcaption class="pt-3">
+              <h5 class="title">Get in touch </h5>
+              <p><a href="mailto:info@kblsolutions.co.uk">info@kblsolutions.co.uk</a></p>
+            </figcaption>
+          </figure> <!-- iconbox // -->
+        </div> <!-- col // -->
+    
+        <br>  <br>
+      </article>
+
+      </div> 
+      </section>  
+  
+  
+  </ul>
   <div class="section" id="section20">
     <h1 class="pands" id="gone">Products and Services</h1>
     <Carousel />
   </div> 
-</div> -->
+</div>
     <!-- <div class="section" id="section1">
       <br>
       <br>  <br>
@@ -94,58 +126,38 @@ section{
     </div> -->
  
     
-      <div class="section" id="section2">
-        <section class="section-name padding-y ">
-          <ul class="about">
-            <li class="contentbox">
-            <img src="img/logo.png" alt="KBL Solutions Logo" class="logo">
-              <h1 id="temp">
-              Website being updated
-              </h1>
-            </li>
-          </ul>
-        </section>  
+    <div class="section" id="section2">
+      <section class="section-name padding-y ">
+      <article class="card-body">
+    <header class="mb-4"><h4 class="card-title">Contact us</h4></header>
+    <form action="https://formspree.io/mrgljdow" method="POST">
+        <div class="form-row">
+          <div class="col form-group">
+            <label for="first name">First name</label>
+              <input name="first-name" type="text" class="form-control" placeholder="">
+          </div> <!-- form-group end.// -->
+          <div class="col form-group">
+            <label for="last name">Last name</label>
+              <input name="last-name" type="text" class="form-control" placeholder="">
+          </div> <!-- form-group end.// -->
+        </div> <!-- form-row end.// -->
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input name="email" type="email" class="form-control" placeholder="">
+        </div> <!-- form-group end.// -->
+        <div class="form-group">
+          <label for="subject">Subject </label>
+            <input name="subject" type="text" class="form-control" placeholder="">             
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+            <textarea name="message"  id="text-area" placeholder=""></textarea>
 
-
-
-
-
-
-
-          <section class="section-content padding-y-sm" id="temp">
-            <div class="container">
-            <article class="card card-body">
-            <div class="row">
-              <div class="col-md-4">	
-                <figure class="item-feature">
-                  <span class="text-primary"><i class="fa fa-phone"></i></span>	
-                  <figcaption class="pt-3">
-                    <h5 class="title">Call us</h5>
-                    <p><a href="tel:+447894825001">+447894825001</a></p>
-                  </figcaption>
-                </figure> <!-- iconbox // -->
-              </div><!-- col // -->
-              <div class="col-md-4">
-                <figure  class="item-feature">
-                  <span class="text-primary"><i class="fa fa-envelope"></i></span>	
-                  <figcaption class="pt-3">
-                    <h5 class="title">Email us</h5>
-                    <p><a href="mailto:sales@kblsolutions.co.uk">sales@kblsolutions.co.uk</a></p>
-                  </figcaption>
-                </figure> <!-- iconbox // -->
-              </div><!-- col // -->
-                <div class="col-md-4">
-                <figure  class="item-feature">
-                  <span class="text-primary"><i class="fa fa-envelope"></i></span>
-                  <figcaption class="pt-3">
-                    <h5 class="title">Get in touch </h5>
-                    <p><a href="mailto:info@kblsolutions.co.uk">info@kblsolutions.co.uk</a></p>
-                  </figcaption>
-                </figure> <!-- iconbox // -->
-              </div> <!-- col // -->
-            </div>
-            </article>
-            
-            </div> 
-          </section>
-      </div>
+        </div>
+          <div class="form-group">                  
+                  <input type="submit" value="Send" class="btn btn-primary btn-block">
+                </div> <!-- form-group// -->             
+      </form>
+    </article><!-- card-body.// -->
+     </section>
+    </div> 
