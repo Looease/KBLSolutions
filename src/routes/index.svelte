@@ -6,6 +6,10 @@
 section{
  padding: 0;
 }
+
+#section1{
+  widows: 100%;
+}
 /* #temp{
   color: #000;
   font-weight: 1000;
@@ -43,15 +47,18 @@ section{
     padding: 0 4% 0 4%;
     font-size: 0.7em;
   }
+
 }
 @media screen and (max-width:603px){
-  /* .logo{
+  .logo{
     display: none;
-  } */
-  /* #formatfont{
+  } 
+   #formatfont{
     padding: 5%;
-  } */
-
+  }
+  #section1{
+  widows: 50%;
+}
 }
 </style>
 
@@ -73,7 +80,7 @@ section{
       </h4>
     </li> 
 
-    <section class="section-content padding-y-sm">
+    <section class="section-content padding-y-sm" id="section1">
       <div class="container">
       <article class="card card-body">
       <div class="row">
@@ -118,12 +125,7 @@ section{
     <Carousel />
   </div> 
 </div>
-    <!-- <div class="section" id="section1">
-      <br>
-      <br>  <br>
 
-    
-    </div> -->
  
     
     <div class="section" id="section2">
