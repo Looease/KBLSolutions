@@ -4,7 +4,7 @@ const products = [
     name: "Forecourt/Pavement Signs",
     teaser: "",
     images: [
-      {
+      { 
         alt: "Forecourt and Pavement Signs",
         src: "img/sign/forecourt/26.jpg",
       },
@@ -406,7 +406,7 @@ const products = [
             quantityOpt1: `1-9`,
             priceOpt1: `£214.26`,
             quantityOpt2: `10+`,
-            priceOpt2: `££199.97`,
+            priceOpt2: `£199.97`,
             quantityOpt3: "",
             priceOpt3: "",
           },
@@ -442,7 +442,7 @@ const products = [
             file: "spec/forecourtecomasterspec.docx",
           },
         ],
-        price: "£199.97 - £214.26",
+        price: "199.97 - £214.26",
       },
       {
         slug: "ecomaster-pavement-sign-6040",
@@ -502,7 +502,7 @@ const products = [
             file: "spec/forecourtecomasterspec.docx",
           },
         ],
-        price: "£309.76 - £331.89",
+        price: "309.76 - £331.89",
       },
       {
         slug: "eseries-forecourt-sign-A1",
