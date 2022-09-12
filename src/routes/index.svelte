@@ -29,16 +29,14 @@ section{
   flex-direction: column;
   align-items: center;
 }
-/* .arrow{
-  list-style: none;
-}
-.fa-arrow-down{
- color: rgba(255, 255, 255, 0.5);
-} */
 
-#temp{
-  padding-bottom: 10%;
+.form-container{
+  padding-left: 25%;
+  padding-right: 25%;
+
 }
+
+
 @media screen and (max-width:992px) {
   .logo{
     width: 200px;
@@ -79,7 +77,9 @@ section{
       Read more about us <a href="about" class="point">here</a>
       </h4>
     </li> 
-
+</ul>
+</div>
+<div class="section">
     <section class="section-content padding-y-sm" id="section1">
       <div class="container">
       <article class="card card-body">
@@ -91,8 +91,8 @@ section{
               <h5 class="title">Call us</h5>
               <p><a href="tel:+447894825001">+447894825001</a></p>
             </figcaption>
-          </figure> <!-- iconbox // -->
-        </div><!-- col // -->
+          </figure> 
+        </div>
         <div class="col-md-4">
           <figure  class="item-feature">
             <span class="text-primary"><i class="fa fa-envelope"></i></span>	
@@ -117,49 +117,44 @@ section{
 
       </div> 
       </section>  
+  </div>
   
-  
-  </ul>
   <div class="section" id="section20">
     <h1 class="pands" id="gone">Products and Services</h1>
     <Carousel />
   </div> 
+<div class="form-container">
+<div class="card mb-4">
+  <div class="card-body">
+    <header class="mb-4"><h4 class="card-title">Contact us</h4></header>
+    <form action="https://formspree.io/mrgljdow" method="POST">
+      <div class="col form-group">
+      <label for="first name">First name</label>
+        <input name="first-name" type="text" class="form-control" placeholder="">
+    </div>
+    <div class="col form-group">
+      <label for="last name">Last name</label>
+        <input name="last-name" type="text" class="form-control" placeholder="">
+    </div>
+<div class="form-group">
+  <label for="email">Email</label>
+  <input type="text" name="email" class="form-control" placeholder="">
+</div> 
+<div class="form-group">
+  <label for="subject">Subject </label>
+  <input name="subject" type="text" class="form-control" placeholder="">
+</div>
+<div class="form-group">
+  <label for="message">Message</label>
+  <textarea name="message"  class="form-control" rows="3"></textarea>
+</div>
+<div class="form-group">
+<button  class="btn btn-primary btn-block">Send</button>
+  </form>
+  </div> 
+</div> 
 </div>
 
  
     
-    <div class="section" id="section2">
-      <section class="section-name padding-y ">
-      <article class="card-body">
-    <header class="mb-4"><h4 class="card-title">Contact us</h4></header>
-    <form action="https://formspree.io/mrgljdow" method="POST">
-        <div class="form-row">
-          <div class="col form-group">
-            <label for="first name">First name</label>
-              <input name="first-name" type="text" class="form-control" placeholder="">
-          </div> <!-- form-group end.// -->
-          <div class="col form-group">
-            <label for="last name">Last name</label>
-              <input name="last-name" type="text" class="form-control" placeholder="">
-          </div> <!-- form-group end.// -->
-        </div> <!-- form-row end.// -->
-        <div class="form-group">
-          <label for="email">Email</label>
-          <input name="email" type="email" class="form-control" placeholder="">
-        </div> <!-- form-group end.// -->
-        <div class="form-group">
-          <label for="subject">Subject </label>
-            <input name="subject" type="text" class="form-control" placeholder="">             
-        </div>
-        <div class="form-group">
-          <label for="message">Message</label>
-            <textarea name="message"  id="text-area" placeholder=""></textarea>
-
-        </div>
-          <div class="form-group">                  
-                  <input type="submit" value="Send" class="btn btn-primary btn-block">
-                </div> <!-- form-group// -->             
-      </form>
-    </article><!-- card-body.// -->
-     </section>
-    </div> 
+   
