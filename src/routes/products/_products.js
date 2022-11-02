@@ -802,78 +802,77 @@ const products = [
         ],
         price: "53.50",
       },
-      // {
-      //   slug: "swinger-two-swing-sign-poster",
-      //   name: "Swinger 2 Swing Sign - Poser - Unprinted A2",
-      //   teaser: "Poster pocket.",
-      //   // features: [
-      //   //   "Gloss white aluminium panel (500 x 750mm) – ideal for direct to surface print or vinyl graphics.",
-      //   //   "Alternative top opening polycarbonate double sided A2 poster pocket with magnetic seals.",
-      //   //   "Poster pocket designed with header area for permanent branding - ideal for either direct to surface print or vinyl graphics.",
-      //   //   "Stylish steel tube frame (32mm diameter) – available in black or white from stock.",
-      //   //   "Clip-on Tactical Headers also available, giving extra promotional space at minimal cost.",
-      //   // ],
-      //   description:
-      //     "Gloss white aluminium panel (500 x 750mm) – ideal for direct to surface print or vinyl graphics. Alternative top opening polycarbonate double sided A2 poster pocket with magnetic seals. Poster pocket designed with header area for permanent branding - ideal for either direct to surface print or vinyl graphics. Stylish steel tube frame (32mm diameter) – available in black or white from stock. Frames available in any RAL colour (minimum order quantity 25). Patented D-Flex panel hangers make panel fitting quick and easy. Solid black recycled PVC base provides excellent stability. Clip-on Tactical Headers also available, giving extra promotional space at minimal cost.",
-      //   subprice: [
-      //     {
-      //       text: `White - Unprinted`,
-      //       productCode: `SWINGER 2 SWING SIGN (solid blach pvc)`,
-      //       quantityOpt1: `1-9`,
-      //       priceOpt1: `£62.75`,
-      //       quantityOpt2: "",
-      //       priceOpt2: "",
-      //       quantityOpt3: "",
-      //       priceOpt3: "",
-      //     },
-      //     {
-      //       text: `Black - Unprinted`,
-      //       productCode: `SWINGER 2 SWING SIGN (solid blach pvc)`,
-      //       quantityOpt1: `1-9`,
-      //       priceOpt1: `£62.75`,
-      //       quantityOpt2: "",
-      //       priceOpt2: "",
-      //       quantityOpt3: "",
-      //       priceOpt3: "",
-      //     },
-      //   ],
-      //   specifications: [
-      //     {
-      //       label: "Swinger Swing Sign Panel(solid black PVC base) - Unprinted",
-      //     },
-      //     {
-      //       label: "Colour",
-      //       value: " SSSPNL500750WHT (White)/SSSPNL500750BLK (Black)",
-      //     },
-      //     {
-      //       label: "Display Area(mm)	",
-      //       value: "500 x 750",
-      //     },
-      //     {
-      //       label:
-      //         "Swinger Swing Sign Poster(solid black PVC base)With top-opening poster pocket - Unprinted",
-      //     },
-      //     {
-      //       label: "Colour",
-      //       value: "Colour - SSSPSRA2WHT(White)/ SSSPSRA2BLK (Black)",
-      //     },
-      //     {
-      //       label: "Display Area(mm)	",
-      //       value: "A2",
-      //     },
-      //   ],
-      //   downloads: [
-      //     {
-      //       name: "Swinger 2 Specification",
-      //       file: "spec/swingsign2specification.pdf",
-      //     },
-      //     {
-      //       name: "Swinger 2 Showboard",
-      //       file: "spec/swingsign2.pdf",
-      //     },
-      //   ],
-      //   price: "62.75",
-      // },
+      {
+        slug: "swinger-two-swing-sign-poster",
+        name: "Swinger 2 Swing Sign - Poster - Unprinted A2",
+        teaser: "Poster pocket.",
+        images: [
+          {
+            alt: "Swinger Swing Sign - unprinted",
+            src: "/img/sign/forecourt/23.jpg",
+          },
+        ],
+        features: [""],
+        description: "",
+        subprice: [
+          {
+            text: `White - Unprinted`,
+            productCode: `SSSPSRA2WHT`,
+            quantityOpt1: `1-9`,
+            priceOpt1: `£62.75`,
+            quantityOpt2: "",
+            priceOpt2: "",
+            quantityOpt3: "",
+            priceOpt3: "",
+          },
+          {
+            text: `Black - Unprinted`,
+            productCode: `SSSPSRA2BLK`,
+            quantityOpt1: `1-9`,
+            priceOpt1: `£62.75`,
+            quantityOpt2: "",
+            priceOpt2: "",
+            quantityOpt3: "",
+            priceOpt3: "",
+          },
+        ],
+        specifications: [
+          {
+            label: "Swinger Swing Sign Panel(solid black PVC base) - Unprinted",
+          },
+          {
+            label: "Colour",
+            value: " SSSPNL500750WHT (White)/SSSPNL500750BLK (Black)",
+          },
+          {
+            label: "Display Area(mm)	",
+            value: "500 x 750",
+          },
+          {
+            label:
+              "Swinger Swing Sign Poster(solid black PVC base)With top-opening poster pocket - Unprinted",
+          },
+          {
+            label: "Colour",
+            value: "Colour - SSSPSRA2WHT(White)/ SSSPSRA2BLK (Black)",
+          },
+          {
+            label: "Display Area(mm)	",
+            value: "A2",
+          },
+        ],
+        downloads: [
+          {
+            name: "Swinger 2 Specification",
+            file: "spec/swingsign2specification.pdf",
+          },
+          {
+            name: "Swinger 2 Showboard",
+            file: "spec/swingsign2.pdf",
+          },
+        ],
+        price: "62.75",
+      },
       {
         slug: "swinger-3-swing-sign-panel",
         name: "Swinger 3 Swing Sign Panel (water fillable polyethylene base) Unprinted",
