@@ -698,7 +698,7 @@ const products = [
       },
       {
         slug: "swinger-swinger-swing",
-        name: "Swinger 2 Swing Sign - Panel - Unprinted 500 x 750xm",
+        name: "Swinger 2 Swing Sign Panel - Unprinted 500 x 750cm",
         teaser: "Our top selling Swinger model. Contact us for print prices.",
         images: [
           {
@@ -709,20 +709,10 @@ const products = [
             alt: "Swinger Swing Sign Poster -Top-opening poster pocket unprinted.",
             src: "/img/sign/forecourt/22.jpg",
           },
-          // {
-          //   alt: "Swinger 2",
-          //   src: "spec/EconomySwingerSign.png",
-          // },
         ],
-        features: [
-          "Gloss white aluminium panel (500 x 750mm) – ideal for direct to surface print or vinyl graphics.",
-          "Alternative top opening polycarbonate double sided A2 poster pocket with magnetic seals.",
-          "Poster pocket designed with header area for permanent branding - ideal for either direct to surface print or vinyl graphics.",
-          "Stylish steel tube frame (32mm diameter) – available in black or white from stock.",
-          "Clip-on Tactical Headers also available, giving extra promotional space at minimal cost.",
-        ],
+        features: ["Contact for print pricing"],
         description:
-          "Gloss white aluminium panel (500 x 750mm) – ideal for direct to surface print or vinyl graphics. Alternative top opening polycarbonate double sided A2 poster pocket with magnetic seals. Poster pocket designed with header area for permanent branding - ideal for either direct to surface print or vinyl graphics. Stylish steel tube frame (32mm diameter) – available in black or white from stock. Frames available in any RAL colour (minimum order quantity 25). Patented D-Flex panel hangers make panel fitting quick and easy. Solid black recycled PVC base provides excellent stability. Clip-on Tactical Headers also available, giving extra promotional space at minimal cost.",
+          "Gloss aluminium panel (500 x 750mm) – ideal for direct to surface print or vinyl graphics. Alternative top opening polycarbonate double sided A2 poster pocket with magnetic seals. Poster pocket designed with header area for permanent branding - ideal for either direct to surface print or vinyl graphics. Stylish steel tube frame (32mm diameter) – available in black or white from stock. Solid black recycled PVC base provides excellent stability.",
         subprice: [
           // {
           //   text: `White - with poster `,
@@ -970,7 +960,7 @@ const products = [
             file: "spec/ecoswingerinstructions.pdf",
           },
         ],
-        price: "101.50 - £117.50",
+        price: "101.50",
       },
       {
         slug: "swinger-3-swing-sign-panel-poster",
@@ -987,7 +977,7 @@ const products = [
           },
         ],
         features: [
-          "Gloss white aluminium panel (500 x 750mm) – ideal for direct to surface print or vinyl graphics.",
+          "Gloss aluminium panel (20 x 30) – ideal for direct to surface print or vinyl graphics.",
           "Alternative top opening polycarbonate double sided A2 poster pocket with magnetic seals.",
           "Poster pocket designed with header area for permanent branding - ideal for either direct to surface print or vinyl graphics.",
           "Stylish steel tube frame (32mm diameter) – available in black or white from stock.",
@@ -1072,12 +1062,12 @@ const products = [
         price: "117.50",
       },
       {
-        slug: "economy-swing-swing",
-        name: "Economy Swing Sign-Panel / Poster",
+        slug: "economy-swing-swing-panel",
+        name: "Economy Swing Sign Panel",
         teaser: "The smallest Swinger in the range",
         images: [
           {
-            alt: "Economy Swing Sign - Poster - Contact us for print prices",
+            alt: "Economy Swing Sign",
             src: "/img/sign/forecourt/24.jpg",
           },
           {
@@ -1114,6 +1104,51 @@ const products = [
             quantityOpt3: "",
             priceOpt3: "",
           },
+        ],
+        specifications: [
+          {
+            label: "Economy Swing Sign Panel(solid black PVC base) Unprinted",
+          },
+          {
+            label: "Colour",
+            value: "ECOSSPNL430625WHT(White)/ECOSSPNL430625BLK (Black)",
+          },
+          {
+            label: "Display Area(mm)",
+            value: "430 x 625",
+          },
+        ],
+        downloads: [
+          {
+            name: "Economy Swing Sign Instructions",
+            file: "spec/ecoswingerinstructions.pdf",
+          },
+        ],
+        price: "44.50",
+      },
+      {
+        slug: "economy-swing-swing-poster",
+        name: "Economy Swing Sign Poster",
+        teaser: "The smallest Swinger in the range",
+        images: [
+          {
+            alt: "Economy Swing Sign - Poster - Contact us for print prices",
+            src: "/img/sign/forecourt/24.jpg",
+          },
+          {
+            alt: "Economy Swing Sign Poster - Unprinted",
+            src: "/img/sign/forecourt/25.jpg",
+          },
+        ],
+        features: [
+          "Gloss white aluminium panel (A3) – ideal for direct to surface print or vinyl graphics.",
+          "Stylish 32mm round steel tube frame – available in black or white from stock.",
+          "Patented D-Flex panel hangers make panel fitting quick and easy.",
+          "Clip-on Tactical Headers also available, giving extra promotional space at minimal cost.",
+        ],
+        description:
+          "Gloss white aluminium panel (430 x 625mm) – ideal for direct to surface print or vinyl graphics. Alternative top opening polycarbonate double sided A3 poster pocket with magnetic seals. Poster pocket designed with header area for permanent branding - ideal for either direct to surface print or vinyl graphics. Stylish 32mm round steel tube frame – available in black or white from stock. Frames available in any RAL colour (minimum order quantity 25). Patented D-Flex panel hangers make panel fitting quick and easy. Solid black recycled PVC base provides excellent stability. Clip-on Tactical Headers also available, giving extra promotional space at minimal cost.",
+        subprice: [
           {
             text: `White A3`,
             productCode: `ECOSSPSTA3WHT`,
@@ -1141,17 +1176,6 @@ const products = [
           },
           {
             label: "Colour",
-            value: "ECOSSPNL430625WHT(White)/ECOSSPNL430625BLK (Black)",
-          },
-          {
-            label: "Display Area(mm)",
-            value: "430 x 625",
-          },
-          {
-            label: "Economy Swing Sign Panel(solid black PVC base) Unprinted",
-          },
-          {
-            label: "Colour",
             value: "ECOSSPSTA3WHT(White)/ECOSSPSTA3BLK (Black)",
           },
           {
@@ -1165,7 +1189,7 @@ const products = [
             file: "spec/ecoswingerinstructions.pdf",
           },
         ],
-        price: "44.50 - £62.95",
+        price: "62.95",
       },
     ],
   },
@@ -2256,6 +2280,115 @@ const products = [
           },
         ],
         price: "81.05 - £255.63",
+      },
+      {
+        slug: "secure-wall-lpc",
+        name: "SecureWall LPC",
+        teaser:
+          "Tough locable aluminum profiles with a front that opnes to 90° for easy poster change.",
+        images: [
+          {
+            alt: "SecureWall LPC",
+            src: "/img/sign/lockposter/7.jpg",
+          },
+          {
+            alt: "SecureWall LPC",
+            src: "/img/sign/lockposter/6.jpg",
+          },
+        ],
+        features: [
+          "45 mm extruded aluminum frame",
+          "Suitable for external use",
+          "Waterproof seal",
+          "2 mm strong plastic glazing",
+          "Can be fixed landscape or portrait",
+        ],
+        description:
+          "Each frame comes with screws and fixings and can be mounted portrait or landscape thanks to locking stays.",
+        subprice: [
+          {
+            text: `A3`,
+            productCode: `SECWALLA4LPSL`,
+            quantityOpt1: `1-0`,
+            priceOpt1: `£30.59`,
+            quantityOpt2: `50+`,
+            priceOpt2: `£29.74`,
+            quantityOpt3: "",
+            priceOpt3: "",
+          },
+          {
+            text: `A3`,
+            productCode: `SECWALLA3LPSL`,
+            quantityOpt1: `1-10`,
+            priceOpt1: `£39.57`,
+            quantityOpt2: `50+`,
+            priceOpt2: `£38.47`,
+            quantityOpt3: "",
+            priceOpt3: "",
+          },
+          {
+            text: `A2`,
+            productCode: `SECWALLA2LPSL`,
+            quantityOpt1: `1-24`,
+            priceOpt1: `£54.51`,
+            quantityOpt2: `50+`,
+            priceOpt2: `£53`,
+            quantityOpt3: "",
+            priceOpt3: "",
+          },
+          {
+            text: `A1`,
+            productCode: `SECWALLA1LPSL`,
+            quantityOpt1: `1-10`,
+            priceOpt1: `£86.66`,
+            quantityOpt2: `25+`,
+            priceOpt2: `£82.31`,
+            quantityOpt3: "",
+            priceOpt3: "",
+          },
+          {
+            text: `AO`,
+            productCode: `SECWALLA0LPSL`,
+            quantityOpt1: `1-24`,
+            priceOpt1: `£129.17`,
+            quantityOpt2: `25+`,
+            priceOpt2: `£125.58`,
+            quantityOpt3: "",
+            priceOpt3: "",
+          },
+          {
+            text: `30x40"`,
+            productCode: `SECWALL3040LPSL`,
+            quantityOpt1: `1-24`,
+            priceOpt1: `£111.27`,
+            quantityOpt2: `25+`,
+            priceOpt2: `£108.18`,
+            quantityOpt3: "",
+            priceOpt3: "",
+          },
+          {
+            text: `60x40"`,
+            productCode: `SECWALL6040LPSL`,
+            quantityOpt1: `1-24`,
+            priceOpt1: `£160.76`,
+            quantityOpt2: `25+`,
+            priceOpt2: `£155.75`,
+            quantityOpt3: "",
+            priceOpt3: "",
+          },
+        ],
+        specifications: [
+          {
+            label: "See PDF - SecureWall LPC Product Spec",
+          },
+        ],
+        downloads: [
+          {
+            name: "Securewall LPC",
+            file: "spec/SecureWallLPCProductSpecifiation.pdf",
+          },
+        ],
+        price: "29.74 - £160.76",
       },
       {
         slug: "key-lock-frame",
