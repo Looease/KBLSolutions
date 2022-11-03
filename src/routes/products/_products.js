@@ -799,7 +799,7 @@ const products = [
         images: [
           {
             alt: "Swinger Swing Sign - unprinted",
-            src: "/img/sign/forecourt/23.jpg",
+            src: "/img/sign/forecourt/SwingerPoster.jpg",
           },
         ],
         features: [""],
@@ -964,16 +964,12 @@ const products = [
       },
       {
         slug: "swinger-3-swing-sign-panel-poster",
-        name: "Swinger 3 Swing Sign Panel with Poster(water fillable polyethylene base) Unprinted",
+        name: "Swinger 3 Swing Sign Panel with Poster (water fillable polyethylene base) Unprinted",
         teaser: "Our top selling Swinger model. Contact us for print prices",
         images: [
           {
             alt: "Swinger 3",
-            src: "img/sign/forecourt/2930.jpg",
-          },
-          {
-            alt: "Swinger 3",
-            src: "img/sign/forecourt/28.jpg",
+            src: "img/sign/forecourt/Swinger3Poster.jpg",
           },
         ],
         features: [
@@ -1068,11 +1064,7 @@ const products = [
         images: [
           {
             alt: "Economy Swing Sign",
-            src: "/img/sign/forecourt/24.jpg",
-          },
-          {
-            alt: "Economy Swing Sign Poster - Unprinted",
-            src: "/img/sign/forecourt/25.jpg",
+            src: "/img/sign/forecourt/EcoSwingerPanel.jpg",
           },
         ],
         features: [
@@ -1134,10 +1126,6 @@ const products = [
           {
             alt: "Economy Swing Sign - Poster - Contact us for print prices",
             src: "/img/sign/forecourt/24.jpg",
-          },
-          {
-            alt: "Economy Swing Sign Poster - Unprinted",
-            src: "/img/sign/forecourt/25.jpg",
           },
         ],
         features: [
