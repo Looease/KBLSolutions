@@ -4,7 +4,7 @@ const products = [
     name: "Forecourt/Pavement Signs",
     teaser: "",
     images: [
-      { 
+      {
         alt: "Forecourt and Pavement Signs",
         src: "img/sign/forecourt/26.jpg",
       },
@@ -529,9 +529,9 @@ const products = [
             text: `A1`,
             productCode: `EWMA1SLA1`,
             quantityOpt1: `1-9`,
-            priceOpt1: `£114.14`,
+            priceOpt1: `£119.89`,
             quantityOpt2: `10+`,
-            priceOpt2: `£110.73`,
+            priceOpt2: `£114.89`,
             quantityOpt3: "",
             priceOpt3: "",
           },
@@ -567,7 +567,7 @@ const products = [
             file: "spec/forecourteseries.jpg.pdf",
           },
         ],
-        price: "110.73 - £114.14",
+        price: "114.89 - £119.89",
       },
       {
         slug: "eseries-forecourt-sign-A0",
@@ -594,9 +594,9 @@ const products = [
             text: `A0`,
             productCode: `EWMA1SLA0`,
             quantityOpt1: `1-9`,
-            priceOpt1: `£168.03`,
+            priceOpt1: `£172.04`,
             quantityOpt2: `10+`,
-            priceOpt2: `£163.01`,
+            priceOpt2: `£168.00`,
             quantityOpt3: "",
             priceOpt3: "",
           },
@@ -632,7 +632,7 @@ const products = [
             file: "spec/forecourteseries.jpg.pdf",
           },
         ],
-        price: "163.01 - £168.03",
+        price: "168.00 - £172.04",
       },
       {
         slug: "eseries-forecourt-sign-4030",
@@ -659,9 +659,9 @@ const products = [
             text: `40x30"`,
             productCode: `EWMA1SL4030`,
             quantityOpt1: `1-9`,
-            priceOpt1: `£150.70`,
+            priceOpt1: `£155.49`,
             quantityOpt2: `10+`,
-            priceOpt2: `£146.20`,
+            priceOpt2: `£148.49`,
             quantityOpt3: "",
             priceOpt3: "",
           },
@@ -694,11 +694,11 @@ const products = [
             file: "spec/forecourteseries.jpg.pdf",
           },
         ],
-        price: "146.20 - £150.70",
+        price: "148.49 - £155.49",
       },
       {
         slug: "swinger-swinger-swing",
-        name: "Swinger 2 Swing Sign - Panel/ Poster",
+        name: "Swinger 2 Swing Sign Panel - Unprinted 500 x 750cm",
         teaser: "Our top selling Swinger model. Contact us for print prices.",
         images: [
           {
@@ -709,41 +709,31 @@ const products = [
             alt: "Swinger Swing Sign Poster -Top-opening poster pocket unprinted.",
             src: "/img/sign/forecourt/22.jpg",
           },
-          {
-            alt: "Swinger 2",
-            src: "spec/EconomySwingerSign.png",
-          },
         ],
-        features: [
-          "Gloss white aluminium panel (500 x 750mm) – ideal for direct to surface print or vinyl graphics.",
-          "Alternative top opening polycarbonate double sided A2 poster pocket with magnetic seals.",
-          "Poster pocket designed with header area for permanent branding - ideal for either direct to surface print or vinyl graphics.",
-          "Stylish steel tube frame (32mm diameter) – available in black or white from stock.",
-          "Clip-on Tactical Headers also available, giving extra promotional space at minimal cost.",
-        ],
+        features: ["Contact for print pricing"],
         description:
-          "Gloss white aluminium panel (500 x 750mm) – ideal for direct to surface print or vinyl graphics. Alternative top opening polycarbonate double sided A2 poster pocket with magnetic seals. Poster pocket designed with header area for permanent branding - ideal for either direct to surface print or vinyl graphics. Stylish steel tube frame (32mm diameter) – available in black or white from stock. Frames available in any RAL colour (minimum order quantity 25). Patented D-Flex panel hangers make panel fitting quick and easy. Solid black recycled PVC base provides excellent stability. Clip-on Tactical Headers also available, giving extra promotional space at minimal cost.",
+          "Gloss aluminium panel (500 x 750mm) – ideal for direct to surface print or vinyl graphics. Alternative top opening polycarbonate double sided A2 poster pocket with magnetic seals. Poster pocket designed with header area for permanent branding - ideal for either direct to surface print or vinyl graphics. Stylish steel tube frame (32mm diameter) – available in black or white from stock. Solid black recycled PVC base provides excellent stability.",
         subprice: [
-          {
-            text: `White - with poster `,
-            productCode: `SSSPSRA2WHT`,
-            quantityOpt1: `1-9`,
-            priceOpt1: `£62.75`,
-            quantityOpt2: "",
-            priceOpt2: "",
-            quantityOpt3: "",
-            priceOpt3: "",
-          },
-          {
-            text: `Black - with poster`,
-            productCode: `SSSPSRA2BLK`,
-            quantityOpt1: `1-9`,
-            priceOpt1: `£62.75`,
-            quantityOpt2: "",
-            priceOpt2: "",
-            quantityOpt3: "",
-            priceOpt3: "",
-          },
+          // {
+          //   text: `White - with poster `,
+          //   productCode: `SSSPSRA2WHT`,
+          //   quantityOpt1: `1-9`,
+          //   priceOpt1: `£62.75`,
+          //   quantityOpt2: "",
+          //   priceOpt2: "",
+          //   quantityOpt3: "",
+          //   priceOpt3: "",
+          // },
+          // {
+          //   text: `Black - with poster`,
+          //   productCode: `SSSPSRA2BLK`,
+          //   quantityOpt1: `1-9`,
+          //   priceOpt1: `£62.75`,
+          //   quantityOpt2: "",
+          //   priceOpt2: "",
+          //   quantityOpt3: "",
+          //   priceOpt3: "",
+          // },
           {
             text: `White - Unprinted`,
             productCode: `SSSPNL500750WHT`,
@@ -800,11 +790,82 @@ const products = [
             file: "spec/swingsign2.pdf",
           },
         ],
-        price: "53.50 - £62.75",
+        price: "53.50",
       },
       {
-        slug: "swinger-3000",
-        name: "Swinger 3000",
+        slug: "swinger-two-swing-sign-poster",
+        name: "Swinger 2 Swing Sign - Poster - Unprinted A2",
+        teaser: "Poster pocket.",
+        images: [
+          {
+            alt: "Swinger Swing Sign - unprinted",
+            src: "/img/sign/forecourt/SwingerPoster.jpg",
+          },
+        ],
+        features: [""],
+        description: "",
+        subprice: [
+          {
+            text: `White - Unprinted`,
+            productCode: `SSSPSRA2WHT`,
+            quantityOpt1: `1-9`,
+            priceOpt1: `£62.75`,
+            quantityOpt2: "",
+            priceOpt2: "",
+            quantityOpt3: "",
+            priceOpt3: "",
+          },
+          {
+            text: `Black - Unprinted`,
+            productCode: `SSSPSRA2BLK`,
+            quantityOpt1: `1-9`,
+            priceOpt1: `£62.75`,
+            quantityOpt2: "",
+            priceOpt2: "",
+            quantityOpt3: "",
+            priceOpt3: "",
+          },
+        ],
+        specifications: [
+          {
+            label: "Swinger Swing Sign Panel(solid black PVC base) - Unprinted",
+          },
+          {
+            label: "Colour",
+            value: " SSSPNL500750WHT (White)/SSSPNL500750BLK (Black)",
+          },
+          {
+            label: "Display Area(mm)	",
+            value: "500 x 750",
+          },
+          {
+            label:
+              "Swinger Swing Sign Poster(solid black PVC base)With top-opening poster pocket - Unprinted",
+          },
+          {
+            label: "Colour",
+            value: "Colour - SSSPSRA2WHT(White)/ SSSPSRA2BLK (Black)",
+          },
+          {
+            label: "Display Area(mm)	",
+            value: "A2",
+          },
+        ],
+        downloads: [
+          {
+            name: "Swinger 2 Specification",
+            file: "spec/swingsign2specification.pdf",
+          },
+          {
+            name: "Swinger 2 Showboard",
+            file: "spec/swingsign2.pdf",
+          },
+        ],
+        price: "62.75",
+      },
+      {
+        slug: "swinger-3-swing-sign-panel",
+        name: "Swinger 3 Swing Sign Panel (water fillable polyethylene base) Unprinted",
         teaser: "Our top selling Swinger model. Contact us for print prices",
         images: [
           {
@@ -822,9 +883,11 @@ const products = [
           "Poster pocket designed with header area for permanent branding - ideal for either direct to surface print or vinyl graphics.",
           "Stylish steel tube frame (32mm diameter) – available in black or white from stock.",
           "Clip-on Tactical Headers also available, giving extra promotional space at minimal cost.",
+          "Printing available on request",
         ],
         description:
           "Gloss white aluminium panel (500 x 750mm) – ideal for direct to surface print or vinyl graphics. Alternative top opening polycarbonate double sided A2 poster pocket with magnetic seals. Poster pocket designed with header area for permanent branding - ideal for either direct to surface print or vinyl graphics. Stylish steel tube frame (32mm diameter) – available in black or white from stock. Frames available in any RAL colour (minimum order quantity 25). Patented D-Flex panel hangers make panel fitting quick and easy. Solid black recycled PVC base provides excellent stability. Clip-on Tactical Headers also available, giving extra promotional space at minimal cost.",
+
         subprice: [
           {
             text: `White - Unprinted`,
@@ -837,8 +900,93 @@ const products = [
             priceOpt3: "",
           },
           {
-            text: `White - Printed`,
-            productCode: `S3SSPSTR2030WHT`,
+            text: `Black - Unprinted`,
+            productCode: `S3SSPSTR2030BLK`,
+            quantityOpt1: `1-9`,
+            priceOpt1: `£101.50`,
+            quantityOpt2: "",
+            priceOpt2: "",
+            quantityOpt3: "",
+            priceOpt3: "",
+          },
+        ],
+        specifications: [
+          {
+            label:
+              "Swinger 3 Swing Sign Panel(water-fillable polyethylene base) Unprinted",
+            value: "",
+          },
+          {
+            label: "Colour",
+            value: "S3SSPNL588917WHT (White)",
+          },
+          {
+            label: "Display Area(mm)",
+            value: "588 x 917",
+          },
+          {
+            label:
+              "Swinger 3 Swing Sign Poster(water-fillable polyethylene base)With top-opening poster pocket - Unprinted",
+            value: "",
+          },
+          {
+            label: "Colour",
+            value: "S3SSPSTR2030WHT(White)/S3SSPSTR2030BLK (Black)",
+          },
+          {
+            label: "Display Area(mm)",
+            value: "588 x 917",
+          },
+        ],
+        downloads: [
+          {
+            name: "Swinger 3000 Specification",
+            file: "spec/SwingerSpecifications.pdf",
+          },
+          {
+            name: "Swinger 3000 Instructions",
+            file: "spec/Swinger3Instructions.pdf",
+          },
+          {
+            name: "Swinger 3000 Artwork",
+            file: "spec/Swinger3Artwork.pdf",
+          },
+          {
+            name: 'Swinger 3000 20 x 30" Artwork',
+            file: "spec/Swinger3Poster20x30.pdf",
+          },
+          {
+            name: "Swinger 3000 Instructions",
+            file: "spec/ecoswingerinstructions.pdf",
+          },
+        ],
+        price: "101.50",
+      },
+      {
+        slug: "swinger-3-swing-sign-panel-poster",
+        name: "Swinger 3 Swing Sign Panel with Poster (water fillable polyethylene base) Unprinted",
+        teaser: "Our top selling Swinger model. Contact us for print prices",
+        images: [
+          {
+            alt: "Swinger 3",
+            src: "img/sign/forecourt/Swinger3Poster.jpg",
+          },
+        ],
+        features: [
+          "Gloss aluminium panel (20 x 30) – ideal for direct to surface print or vinyl graphics.",
+          "Alternative top opening polycarbonate double sided A2 poster pocket with magnetic seals.",
+          "Poster pocket designed with header area for permanent branding - ideal for either direct to surface print or vinyl graphics.",
+          "Stylish steel tube frame (32mm diameter) – available in black or white from stock.",
+          "Clip-on Tactical Headers also available, giving extra promotional space at minimal cost.",
+          "Printing available on request",
+        ],
+        description:
+          "Gloss white aluminium panel (500 x 750mm) – ideal for direct to surface print or vinyl graphics. Alternative top opening polycarbonate double sided A2 poster pocket with magnetic seals. Poster pocket designed with header area for permanent branding - ideal for either direct to surface print or vinyl graphics. Stylish steel tube frame (32mm diameter) – available in black or white from stock. Frames available in any RAL colour (minimum order quantity 25). Patented D-Flex panel hangers make panel fitting quick and easy. Solid black recycled PVC base provides excellent stability. Clip-on Tactical Headers also available, giving extra promotional space at minimal cost.",
+
+        subprice: [
+          {
+            text: `White - Unprinted`,
+            productCode: `S3SSPNL588917WHT`,
             quantityOpt1: `1-9`,
             priceOpt1: `£117.50`,
             quantityOpt2: "",
@@ -847,7 +995,7 @@ const products = [
             priceOpt3: "",
           },
           {
-            text: `Black - Printed`,
+            text: `Black - Unprinted`,
             productCode: `S3SSPSTR2030BLK`,
             quantityOpt1: `1-9`,
             priceOpt1: `£117.50`,
@@ -907,20 +1055,16 @@ const products = [
             file: "spec/ecoswingerinstructions.pdf",
           },
         ],
-        price: "101.50 - £117.50",
+        price: "117.50",
       },
       {
-        slug: "economy-swing-swing",
-        name: "Economy Swing Sign-Panel / Poster",
+        slug: "economy-swing-swing-panel",
+        name: "Economy Swing Sign Panel",
         teaser: "The smallest Swinger in the range",
         images: [
           {
-            alt: "Economy Swing Sign - Poster - Contact us for print prices",
-            src: "/img/sign/forecourt/24.jpg",
-          },
-          {
-            alt: "Economy Swing Sign Poster - Unprinted",
-            src: "/img/sign/forecourt/25.jpg",
+            alt: "Economy Swing Sign",
+            src: "/img/sign/forecourt/EcoSwingerPanel.jpg",
           },
         ],
         features: [
@@ -952,6 +1096,47 @@ const products = [
             quantityOpt3: "",
             priceOpt3: "",
           },
+        ],
+        specifications: [
+          {
+            label: "Economy Swing Sign Panel(solid black PVC base) Unprinted",
+          },
+          {
+            label: "Colour",
+            value: "ECOSSPNL430625WHT(White)/ECOSSPNL430625BLK (Black)",
+          },
+          {
+            label: "Display Area(mm)",
+            value: "430 x 625",
+          },
+        ],
+        downloads: [
+          {
+            name: "Economy Swing Sign Instructions",
+            file: "spec/ecoswingerinstructions.pdf",
+          },
+        ],
+        price: "44.50",
+      },
+      {
+        slug: "economy-swing-swing-poster",
+        name: "Economy Swing Sign Poster",
+        teaser: "The smallest Swinger in the range",
+        images: [
+          {
+            alt: "Economy Swing Sign - Poster - Contact us for print prices",
+            src: "/img/sign/forecourt/24.jpg",
+          },
+        ],
+        features: [
+          "Gloss white aluminium panel (A3) – ideal for direct to surface print or vinyl graphics.",
+          "Stylish 32mm round steel tube frame – available in black or white from stock.",
+          "Patented D-Flex panel hangers make panel fitting quick and easy.",
+          "Clip-on Tactical Headers also available, giving extra promotional space at minimal cost.",
+        ],
+        description:
+          "Gloss white aluminium panel (430 x 625mm) – ideal for direct to surface print or vinyl graphics. Alternative top opening polycarbonate double sided A3 poster pocket with magnetic seals. Poster pocket designed with header area for permanent branding - ideal for either direct to surface print or vinyl graphics. Stylish 32mm round steel tube frame – available in black or white from stock. Frames available in any RAL colour (minimum order quantity 25). Patented D-Flex panel hangers make panel fitting quick and easy. Solid black recycled PVC base provides excellent stability. Clip-on Tactical Headers also available, giving extra promotional space at minimal cost.",
+        subprice: [
           {
             text: `White A3`,
             productCode: `ECOSSPSTA3WHT`,
@@ -979,17 +1164,6 @@ const products = [
           },
           {
             label: "Colour",
-            value: "ECOSSPNL430625WHT(White)/ECOSSPNL430625BLK (Black)",
-          },
-          {
-            label: "Display Area(mm)",
-            value: "430 x 625",
-          },
-          {
-            label: "Economy Swing Sign Panel(solid black PVC base) Unprinted",
-          },
-          {
-            label: "Colour",
             value: "ECOSSPSTA3WHT(White)/ECOSSPSTA3BLK (Black)",
           },
           {
@@ -1003,7 +1177,7 @@ const products = [
             file: "spec/ecoswingerinstructions.pdf",
           },
         ],
-        price: "44.50 - £62.95",
+        price: "62.95",
       },
     ],
   },
@@ -1062,18 +1236,6 @@ const products = [
     images: [
       {
         alt: "A Board Pavement Sign",
-        src: "/img/sign/aboard/2.jpg",
-      },
-      {
-        alt: "A Board Pavement Sign",
-        src: "/img/sign/aboard/0.jpg",
-      },
-      {
-        alt: "A Board Pavement Sign",
-        src: "/img/sign/aboard/3.jpg",
-      },
-      {
-        alt: "A Board Pavement Sign",
         src: "/img/sign/aboard/4.jpg",
       },
     ],
@@ -1090,7 +1252,7 @@ const products = [
       {
         text: `A2`,
         productCode: `ABSLA2`,
-        quantityOpt1: `1-9`,
+        quantityOpt1: `1-10`,
         priceOpt1: `£45.44`,
         quantityOpt2: "",
         priceOpt2: "",
@@ -1100,10 +1262,10 @@ const products = [
       {
         text: `A1`,
         productCode: `ABSLA1`,
-        quantityOpt1: `1-9`,
-        priceOpt1: `£59.68`,
-        quantityOpt2: `10+`,
-        priceOpt2: `£57.89`,
+        quantityOpt1: `1-10`,
+        priceOpt1: `£64.03`,
+        quantityOpt2: "",
+        priceOpt2: "",
         quantityOpt3: "",
         priceOpt3: "",
       },
@@ -1111,9 +1273,9 @@ const products = [
         text: `20x30"`,
         productCode: `ABSL2030`,
         quantityOpt1: `1-9`,
-        priceOpt1: `£50.21`,
-        quantityOpt2: `10+`,
-        priceOpt2: `£48.71`,
+        priceOpt1: `£57.33`,
+        quantityOpt2: "",
+        priceOpt2: "",
         quantityOpt3: "",
         priceOpt3: "",
       },
@@ -1644,6 +1806,140 @@ const products = [
         price: "7.33 - £55.47",
       },
       {
+        slug: "assorted-colours-snap-frame-25mm",
+        name: "Assorted Colours Snap Frames 25mm",
+        teaser:
+          "Easy snap open and closed poster frame system. Extruded aluminium frame with mitred corners. Supplied with an anti glare poster cover and a strong plastic back panel. Finished in 12 different stock finishes this is favoured by retailers, restaurants and the leisure industries.",
+        images: [
+          {
+            alt: "Snap Frames 25mm",
+            src: "/img/sign/snap/32.jpg",
+          },
+          {
+            alt: "Blue Snap Frames 25mm",
+            src: "/img/sign/snap/32b.jpg",
+          },
+          {
+            alt: "Green Snap Frames 25mm",
+            src: "/img/sign/snap/32g.jpg",
+          },
+          {
+            alt: "Red Snap Frames 25mm",
+            src: "/img/sign/snap/32r.jpg",
+          },
+          {
+            alt: "Blue Snap Frames 25mm",
+            src: "/img/sign/snap/25b.jpg",
+          },
+          {
+            alt: "Red Snap Frames 25mm",
+            src: "/img/sign/snap/32r.jpg",
+          },
+          {
+            alt: "Green Snap Frames 25mm",
+            src: "/img/sign/snap/25g.jpg",
+          },
+        ],
+        features: [
+          "25 extruded aluminum frame",
+          "Strong 1.5mm plastic back panel",
+          "0.5mm anti-glare poster cover",
+          "Choice of 12 stock finishes",
+        ],
+        description:
+          "Easy snap open and closed poster frame system. Extruded aluminium frame with mitred corners. Supplied with an anti glare poster cover and a strong plastic back panel. Finished in 12 different stock finishes this is favoured by retailers, restaurants and the leisure industries.",
+        subprice: [
+          {
+            text: `A5`,
+            productCode: `SF25MA5AC`,
+            quantityOpt1: `1-10`,
+            priceOpt1: `£4.31`,
+            quantityOpt2: "",
+            priceOpt2: "",
+            quantityOpt3: "",
+            priceOpt3: "",
+          },
+          {
+            text: `A4`,
+            productCode: `S32MA4AC`,
+            quantityOpt1: `1-10`,
+            priceOpt1: `£4.69`,
+            quantityOpt2: "",
+            priceOpt2: "",
+            quantityOpt3: "",
+            priceOpt3: "",
+          },
+          {
+            text: `A3`,
+            productCode: `SF25MA3AC`,
+            quantityOpt1: `1-10`,
+            priceOpt1: `£7.23`,
+            quantityOpt2: "",
+            priceOpt2: "",
+            quantityOpt3: "",
+            priceOpt3: "",
+          },
+          {
+            text: `A2`,
+            productCode: `SF25MA2AC`,
+            quantityOpt1: `1-10`,
+            priceOpt1: `£11.73`,
+            quantityOpt2: "",
+            priceOpt2: "",
+            quantityOpt3: "",
+            priceOpt3: "",
+          },
+          {
+            text: `A1`,
+            productCode: `SF25MA1AC`,
+            quantityOpt1: `1-10`,
+            priceOpt1: `£18.81`,
+            quantityOpt2: "",
+            priceOpt2: "",
+            quantityOpt3: "",
+            priceOpt3: "",
+          },
+          {
+            text: `AO`,
+            productCode: `SF25MAOAC`,
+            quantityOpt1: `1-10`,
+            priceOpt1: `£34.21`,
+            quantityOpt2: "",
+            priceOpt2: "",
+            quantityOpt3: "",
+            priceOpt3: "",
+          },
+          {
+            text: `20x30"`,
+            productCode: `SF25M2030AC`,
+            quantityOpt1: `1-10`,
+            priceOpt1: `£16.51`,
+            quantityOpt2: "",
+            priceOpt2: "",
+            quantityOpt3: "",
+            priceOpt3: "",
+          },
+          {
+            text: `30x40"`,
+            productCode: `SF25M3040AC`,
+            quantityOpt1: `1-10`,
+            priceOpt1: `£29.14`,
+            quantityOpt2: "",
+            priceOpt2: "",
+            quantityOpt3: "",
+            priceOpt3: "",
+          },
+        ],
+        specifications: [],
+        downloads: [
+          {
+            name: "25mm Assorted Snap Frame Specification",
+            file: "spec/25mmSilverSnapFrame.pdf",
+          },
+        ],
+        price: "4.31 - £34.21",
+      },
+      {
         slug: "assorted-colours-snap-frame-32mm",
         name: "Assorted Colours Snap Frames 32mm",
         teaser:
@@ -1688,16 +1984,6 @@ const products = [
         description:
           "Easy snap open and closed poster frame system. Extruded aluminium frame with mitred corners. Supplied with an anti glare poster cover and a strong plastic back panel. Finished in 12 different stock finishes this is favoured by retailers, restaurants and the leisure industries.",
         subprice: [
-          {
-            text: `A5`,
-            productCode: `SF25MA5AC`,
-            quantityOpt1: `1-9`,
-            priceOpt1: `£4.31`,
-            quantityOpt2: "",
-            priceOpt2: "",
-            quantityOpt3: "",
-            priceOpt3: "",
-          },
           {
             text: `A4`,
             productCode: `S32MA4AC`,
@@ -1772,7 +2058,7 @@ const products = [
             text: `60x40"`,
             productCode: `SF32M6040O`,
             quantityOpt1: `1-9`,
-            priceOpt1: `£76.53`,
+            priceOpt1: `£66.47`,
             quantityOpt2: "",
             priceOpt2: "",
             quantityOpt3: "",
@@ -1787,115 +2073,6 @@ const products = [
           },
         ],
         price: "10.20 - £76.53",
-      },
-      {
-        slug: "snap-frame-oak-32mm",
-        name: "Oak Snap Frames 32mm ",
-        teaser:
-          "Easy snap open and closed poster frame system. Extruded aluminium frame with mitred corners. Supplied with an anti glare poster cover and a strong plastic back panel. Finished in 12 different stock finishes this is favoured by retailers, restaurants and the leisure industries.",
-        images: [
-          {
-            alt: "Snap Frames 32mm Mitred corners",
-            src: "/img/sign/snap/23oo.jpg",
-          },
-          {
-            alt: "Snap Frames 32mm Mitred corners",
-            src: "/img/sign/snap/32o.jpg",
-          },
-          {
-            alt: "Snap Frames 32mm Mitred corners",
-            src: "/img/sign/snap/32p.jpg",
-          },
-        ],
-        features: [
-          "32 mm extruded aluminum frame",
-          "Strong 1.5mm plastic back panel",
-          "0.5mm anti-glare poster cover",
-          "Choice of 12 stock finishes",
-          "Available in Black",
-        ],
-        description:
-          "Easy snap open and closed poster frame system. Extruded aluminium frame with mitred corners. Supplied with an anti glare poster cover and a strong plastic back panel. Finished in 12 different stock finishes this is favoured by retailers, restaurants and the leisure industries.",
-        subprice: [
-          {
-            text: `A4`,
-            productCode: `S32M4O`,
-            quantityOpt1: `1-9`,
-            priceOpt1: `£8.47`,
-            quantityOpt2: `10+`,
-            priceOpt2: `£8.21`,
-            quantityOpt3: "",
-            priceOpt3: "",
-          },
-          {
-            text: `A2`,
-            productCode: `SF32MA2O`,
-            quantityOpt1: `1-9`,
-            priceOpt1: `£18.51`,
-            quantityOpt2: `10+`,
-            priceOpt2: `£17.97 `,
-            quantityOpt3: "",
-            priceOpt3: "",
-          },
-          {
-            text: `A1`,
-            productCode: `SF32MA1O`,
-            quantityOpt1: `1-9`,
-            priceOpt1: `£28.47`,
-            quantityOpt2: `10+`,
-            priceOpt2: `£27.63`,
-            quantityOpt3: "",
-            priceOpt3: "",
-          },
-          {
-            text: `A0`,
-            productCode: `SF32MAOO`,
-            quantityOpt1: `1-9`,
-            priceOpt1: `£47.61`,
-            quantityOpt2: `10+`,
-            priceOpt2: `£46.20`,
-            quantityOpt3: "",
-            priceOpt3: "",
-          },
-          {
-            text: `20x30"`,
-            productCode: `SF32M2030O`,
-            quantityOpt1: `1-9`,
-            priceOpt1: `£24.56`,
-            quantityOpt2: `10+`,
-            priceOpt2: `£23.81`,
-            quantityOpt3: "",
-            priceOpt3: "",
-          },
-          {
-            text: `30x40"`,
-            productCode: `SF32M4030O`,
-            quantityOpt1: `1-9`,
-            priceOpt1: `£40.91`,
-            quantityOpt2: `10+`,
-            priceOpt2: `£39.70`,
-            quantityOpt3: "",
-            priceOpt3: "",
-          },
-          {
-            text: `60x40"`,
-            productCode: `SF32M6040O`,
-            quantityOpt1: `1-9`,
-            priceOpt1: `£66.96`,
-            quantityOpt2: `10+`,
-            priceOpt2: `£64.96`,
-            quantityOpt3: "",
-            priceOpt3: "",
-          },
-        ],
-        specifications: [],
-        downloads: [
-          {
-            name: "32mm Oak Frame Specification",
-            file: "spec/32mmSilverSnapFrame.pdf",
-          },
-        ],
-        price: "8.21 - £66.96",
       },
     ],
   },
@@ -2090,7 +2267,7 @@ const products = [
             file: "spec/SecureLock55ProductSpec.pdf",
           },
         ],
-        price: "81.05 - 255.63",
+        price: "81.05 - £255.63",
       },
       {
         slug: "secure-wall-lpc",
@@ -2119,61 +2296,71 @@ const products = [
         subprice: [
           {
             text: `A3`,
-            productCode: `SECWALLLPCA3`,
-            quantityOpt1: `1-24`,
-            priceOpt1: `£35.51`,
-            quantityOpt2: `25+`,
-            priceOpt2: `£34.46`,
+            productCode: `SECWALLA4LPSL`,
+            quantityOpt1: `1-0`,
+            priceOpt1: `£30.59`,
+            quantityOpt2: `50+`,
+            priceOpt2: `£29.74`,
+            quantityOpt3: "",
+            priceOpt3: "",
+          },
+          {
+            text: `A3`,
+            productCode: `SECWALLA3LPSL`,
+            quantityOpt1: `1-10`,
+            priceOpt1: `£39.57`,
+            quantityOpt2: `50+`,
+            priceOpt2: `£38.47`,
             quantityOpt3: "",
             priceOpt3: "",
           },
           {
             text: `A2`,
-            productCode: `SECWALLLPCA2`,
+            productCode: `SECWALLA2LPSL`,
             quantityOpt1: `1-24`,
-            priceOpt1: `£46.37`,
-            quantityOpt2: `25+`,
-            priceOpt2: `£44.99`,
+            priceOpt1: `£54.51`,
+            quantityOpt2: `50+`,
+            priceOpt2: `£53`,
             quantityOpt3: "",
             priceOpt3: "",
           },
           {
             text: `A1`,
-            productCode: `SECWALLLPCA1`,
-            quantityOpt1: `1-24`,
-            priceOpt1: `£70.30`,
+            productCode: `SECWALLA1LPSL`,
+            quantityOpt1: `1-10`,
+            priceOpt1: `£86.66`,
             quantityOpt2: `25+`,
-            priceOpt2: `£68.20`,
+            priceOpt2: `£82.31`,
             quantityOpt3: "",
             priceOpt3: "",
           },
           {
             text: `AO`,
-            productCode: `SECWALLLPCA0`,
+            productCode: `SECWALLA0LPSL`,
             quantityOpt1: `1-24`,
-            priceOpt1: `£105.24`,
+            priceOpt1: `£129.17`,
             quantityOpt2: `25+`,
-            priceOpt2: `£102.10`,
+            priceOpt2: `£125.58`,
             quantityOpt3: "",
             priceOpt3: "",
           },
           {
             text: `30x40"`,
-            productCode: `SECWALLLPC4030`,
+            productCode: `SECWALL3040LPSL`,
             quantityOpt1: `1-24`,
-            priceOpt1: `£95.19`,
+            priceOpt1: `£111.27`,
             quantityOpt2: `25+`,
-            priceOpt2: `£92.34`,
+            priceOpt2: `£108.18`,
             quantityOpt3: "",
             priceOpt3: "",
           },
           {
             text: `60x40"`,
-            productCode: `SECWALLLPC6040`,
+            productCode: `SECWALL6040LPSL`,
             quantityOpt1: `1-24`,
-            priceOpt1: `£147.07`,
+            priceOpt1: `£160.76`,
             quantityOpt2: `25+`,
-            priceOpt2: `£142.67`,
+            priceOpt2: `£155.75`,
             quantityOpt3: "",
             priceOpt3: "",
           },
@@ -2182,82 +2369,6 @@ const products = [
           {
             label: "See PDF - SecureWall LPC Product Spec",
           },
-          // {
-          //   label: "A2",
-          //   value: "297x210 (mm)",
-          // },
-          // {
-          //   label: "External Size(mm)	",
-          //   value: "367 x 280",
-          // },
-          // {
-          //   label: "Visible Area(mm)",
-          //   value: "277 x 190",
-          // },
-          // {
-          //   label: "Box Size(mm)",
-          //   value: "395 x 295 x 40",
-          // },
-          // {
-          //   label: "Quantity per pallet",
-          //   value: "1680",
-          // },
-          // {
-          //   label: "A3",
-          //   value: "420x297 (mm)",
-          // },
-          // {
-          //   label: "External Size(mm)	",
-          //   value: "490 x 367",
-          // },
-          // {
-          //   label: "Visible Area(mm)",
-          //   value: "400 x 277",
-          // },
-          // {
-          //   label: "Box Size(mm)",
-          //   value: "515 x 385 x 40",
-          // },
-          // {
-          //   label: "Quantity per pallet",
-          //   value: "400",
-          // },
-          // {
-          //   label: "A4",
-          //   value: "594x420 (mm)",
-          // },
-          // {
-          //   label: "External Size(mm)	",
-          //   value: "664 x 490",
-          // },
-          // {
-          //   label: "Visible Area(mm)",
-          //   value: "574 x 400",
-          // },
-          // {
-          //   label: "Box Size(mm)",
-          //   value: "690 x 505 x 40",
-          // },
-          // {
-          //   label: "Quantity per pallet",
-          //   value: "200",
-          // },
-          // {
-          //   label: "Product Code - SECWALLA1PSL",
-          //   value: "A1",
-          // },
-          // {
-          //   label: "Product Code - SECWALLA0PSL",
-          //   value: "A0",
-          // },
-          // {
-          //   label: "Product Code - SECWALL30403040PSL",
-          //   value: '3040"',
-          // },
-          // {
-          //   label: "Product Code - SECWALL6040PSL",
-          //   value: '6040"',
-          // },
         ],
         downloads: [
           {
@@ -2265,7 +2376,7 @@ const products = [
             file: "spec/SecureWallLPCProductSpecifiation.pdf",
           },
         ],
-        price: "34.46 - £147.07",
+        price: "29.74 - £160.76",
       },
       {
         slug: "key-lock-frame",
@@ -2690,38 +2801,6 @@ const products = [
         ],
         description:
           "Stylish and practical free-standing light coloumn. Illuminates posters printed on backlit film or duratrans.",
-        subprice: [
-          {
-            text: `600mm`,
-            productCode: `SF-15/6`,
-            quantityOpt1: `Prices and supplied to order`,
-            priceOpt1: "",
-            quantityOpt2: "",
-            priceOpt2: "",
-            quantityOpt3: "",
-            priceOpt3: "",
-          },
-          {
-            text: `700mm`,
-            productCode: `SF-15/5`,
-            quantityOpt1: "",
-            priceOpt1: "",
-            quantityOpt2: "",
-            priceOpt2: "",
-            quantityOpt3: "",
-            priceOpt3: "",
-          },
-          {
-            text: `800mm`,
-            productCode: `SF-15/4`,
-            quantityOpt1: "",
-            priceOpt1: "",
-            quantityOpt2: "",
-            priceOpt2: "",
-            quantityOpt3: "",
-            priceOpt3: "",
-          },
-        ],
         specifications: [
           {
             label: "See PDF - Totem Light Box Specification",
@@ -2757,7 +2836,7 @@ const products = [
           {
             text: `A4`,
             productCode: `SLSSLB25SSA4`,
-            quantityOpt1: `1-9`,
+            quantityOpt1: `1-10`,
             priceOpt1: `£61.15`,
             quantityOpt2: "",
             priceOpt2: "",
@@ -2767,7 +2846,7 @@ const products = [
           {
             text: `A3`,
             productCode: `SLSSLB25SSA3`,
-            quantityOpt1: `1-9`,
+            quantityOpt1: `1-10`,
             priceOpt1: `£82.59`,
             quantityOpt2: "",
             priceOpt2: "",
@@ -2777,7 +2856,7 @@ const products = [
           {
             text: `A2`,
             productCode: `SLSSLB25SSA2`,
-            quantityOpt1: `1-9`,
+            quantityOpt1: `1-10`,
             priceOpt1: `£107.16`,
             quantityOpt2: "",
             priceOpt2: "",
@@ -2787,7 +2866,7 @@ const products = [
           {
             text: `A1`,
             productCode: `SLSSLB25SSA1`,
-            quantityOpt1: `1-9`,
+            quantityOpt1: `1-10`,
             priceOpt1: `£172.19`,
             quantityOpt2: "",
             priceOpt2: "",
@@ -2806,7 +2885,7 @@ const products = [
             file: "spec/lightboxledspec.pdf",
           },
         ],
-        price: "54.81 - £162.55",
+        price: "",
       },
       {
         slug: "outdoor-led",
@@ -2825,48 +2904,6 @@ const products = [
           "Bespoke sizes and colours manufactured to order.",
         ],
         description: "",
-        subprice: [
-          {
-            text: `A4`,
-            productCode: `SLDSLB25SSA4`,
-            quantityOpt1: `Prices and supplied to order`,
-            priceOpt1: "",
-            quantityOpt2: "",
-            priceOpt2: "",
-            quantityOpt3: "",
-            priceOpt3: "",
-          },
-          {
-            text: `A3`,
-            productCode: `SLDSLB25SSA3`,
-            quantityOpt1: "",
-            priceOpt1: "",
-            quantityOpt2: "",
-            priceOpt2: "",
-            quantityOpt3: "",
-            priceOpt3: "",
-          },
-          {
-            text: `A2`,
-            productCode: `SLDSLB25SSA2`,
-            quantityOpt1: "",
-            priceOpt1: "",
-            quantityOpt2: "",
-            priceOpt2: "",
-            quantityOpt3: "",
-            priceOpt3: "",
-          },
-          {
-            text: `A1`,
-            productCode: `SLDSLB25SSA1`,
-            quantityOpt1: "",
-            priceOpt1: "",
-            quantityOpt2: "",
-            priceOpt2: "",
-            quantityOpt3: "",
-            priceOpt3: "",
-          },
-        ],
         specifications: [
           {
             label: "See PDF - Outdoor Edge Light Poster",
@@ -2878,7 +2915,7 @@ const products = [
             file: "spec/lightboxexternalspec.pdf",
           },
         ],
-        price: "86.63 - £239.91",
+        price: "",
       },
     ],
   },

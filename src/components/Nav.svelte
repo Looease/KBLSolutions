@@ -106,7 +106,7 @@ header{
 			  <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="/products/index.svelte">Products and Services</a>
 			
 			  <div class="dropdown-menu">
-					<a class="dropdown-item" href="/products/" >All products and services</a>
+					<a class="dropdown-item" onclick="closeNav();" href="/products/" >All products and services</a>
 					<div class="dropdown-divider"></div>
 				<a class="dropdown-item" href="/products/compact-screen" id="navLink" onclick="closeNav();">Compact Privacy Screen</a>
 				<div class="dropdown-divider"></div>
