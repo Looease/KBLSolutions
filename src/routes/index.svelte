@@ -62,7 +62,7 @@ section{
 
  <!-- <div class="section">  -->
 <div class="section " id="section0">
-  <!-- <ul class="about">
+   <ul class="about">
     <li class="contentbox">
     <img src="img/logo.png" alt="KBL Solutions Logo" class="logo">
       <h4 id="formatfont">
@@ -77,15 +77,15 @@ section{
       Read more about us <a href="about" class="point">here</a>
       </h4>
     </li> 
-</ul> -->
-<ul class="about">
+</ul> 
+<!-- <ul class="about">
   <li class="contentbox">
   <img src="img/logo.png" alt="KBL Solutions Logo" class="logo">
     <h1 id="temp">
     Website being updated
     </h1>
   </li>
-</ul>
+</ul> -->
 </div>
 <div class="section">
     <section class="section-content padding-y-sm" id="section1">
@@ -127,11 +127,11 @@ section{
       </section>  
   </div>
   <br/>
-  <!-- <div class="section" id="section20">
+  <div class="section" id="section20">
     <h1 class="pands" id="gone">Products and Services</h1>
     <Carousel />
-  </div>  -->
-<!-- <div class="form-container">
+  </div>  
+<div class="form-container">
 <div class="card mb-4">
   <div class="card-body">
     <header class="mb-4"><h4 class="card-title">Contact us</h4></header>
@@ -161,7 +161,7 @@ section{
   </form>
   </div> 
 </div> 
-</div> -->
+</div> 
 
  
     
