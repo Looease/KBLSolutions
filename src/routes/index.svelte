@@ -100,7 +100,7 @@ section{
 
    <ul class="about" id="about">
     <li class="contentbox">
-    <img src="img/logo.png" alt="KBL Solutions Logo" class="logo" alt="logo">
+    <img src="img/logo.png" alt="KBL Solutions Logo" class="logo">
       <h4 id="formatfont">
       Marketing display products for all your business needs.
       <br>  <br>
