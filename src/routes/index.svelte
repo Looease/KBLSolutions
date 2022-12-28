@@ -3,6 +3,10 @@
 </script>
 
 <style>
+*{
+  background-color: #F6F7F9;
+}
+
 section{
  padding: 0;
 }
@@ -15,7 +19,7 @@ section{
   font-weight: 1000;
 } */
 .logo{
-  padding: 0px;
+  padding-bottom: 10  0px;
   width: 300px;
   height: auto;
 }
@@ -26,9 +30,16 @@ section{
 
 .about, .contentbox{
   display: flex;
-  flex-direction: column;
   align-items: center;
 }
+.about{
+  width: 100%;
+}
+.contentbox{
+  width: 80%;
+}
+
+
 
 .form-container{
   padding-left: 25%;
@@ -36,6 +47,18 @@ section{
 
 }
 
+#container{
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+#about{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 
 @media screen and (max-width:992px) {
   .logo{
@@ -60,11 +83,24 @@ section{
 }
 </style>
 
- <!-- <div class="section">  -->
+
 <div class="section " id="section0">
-   <ul class="about">
+  <section class="section-intro padding-y-sm">
+    <div class="container" id="container">
+    
+    <div class="intro-banner-wrap">
+      <img src="img/blurred.jpg" class="img-fluid rounded" style="height: 20em;
+      width: 100%;
+      margin-top: 100px;
+      opacity: 0.45;" alt="Banner with company description">
+    </div>
+    
+    </div> 
+    </section>
+
+   <ul class="about" id="about">
     <li class="contentbox">
-    <img src="img/logo.png" alt="KBL Solutions Logo" class="logo">
+    <img src="img/logo.png" alt="KBL Solutions Logo" class="logo" alt="logo">
       <h4 id="formatfont">
       Marketing display products for all your business needs.
       <br>  <br>
