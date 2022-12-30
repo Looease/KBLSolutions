@@ -11,17 +11,23 @@ section{
 #section1{
   widows: 100%;
 }
+
+#section2{
+  scroll-margin-top: 120px;
+  padding: 0 25% 0 25%;
+}
+
 /* #temp{
   color: #000;
   font-weight: 1000;
 } */
 .logo{
-  padding-bottom: 10  0px;
+  padding-bottom: 50px;
   width: 300px;
   height: auto;
 }
 #formatfont{
-  font-size:0.8em;
+  font-size:1.5em;
   color: black;
 }
 
@@ -59,59 +65,125 @@ section{
   transform: translate(-50%, -60%);
 }
 
-@media screen and (max-width:992px) {
-  .logo{
-    width: 200px;
-  }
+#section25{
+  display: none
+}
+
+/* @media screen and (max-width:992px) {
+
+}
   #formatfont{
     padding: 0 4% 0 4%;
-    font-size: 0.7em;
   }
 
   #about{
   transform: translate(-50%, -85%);
 }
+} */
 
-@media screen and (max-width:820px) {
-  #about{
-  transform: translate(-50%, -100%);
+@media screen and (max-width:992px) {
+.logo{
+display: none;  
 }
-}
-
-@media screen and (max-width:800px) {
-  #about{
-  transform: translate(-50%, -80%);
+#about{
+  transform: translate(-50%, -75%);
 }
 .logo{
     display: none;
-  } 
-  #formatfont{
+  }
+
+  #section0 {
+  padding-top: 0%;
+}
+
+#section25{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 25% 0 25%;
+}
+
+.mobile-logo{
+  width: 250px;
+  height: auto;
+  position: relative;
+  top: 100px;
+  z-index: 2;
+
+}
+
+#formatfont{
     padding: 0 10% 0 10%;
-    font-size: 0.6em;
-  }
-  #section1{
-  widows: 50%;
-}
-}
-
-@media screen and (max-width:603px){
-   #formatfont{
-    padding: 5%;
+    font-size:1.5em;
   }
   #section1{
   widows: 50%;
 }
 
+}
+
+@media screen and (max-width: 820px){
+#about{
+  transform: translate(-50%, -90%);
+}
+}
+
+@media screen and (max-width: 769px){
 #about{
   transform: translate(-50%, -80%);
 }
 }
-}
-</style>
 
+@media screen and (max-width:767px){
+   #formatfont{
+    padding: 5%;
+    font-size: 1.3em;
+  }
+  #about{
+  transform: translate(-50%, -60%);
+}
+  #section1{
+  widows: 50%;
+}
+}
+
+@media screen and (max-width:415px){
+   #formatfont{
+    padding: 5%;
+    font-size: 1.2em;
+  }
+  #about{
+  transform: translate(-50%, -65%);
+}
+  #section1{
+  widows: 50%;
+}
+}
+
+@media screen and (max-width:376px){
+   #formatfont{
+    padding: 5%;
+    font-size: 1.2em;
+  }
+  #about{
+  transform: translate(-50%, -49%);
+}
+  #section1{
+  widows: 50%;
+}
+}
+
+</style>  
+
+<div class="section" id="section25">
+      <img src="img/logo.png" alt="KBL Solutions Logo" class="mobile-logo">
+
+</div>  
 
 <div class="section " id="section0">
+
   <section class="section-intro padding-y-sm">
+
     <div class="container" id="container">
     
     <div class="intro-banner-wrap">
@@ -193,7 +265,7 @@ section{
     <h1 class="pands" id="gone">Products and Services</h1>
     <Carousel />
   </div>  
-<div class="form-container">
+<div class="form-container" id="section2">
 <div class="card mb-4">
   <div class="card-body">
     <header class="mb-4"><h4 class="card-title">Contact us</h4></header>

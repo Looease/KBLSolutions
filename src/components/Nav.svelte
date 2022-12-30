@@ -4,7 +4,7 @@ header{
 }
  	nav{
 		width: 100%;
-		background-color: #F6F7F9;
+		background-color: #F7F8F9;
 		border-bottom: 5px solid #45A4D9;
 	}
 	#item{
@@ -14,7 +14,7 @@ header{
 		color:white;
 	}
 	img {
-		max-width: 90px;
+		max-width: 140px;
 		height: auto;
 		padding: 0px;
 		margin: 0px;
@@ -100,7 +100,7 @@ header{
 		</button>
 	
 		<div class="collapse navbar-collapse" id="main_nav">
-			<a class="navbar-brand" id="logo" onclick="closeNav();" href="/"><img src="img/logo.png" alt="KBL Solutions logo"></a>
+			<a class="navbar-brand" id="logo" onclick="closeNav();" href="/"><img src="img/logo.png" alt="KBL Solutions logo" id="logo-img"></a>
 		  <ul class="navbar-nav">
 			  <li class="nav-item">
 				<a class="nav-link" href="about" id="navLink" onclick="closeNav();">About us</a>

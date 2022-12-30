@@ -179,10 +179,30 @@ const products = [
             quantityOpt3: "",
             priceOpt3: "",
           },
+          {
+            text: `40x30"`,
+            productCode: `ECOWM4030SL`,
+            quantityOpt1: `1-9`,
+            priceOpt1: `£214.26`,
+            quantityOpt2: `10+`,
+            priceOpt2: `£199.97`,
+            quantityOpt3: "",
+            priceOpt3: "",
+          },
+          {
+            text: `60x40"`,
+            productCode: `ECOWM6040SL`,
+            quantityOpt1: `1-9`,
+            priceOpt1: `£331.89`,
+            quantityOpt2: `10+`,
+            priceOpt2: `£309.76`,
+            quantityOpt3: "",
+            priceOpt3: "",
+          },
         ],
         specifications: [
           {
-            label: "Product Code - ECOWMA0SL",
+            label: "EcoMaster Forecourt Sign Product Code - ECOWMA0SL",
           },
           {
             label: "A0",
@@ -204,46 +224,6 @@ const products = [
             label: "Material",
             value: "Aluminium",
           },
-        ],
-        downloads: [
-          {
-            name: "EcoMaster Forecourt Sign",
-            file: "spec/forecourtecomasterspec.docx",
-          },
-        ],
-        price: "221.95 - £237.80",
-      },
-      {
-        slug: "ecomaster-pavement-sign-4030",
-        name: "EcoMaster Forecourt Sign - 4030'' ",
-        teaser:
-          "EcoMaster is one of our most popular Forecourt Signs, with a Water-fillable base and Springs for added stability. The Snap Frame profile allows easy poster change. Supplied with protective front sheets. Wheels on the base allows the EcoMaster to be easily moved into new positions or inside overnight",
-        images: [
-          {
-            alt: "EcoMaster Forecourt/Pavement Sign",
-            src: "/img/sign/forecourt/26.jpg",
-          },
-        ],
-        features: [
-          "Water-fillable base and Springs for added stability",
-          "Double sided/ Easy poster change",
-          "Can be easily moved into new positions",
-          "Suitable for external use",
-        ],
-        description: "",
-        subprice: [
-          {
-            text: `40x30"`,
-            productCode: `ECOWM4030SL`,
-            quantityOpt1: `1-9`,
-            priceOpt1: `£214.26`,
-            quantityOpt2: `10+`,
-            priceOpt2: `£199.97`,
-            quantityOpt3: "",
-            priceOpt3: "",
-          },
-        ],
-        specifications: [
           {
             label: "Product Code - ECOWM4030SL",
           },
@@ -267,46 +247,6 @@ const products = [
             label: "Material",
             value: "Aluminium",
           },
-        ],
-        downloads: [
-          {
-            name: "EcoMaster Forecourt/Pavement Sign",
-            file: "spec/forecourtecomasterspec.docx",
-          },
-        ],
-        price: "199.97 - £214.26",
-      },
-      {
-        slug: "ecomaster-pavement-sign-6040",
-        name: "EcoMaster Forecourt Sign - 6040'' ",
-        teaser:
-          "EcoMaster is one of our most popular Forecourt Signs, with a Water-fillable base and Springs for added stability. The Snap Frame profile allows easy poster change. Supplied with protective front sheets. Wheels on the base allows the EcoMaster to be easily moved into new positions or inside overnight",
-        images: [
-          {
-            alt: "EcoMaster Forecourt/Pavement Sign",
-            src: "/img/sign/forecourt/26.jpg",
-          },
-        ],
-        features: [
-          "Water-fillable base and Springs for added stability",
-          "Double sided/ Easy poster change",
-          "Can be easily moved into new positions",
-          "Suitable for external use",
-        ],
-        description: "",
-        subprice: [
-          {
-            text: `60x40"`,
-            productCode: `ECOWM6040SL`,
-            quantityOpt1: `1-9`,
-            priceOpt1: `£331.89`,
-            quantityOpt2: `10+`,
-            priceOpt2: `£309.76`,
-            quantityOpt3: "",
-            priceOpt3: "",
-          },
-        ],
-        specifications: [
           {
             label: '6040"',
             value: "1016 x 1524(mm)",
@@ -330,11 +270,11 @@ const products = [
         ],
         downloads: [
           {
-            name: "EcoMaster Forecourt/Pavement Sign",
+            name: "EcoMaster Forecourt Sign",
             file: "spec/forecourtecomasterspec.docx",
           },
         ],
-        price: "309.76 - £331.89",
+        price: "221.95 - £331.89",
       },
       {
         slug: "eseries-forecourt-sign-A1",
@@ -367,6 +307,26 @@ const products = [
             quantityOpt3: "",
             priceOpt3: "",
           },
+          {
+            text: `A0`,
+            productCode: `EWMA1SLA0`,
+            quantityOpt1: `1-9`,
+            priceOpt1: `£172.04`,
+            quantityOpt2: `10+`,
+            priceOpt2: `£168.00`,
+            quantityOpt3: "",
+            priceOpt3: "",
+          },
+          {
+            text: `40x30"`,
+            productCode: `EWMA1SL4030`,
+            quantityOpt1: `1-9`,
+            priceOpt1: `£155.49`,
+            quantityOpt2: `10+`,
+            priceOpt2: `£148.49`,
+            quantityOpt3: "",
+            priceOpt3: "",
+          },
         ],
         specifications: [
           {
@@ -392,48 +352,6 @@ const products = [
             label: "H1(mm)",
             value: "1220",
           },
-        ],
-        downloads: [
-          {
-            name: "ESeries Specification",
-            file: "spec/forecourteseries.jpg.pdf",
-          },
-        ],
-        price: "114.89 - £119.89",
-      },
-      {
-        slug: "eseries-forecourt-sign-A0",
-        name: "ESeries Forecourt / Pavement Sign - A0",
-        teaser:
-          "ESeries features a Water-fillable base and Springs for added stability.",
-        images: [
-          {
-            alt: "ESeries Forecourt / Pavement Sign",
-            src: "/img/sign/forecourt/20.jpg",
-          },
-        ],
-        features: [
-          "Easy to open snap frame",
-          "Anti-relex cover as suitable for external use",
-          "Double sided",
-          "Steel springs provide flexibility to keep it stable",
-          "Wheels on base for easy transportation",
-        ],
-        description:
-          "Waterbase Pavement Sign. The Snap Frame profile allows easy poster change. Supplied with protective front sheets. Easily moved into new positions or inside over night.",
-        subprice: [
-          {
-            text: `A0`,
-            productCode: `EWMA1SLA0`,
-            quantityOpt1: `1-9`,
-            priceOpt1: `£172.04`,
-            quantityOpt2: `10+`,
-            priceOpt2: `£168.00`,
-            quantityOpt3: "",
-            priceOpt3: "",
-          },
-        ],
-        specifications: [
           {
             label: "Product Code - EWMAOSL4030SL",
           },
@@ -457,48 +375,6 @@ const products = [
             label: "H1(mm)",
             value: "975",
           },
-        ],
-        downloads: [
-          {
-            name: "ESeries Specification",
-            file: "spec/forecourteseries.jpg.pdf",
-          },
-        ],
-        price: "168.00 - £172.04",
-      },
-      {
-        slug: "eseries-forecourt-sign-4030",
-        name: "ESeries Forecourt / Pavement Sign - 4030''",
-        teaser:
-          "ESeries features a Water-fillable base and Springs for added stability.",
-        images: [
-          {
-            alt: "ESeries Forecourt / Pavement Sign",
-            src: "/img/sign/forecourt/20.jpg",
-          },
-        ],
-        features: [
-          "Easy to open snap frame",
-          "Anti-relex cover as suitable for external use",
-          "Double sided",
-          "Steel springs provide flexibility to keep it stable",
-          "Wheels on base for easy transportation",
-        ],
-        description:
-          "Waterbase Pavement Sign. The Snap Frame profile allows easy poster change. Supplied with protective front sheets. Easily moved into new positions or inside over night.",
-        subprice: [
-          {
-            text: `40x30"`,
-            productCode: `EWMA1SL4030`,
-            quantityOpt1: `1-9`,
-            priceOpt1: `£155.49`,
-            quantityOpt2: `10+`,
-            priceOpt2: `£148.49`,
-            quantityOpt3: "",
-            priceOpt3: "",
-          },
-        ],
-        specifications: [
           {
             label: '4030"',
             value: "913 x 1261 (mm)",
@@ -526,7 +402,7 @@ const products = [
             file: "spec/forecourteseries.jpg.pdf",
           },
         ],
-        price: "148.49 - £155.49",
+        price: "114.89 - £172.04",
       },
       {
         slug: "swinger-swinger-swing",
@@ -546,26 +422,6 @@ const products = [
         description:
           "Gloss aluminium panel (500 x 750mm) – ideal for direct to surface print or vinyl graphics. Alternative top opening polycarbonate double sided A2 poster pocket with magnetic seals. Poster pocket designed with header area for permanent branding - ideal for either direct to surface print or vinyl graphics. Stylish steel tube frame (32mm diameter) – available in black or white from stock. Solid black recycled PVC base provides excellent stability.",
         subprice: [
-          // {
-          //   text: `White - with poster `,
-          //   productCode: `SSSPSRA2WHT`,
-          //   quantityOpt1: `1-9`,
-          //   priceOpt1: `£62.75`,
-          //   quantityOpt2: "",
-          //   priceOpt2: "",
-          //   quantityOpt3: "",
-          //   priceOpt3: "",
-          // },
-          // {
-          //   text: `Black - with poster`,
-          //   productCode: `SSSPSRA2BLK`,
-          //   quantityOpt1: `1-9`,
-          //   priceOpt1: `£62.75`,
-          //   quantityOpt2: "",
-          //   priceOpt2: "",
-          //   quantityOpt3: "",
-          //   priceOpt3: "",
-          // },
           {
             text: `White - Unprinted`,
             productCode: `SSSPNL500750WHT`,
