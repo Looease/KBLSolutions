@@ -13,7 +13,7 @@ section{
 }
 
 #section2{
-  scroll-margin-top: 120px;
+  scroll-margin-top: 200px;
   padding: 0 25% 0 25%;
 }
 
@@ -86,7 +86,7 @@ section{
 display: none;  
 }
 #about{
-  transform: translate(-50%, -75%);
+  transform: translate(-50%, -60%);
 }
 .logo{
     display: none;
@@ -119,20 +119,17 @@ display: none;
   #section1{
   widows: 50%;
 }
-
+#banner{
+  visibility: hidden;
+}
 }
 
 @media screen and (max-width: 820px){
 #about{
-  transform: translate(-50%, -90%);
+  transform: translate(-50%, -95%);
 }
 }
 
-@media screen and (max-width: 769px){
-#about{
-  transform: translate(-50%, -80%);
-}
-}
 
 @media screen and (max-width:767px){
    #formatfont{
@@ -144,6 +141,10 @@ display: none;
 }
   #section1{
   widows: 50%;
+}
+
+#banner{
+  visibility: visible;
 }
 }
 
@@ -187,10 +188,12 @@ display: none;
     <div class="container" id="container">
     
     <div class="intro-banner-wrap">
-      <img src="img/blurred.jpg" class="img-fluid rounded" style="height: 20em;
+      <img src="img/blurred.jpg"    id="banner" class="img-fluid rounded" style="height: 20em;
       width: 100%;
       margin-top: 100px;
-      opacity: 0.3;" alt="Banner with company description">
+      opacity: 0.3;" alt="Banner with company description: Marketing display products for all your business needs.
+      Here at KBL, we aim to help you maximise your marketing efforts by supplying you with effective products at great prices. We supply a wider range of Point of Sale products than appear on our web site, so if you can’t see what you’re looking for, feel free to give us a call and we can walk you through your marketing requirements, where we are sure we will be able to help.     
+      Read more about us here">
     </div>
     
     </div> 
