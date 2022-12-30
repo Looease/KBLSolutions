@@ -10,6 +10,9 @@ header{
 	#item{
 		margin-right: 20px;
 	}
+	#info-link:hover{
+		color:white;
+	}
 	img {
 		max-width: 90px;
 		height: auto;
@@ -38,12 +41,12 @@ header{
 	<nav class="navbar navbar-dark navbar-expand p-0 bg-primary" id="nav">
 	<div class="container">
 		<ul class="navbar-nav d-none d-md-flex mr-auto">
-			<li  class="nav-item" id="item"><a href="/">Home</a></li>
+			<li  class="nav-item" id="item"><a id="info-link" href="/">Home</a></li>
 		</ul>
 		<ul class="navbar-nav">
-			<li  class="nav-item" id="item"><i class="fa fa-phone">	</i><a href="tel:+447894825001">+447894825001</a></li>
+			<li  class="nav-item" id="item"><i class="fa fa-phone">	</i><a id="info-link" href="tel:+447894825001">+447894825001</a></li>
 			<br>
-			<li class="nav-item"><i class="fa fa-envelope"></i><a href="mailto:info@kblsolutions.co.uk">info@kblsolutions.co.uk</a></li>
+			<li class="nav-item"><i class="fa fa-envelope"></i><a id="info-link" href="mailto:info@kblsolutions.co.uk">info@kblsolutions.co.uk</a></li>
 		</ul> 
 	</nav> 
 	

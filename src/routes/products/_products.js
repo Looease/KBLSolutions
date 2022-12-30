@@ -11,7 +11,7 @@ const products = [
     ],
     products: [
       {
-        slug: "sentinel-silver-frame-a1",
+        slug: "sentinel-silver-frame",
         name: "Sentinel Silver Frame A1 Forecourt Sign",
         teaser:
           "Sentinel Silver frame, double sided magnetic poster holder and black water-fillable base.",
@@ -45,6 +45,36 @@ const products = [
             quantityOpt3: "",
             priceOpt3: "",
           },
+          {
+            text: `A0`,
+            productCode: `SA0`,
+            quantityOpt1: `1-9`,
+            priceOpt1: `£308.50`,
+            quantityOpt2: ``,
+            priceOpt2: ``,
+            quantityOpt3: "",
+            priceOpt3: "",
+          },
+          {
+            text: `40x30"`,
+            productCode: `S4030`,
+            quantityOpt1: `1-9`,
+            priceOpt1: `£264.95`,
+            quantityOpt2: "",
+            priceOpt2: "",
+            quantityOpt3: "",
+            priceOpt3: "",
+          },
+          {
+            text: `60x40"`,
+            productCode: `S6040`,
+            quantityOpt1: `1-9`,
+            priceOpt1: `£368.75`,
+            quantityOpt2: "",
+            priceOpt2: "",
+            quantityOpt3: "",
+            priceOpt3: "",
+          },
         ],
         specifications: [
           {
@@ -58,72 +88,6 @@ const products = [
             label: "Display Area(mm)	",
             value: "580 x 830",
           },
-        ],
-        downloads: [
-          {
-            name: "Sentinel Description",
-            file: "spec/sentinel/SENTINEL.pdf",
-          },
-          {
-            name: "Sentinel (no header) Specifications",
-            file: "spec/sentinel/sentinelproductspecifications.pdf",
-          },
-          {
-            name: "Sentinel (header) Specifications",
-            file: "spec/sentinel/forecourtsentinelheader.pdf",
-          },
-          {
-            name: "Sentinel Instructions",
-            file: "spec/sentinel/sentinelinstructions.pdf",
-          },
-          {
-            name: "Sentinel A1 Artwork",
-            file: "spec/sentinel/SentinelA1.pdf",
-          },
-          {
-            name: "Sentinel Dimensions and  Weight",
-            file: "spec/sentinel/Sentineldimsandweights.PNG",
-          },
-        ],
-        price: "218.95",
-      },
-      {
-        slug: "sentinel-silver-frame-a0",
-        name: "Sentinel Silver Frame A0 Forecourt Sign",
-        teaser:
-          "Sentinel Silver frame, double sided magnetic poster holder and black water-fillable base.",
-        images: [
-          {
-            alt: "Sentinel Silver frame, double sided magnetic poster holder and black water-fillable base.",
-            src: "/img/sign/forecourt/16.jpg",
-          },
-          {
-            alt: "alt text",
-            src: "/img/sign/forecourt/21.jpg",
-          },
-        ],
-        features: [
-          "Stainless steel tamper-proof fixings",
-          "Magnetic poster covers provide superior weather resistance and poster security",
-          "Water fillable polythylene base made using recycled materials",
-          "Black base as standard to hide dirt and marks",
-          "Built in wheels - easy to move with purpose designed trolley",
-        ],
-        description:
-          "The ultimate forecourt poster sign. Nothing does it better than Sentinel in a choice of 4 high impace poster sizes.",
-        subprice: [
-          {
-            text: `A0`,
-            productCode: `SA1`,
-            quantityOpt1: `1-9`,
-            priceOpt1: `£308.50`,
-            quantityOpt2: ``,
-            priceOpt2: ``,
-            quantityOpt3: "",
-            priceOpt3: "",
-          },
-        ],
-        specifications: [
           {
             label: "Product Code - A0",
           },
@@ -135,74 +99,8 @@ const products = [
             label: "Display Area(mm)",
             value: "827 x 1178",
           },
-        ],
-        downloads: [
           {
-            name: "Sentinel Description",
-            file: "spec/sentinel/SENTINEL.pdf",
-          },
-          {
-            name: "Sentinel (no header) Specifications",
-            file: "spec/sentinel/sentinelproductspecifications.pdf",
-          },
-          {
-            name: "Sentinel (header) Specifications",
-            file: "spec/sentinel/forecourtsentinelheader.pdf",
-          },
-          {
-            name: "Sentinel Instructions",
-            file: "spec/sentinel/sentinelinstructions.pdf",
-          },
-          {
-            name: "Sentinel A0 Artwork",
-            file: "spec/sentinel/SentinelAO.pdf",
-          },
-          {
-            name: "Sentinel Dimensions and  Weight",
-            file: "spec/sentinel/Sentineldimsandweights.PNG",
-          },
-        ],
-        price: "308.50",
-      },
-      {
-        slug: "sentinel-silver-frame-s4030",
-        name: 'Sentinel Silver Frame 4030" Forecourt Sign',
-        teaser:
-          "Sentinel Silver frame, double sided magnetic poster holder and black water-fillable base.",
-        images: [
-          {
-            alt: "Sentinel Silver frame, double sided magnetic poster holder and black water-fillable base.",
-            src: "/img/sign/forecourt/16.jpg",
-          },
-          {
-            alt: "alt text",
-            src: "/img/sign/forecourt/21.jpg",
-          },
-        ],
-        features: [
-          "Stainless steel tamper-proof fixings",
-          "Magnetic poster covers provide superior weather resistance and poster security",
-          "Water fillable polythylene base made using recycled materials",
-          "Black base as standard to hide dirt and marks",
-          "Built in wheels - easy to move with purpose designed trolley",
-        ],
-        description:
-          "The ultimate forecourt poster sign. Nothing does it better than Sentinel in a choice of 4 high impace poster sizes.",
-        subprice: [
-          {
-            text: `40x30"`,
-            productCode: `S4030`,
-            quantityOpt1: `1-9`,
-            priceOpt1: `£264.95`,
-            quantityOpt2: "",
-            priceOpt2: "",
-            quantityOpt3: "",
-            priceOpt3: "",
-          },
-        ],
-        specifications: [
-          {
-            label: "Product Code - S4030",
+            label: "Product Code - 4030",
           },
           {
             label: '4030"',
@@ -212,72 +110,6 @@ const products = [
             label: "Display Area(mm)",
             value: "827 x 1178",
           },
-        ],
-        downloads: [
-          {
-            name: "Sentinel Description",
-            file: "spec/sentinel/SENTINEL.pdf",
-          },
-          {
-            name: "Sentinel (no header) Specifications",
-            file: "spec/sentinel/sentinelproductspecifications.pdf",
-          },
-          {
-            name: "Sentinel (header) Specifications",
-            file: "spec/forecourtsentinelheader.pdf",
-          },
-          {
-            name: "Sentinel Instructions",
-            file: "spec/sentinel/sentinelinstructions.pdf",
-          },
-          {
-            name: 'Sentinel 4030" Artwork',
-            file: "spec/sentinel/Sentinel4030.pdf",
-          },
-          {
-            name: "Sentinel Dimensions and  Weight",
-            file: "spec/sentinel/Sentineldimsandweights.PNG",
-          },
-        ],
-        price: "264.95",
-      },
-      {
-        slug: "sentinel-silver-frame-s6040",
-        name: 'Sentinel Silver Frame 6040" Forecourt Sign',
-        teaser:
-          "Sentinel Silver frame, double sided magnetic poster holder and black water-fillable base.",
-        images: [
-          {
-            alt: "Sentinel Silver frame, double sided magnetic poster holder and black water-fillable base.",
-            src: "/img/sign/forecourt/16.jpg",
-          },
-          {
-            alt: "alt text",
-            src: "/img/sign/forecourt/21.jpg",
-          },
-        ],
-        features: [
-          "Stainless steel tamper-proof fixings",
-          "Magnetic poster covers provide superior weather resistance and poster security",
-          "Water fillable polythylene base made using recycled materials",
-          "Black base as standard to hide dirt and marks",
-          "Built in wheels - easy to move with purpose designed trolley",
-        ],
-        description:
-          "The ultimate forecourt poster sign. Nothing does it better than Sentinel in a choice of 4 high impace poster sizes.",
-        subprice: [
-          {
-            text: `60x40"`,
-            productCode: `S6040`,
-            quantityOpt1: `1-9`,
-            priceOpt1: `£368.75`,
-            quantityOpt2: "",
-            priceOpt2: "",
-            quantityOpt3: "",
-            priceOpt3: "",
-          },
-        ],
-        specifications: [
           {
             label: "Product Code - S6040",
           },
@@ -308,15 +140,15 @@ const products = [
             file: "spec/sentinel/sentinelinstructions.pdf",
           },
           {
-            name: 'Sentinel 6040" Artwork',
-            file: "spec/sentinel/Sentinel6040.pdf",
+            name: "Sentinel A1 Artwork",
+            file: "spec/sentinel/SentinelA1.pdf",
           },
           {
             name: "Sentinel Dimensions and  Weight",
             file: "spec/sentinel/Sentineldimsandweights.PNG",
           },
         ],
-        price: "368.75",
+        price: "218.95 - £368.75",
       },
       {
         slug: "ecomaster-pavement-sign-a0",

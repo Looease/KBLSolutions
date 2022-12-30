@@ -3,9 +3,6 @@
 </script>
 
 <style>
-*{
-  background-color: #F6F7F9;
-}
 
 section{
  padding: 0;
@@ -39,7 +36,9 @@ section{
   width: 80%;
 }
 
-
+.container{
+  background-color: #F6F7F9;
+}
 
 .form-container{
   padding-left: 25%;
@@ -57,7 +56,7 @@ section{
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -60%);
 }
 
 @media screen and (max-width:992px) {
@@ -69,16 +68,43 @@ section{
     font-size: 0.7em;
   }
 
+  #about{
+  transform: translate(-50%, -85%);
 }
-@media screen and (max-width:603px){
-  .logo{
+
+@media screen and (max-width:820px) {
+  #about{
+  transform: translate(-50%, -100%);
+}
+}
+
+@media screen and (max-width:800px) {
+  #about{
+  transform: translate(-50%, -80%);
+}
+.logo{
     display: none;
   } 
+  #formatfont{
+    padding: 0 10% 0 10%;
+    font-size: 0.6em;
+  }
+  #section1{
+  widows: 50%;
+}
+}
+
+@media screen and (max-width:603px){
    #formatfont{
     padding: 5%;
   }
   #section1{
   widows: 50%;
+}
+
+#about{
+  transform: translate(-50%, -80%);
+}
 }
 }
 </style>
@@ -92,7 +118,7 @@ section{
       <img src="img/blurred.jpg" class="img-fluid rounded" style="height: 20em;
       width: 100%;
       margin-top: 100px;
-      opacity: 0.45;" alt="Banner with company description">
+      opacity: 0.3;" alt="Banner with company description">
     </div>
     
     </div> 
