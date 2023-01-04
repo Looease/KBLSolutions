@@ -82,9 +82,6 @@ display: none;
 #about{
   transform: translate(-50%, -60%);
 }
-.logo{
-    display: none;
-  }
 
   #section0 {
   padding-top: 0%;
@@ -141,9 +138,6 @@ display: none;
   widows: 50%;
 }
 
-#banner{
-  visibility: visible;
-}
 }
 
 @media screen and (max-width:415px){
@@ -153,7 +147,7 @@ display: none;
 
   }
   #about{
-  transform: translate(-50%, -60%);
+  transform: translate(-50%, -65%);
 }
   #section1{
   widows: 50%;
