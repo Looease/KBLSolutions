@@ -149,11 +149,11 @@ display: none;
 @media screen and (max-width:415px){
    #formatfont{
     padding: 5%;
-    font-size: 1em;
+    font-size: 1.1em;
 
   }
   #about{
-  transform: translate(-50%, -65%);
+  transform: translate(-50%, -60%);
 }
   #section1{
   widows: 50%;
