@@ -62,24 +62,18 @@ section{
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -60%);
+  transform: translate(-50%, -70%);
 }
 
 #section25{
   display: none
 }
 
-/* @media screen and (max-width:992px) {
-
+@media screen and (max-width:1400px) {
+#about{
+  transform: translate(-50%, -40%);
 }
-  #formatfont{
-    padding: 0 4% 0 4%;
-  }
-
-  #about{
-  transform: translate(-50%, -85%);
 }
-} */
 
 @media screen and (max-width:992px) {
 .logo{
@@ -122,11 +116,15 @@ display: none;
 #banner{
   visibility: hidden;
 }
+
+#section2{
+  padding: 0 5% 0 5%;
+}
 }
 
 @media screen and (max-width: 820px){
 #about{
-  transform: translate(-50%, -95%);
+  transform: translate(-50%, -85%);
 }
 }
 
@@ -134,10 +132,10 @@ display: none;
 @media screen and (max-width:767px){
    #formatfont{
     padding: 5%;
-    font-size: 1.3em;
+    font-size: 1.1em;
   }
   #about{
-  transform: translate(-50%, -60%);
+  transform: translate(-50%, -40%);
 }
   #section1{
   widows: 50%;
@@ -151,7 +149,8 @@ display: none;
 @media screen and (max-width:415px){
    #formatfont{
     padding: 5%;
-    font-size: 1.2em;
+    font-size: 1em;
+
   }
   #about{
   transform: translate(-50%, -65%);
@@ -164,10 +163,9 @@ display: none;
 @media screen and (max-width:376px){
    #formatfont{
     padding: 5%;
-    font-size: 1.2em;
   }
   #about{
-  transform: translate(-50%, -49%);
+  transform: translate(-50%, -40%);
 }
   #section1{
   widows: 50%;
