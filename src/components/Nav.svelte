@@ -74,7 +74,7 @@ header{
 	</nav> 
 	
 	<!-- Main nav -->
-	<nav class="navbar navbar-main navbar-expand-lg navbar-light border-bottom" id="nav-content" aria-expanded="false" use:clickOutside on:click_outside={closeNav}>
+	<nav class="navbar navbar-main navbar-expand-lg navbar-light border-bottom" id="nav-content" style="z-index: 10" aria-expanded="false" use:clickOutside on:click_outside={closeNav}>
 	  <div class="container" id="nav-toggle" aria-hidden="true">
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main_nav" aria-controls="main_nav" aria-expanded="false" aria-label="Toggle navigation">
 		  <span class="navbar-toggler-icon"></span>
