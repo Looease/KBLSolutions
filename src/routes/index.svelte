@@ -13,9 +13,9 @@
   </section>
     <div class="section" id="section25">
         <span class="about-mobile" id="about">
-          <div>
+          
             <img src="img/logo.png" alt="KBL Solutions Logo" class="mobile-logo"/>
-          </div>
+          
           <h4 id="formatHeader">
           Marketing display products for all your business needs.
           </h4>
