@@ -93,7 +93,6 @@ h1{
         <li class="card card-product-grid">
             <a href={getPath(group)}>
 
-                <!-- The [0] means get the first image from the array -->
                 <img src={group.images[0].src} alt={group.images[0].alt} />
 
                 <h6>{group.name}</h6>

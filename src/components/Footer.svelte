@@ -7,7 +7,7 @@
 
 <!-- ========================= FOOTER ========================= -->
 <footer class="section-footer bg-secondary">
-  <div class="container" id="footercontainer">
+  <div id="footercontainer">
     <section class="footer-top padding-y-lg text-white">
       <div class="row">
         <!-- <aside class="col-md col-6">

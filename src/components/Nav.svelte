@@ -1,3 +1,26 @@
+<script>
+import {closeNav} from '../../static/js/script'
+
+function clickOutside(node) {
+  
+  const handleClick = event => {
+    if (node && !node.contains(event.target) && !event.defaultPrevented) {
+      node.dispatchEvent(
+        new CustomEvent('click_outside', node)
+      )
+    }
+  }
+
+	document.addEventListener('click', handleClick, true);
+  
+  return {
+    destroy() {
+      document.removeEventListener('click', handleClick, true);
+    }
+	}
+}		
+</script>
+
 <style>
 header{
 	height: 14vh;
@@ -37,7 +60,7 @@ header{
 
 </style>
 <header class="section-header">
-
+	<!-- Contact nav -->
 	<nav class="navbar navbar-dark navbar-expand p-0 bg-primary" id="nav">
 	<div class="container">
 		<ul class="navbar-nav d-none d-md-flex mr-auto">
@@ -50,51 +73,9 @@ header{
 		</ul> 
 	</nav> 
 	
-	<!-- <section class="header-main border-bottom">
-		<div class="container">
-	<div class="row align-items-center">
-		<div class="col-lg-2 col-6">
-			<a href="http://bootstrap-ecommerce.com" class="brand-wrap">
-				<img class="logo" src="images/logo.png">
-			</a> <!-- brand-wrap.// -->
-		<!-- </div>
-		<div class="col-lg-6 col-12 col-sm-12">
-			<form action="#" class="search">
-				<div class="input-group w-100">
-					<input type="text" class="form-control" placeholder="Search">
-					<div class="input-group-append">
-					  <button class="btn btn-primary" type="submit">
-						<i class="fa fa-search"></i>
-					  </button>
-					</div>
-				</div>
-			</form> <!-- search-wrap .end// -->
-		<!--</div> col.// -->
-		<!-- <div class="col-lg-4 col-sm-6 col-12">
-			<div class="widgets-wrap float-md-right">
-				<div class="widget-header  mr-3">
-					<a href="#" class="icon icon-sm rounded-circle border"><i class="fa fa-envelope"></i></a>
-					<span class="badge badge-pill badge-danger notify">0</span>
-				</div>
-				<div class="widget-header icontext">
-					<a href="#" class="icon icon-sm rounded-circle border"><i class="fa fa-user"></i></a>
-					<div class="text">
-						<span class="text-muted">Welcome!</span>
-						<div> 
-							<a href="#">Sign in</a> |  
-							<a href="#"> Register</a>
-						</div>
-					</div>
-				</div>
-			</div> <!-- widgets-wrap.// -->
-		<!--</div> <!-- col.// -->
-	<!--</div> <!-- row.// -->
-	<!--	</div> <!-- container.// -->
-	<!--</section> header-main .// --> 
-	
-	
-	<nav class="navbar navbar-main navbar-expand-lg navbar-light border-bottom">
-	  <div class="container">
+	<!-- Main nav -->
+	<nav class="navbar navbar-main navbar-expand-lg navbar-light border-bottom" id="nav-content" aria-expanded="false" use:clickOutside on:click_outside={closeNav}>
+	  <div class="container" id="nav-toggle" aria-hidden="true">
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main_nav" aria-controls="main_nav" aria-expanded="false" aria-label="Toggle navigation">
 		  <span class="navbar-toggler-icon"></span>
 		</button>
