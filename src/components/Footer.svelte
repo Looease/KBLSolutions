@@ -2,32 +2,16 @@
 #footercontainer div ul, #footercontainer div ul li, h6{
   color: white;
 }
+#footercontainer div ul, #footercontainer div ul a:hover{
+  color: white;
+}
 
 </style>
 
-<!-- ========================= FOOTER ========================= -->
 <footer class="section-footer bg-secondary">
   <div id="footercontainer">
     <section class="footer-top padding-y-lg text-white">
       <div class="row">
-        <!-- <aside class="col-md col-6">
-          <h6 class="title">Products</h6>
-          <ul class="list-unstyled">
-            <li> <a href="/products/compact-screen">Compact privacy screen</a></li>
-            <li> <a href="/products/landing/forecourt-signs">Forecourt Sign</a></li>
-            <li> <a href="/products/a-board">A-Board Pavement Sign</a></li>
-            <li> <a href="/products/landing/menus">Menus</a></li>
-            <li> <a href="/products/landing/snap-frames">Snap Frame</a></li>
-          </ul>
-        </aside> -->
-        <!-- <aside class="col-md col-6">
-          <h6 class="title">Company</h6>
-          <ul class="list-unstyled">
-            <li> <a href="about">About us</a></li>
-            <li> <a href="/#section1">Products and Services</a></li>
-            <li> <a href="/testimonials">Testimonials</a></li>
-          </ul>
-        </aside> -->
         <aside class="col-md col-6">
           <h6 class="title">Help</h6>
           <ul class="list-unstyled">
@@ -49,8 +33,8 @@
             <li> <a href="mailto:sales@kblsolutions.co.uk">Sales@kblsolutions.co.uk</a></li>
           </ul>
         </aside>
-      </div> <!-- row.// -->
-    </section>  <!-- footer-top.// -->
+      </div> 
+    </section> 
 
     <section class="footer-bottom text-center">
       <a href="terms">
@@ -58,5 +42,5 @@
         <p class="text-white"> &copy 2019 KBL Solutions LTD, All rights reserved </p>
         <br>
     </section>
-  </div><!-- //container -->
+  </div>
 </footer>

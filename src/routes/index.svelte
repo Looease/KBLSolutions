@@ -4,7 +4,7 @@
 
 
 <div class="section " id="section0">
-  <section class="section-intro padding-y-sm" id="section00">
+  <section class="section-intro" id="section00">
     <div class="container" id="container">
     <div class="intro-banner-wrap">
       <img id="banner" class="img-fluid rounded" src="img/banner.png" style="height: 10%; width: auto" alt="Banner with company description: Marketing display products for all your business needs. Here at KBL, we aim to help you maximise your marketing efforts by supplying you with effective products at great prices. We supply a wider range of Point of Sale products than appear on our web site, so if you can’t see what you’re looking for, feel free to give us a call and we can walk you through your marketing requirements, where we are sure we will be able to help."/>
@@ -13,7 +13,7 @@
   </section>
     <div class="section" id="section25">
         <span class="about-mobile" id="about">
-          
+  
             <img src="img/logo.png" alt="KBL Solutions Logo" class="mobile-logo"/>
           
           <h4 id="formatHeader">
@@ -30,7 +30,10 @@
         </p>
         </span> 
 </div>  
-
+<div class="section" id="section20">
+  <h1 class="products-and-services" id="gone">Products and Services</h1>
+  <Carousel />
+</div>  
 <!-- <ul class="about">
   <li>
   <img src="img/logo.png" alt="KBL Solutions Logo" class="logo">
@@ -41,7 +44,7 @@
 </ul> -->
 </div>
 <div class="section" id="section1">
-    <section class="section-content padding-y-sm" id="section1">
+    <section class="section-content" id="section1">
       <div class="container">
       <article class="card card-body">
       <div class="row">
@@ -76,11 +79,6 @@
       </div> 
       </section>  
   </div>
-  <br/>
-  <div class="section" id="section20">
-    <h1 class="pands" id="gone">Products and Services</h1>
-    <Carousel />
-  </div>  
 <div class="form-container" id="section2">
 <div class="card mb-4">
   <div class="card-body">

@@ -1,5 +1,6 @@
 <script>
-import {closeNav} from '../../static/js/script'
+    import { stop_propagation } from 'svelte/internal';
+import {handleClickOutside, handlePageNavigation} from '../../static/js/script'
 
 function clickOutside(node) {
   
@@ -19,6 +20,14 @@ function clickOutside(node) {
     }
 	}
 }		
+function closeNav() {
+  var x = document.getElementById("navLink");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
 </script>
 
 <style>
@@ -74,23 +83,23 @@ header{
 	</nav> 
 	
 	<!-- Main nav -->
-	<nav class="navbar navbar-main navbar-expand-lg navbar-light border-bottom" id="nav-content" style="z-index: 10" aria-expanded="false" use:clickOutside on:click_outside={closeNav}>
+	<nav class="navbar navbar-main navbar-expand-lg navbar-light border-bottom" id="nav-content" style="z-index:10" aria-expanded="false" use:clickOutside on:click_outside={handleClickOutside}>
 	  <div class="container" id="nav-toggle" aria-hidden="true">
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main_nav" aria-controls="main_nav" aria-expanded="false" aria-label="Toggle navigation">
 		  <span class="navbar-toggler-icon"></span>
 		</button>
 	
 		<div class="collapse navbar-collapse" id="main_nav">
-			<a class="navbar-brand" id="logo" onclick="closeNav();" href="/"><img src="img/logo.png" alt="KBL Solutions logo" id="logo-img"></a>
+			<a class="navbar-brand" id="logo" on:click={handleClickOutside} href="/"><img src="img/logo.png" alt="KBL Solutions logo" id="logo-img"></a>
 		  <ul class="navbar-nav">
 			  <li class="nav-item">
-				<a class="nav-link" href="about" id="navLink" onclick="closeNav();">About us</a>
+				<a class="nav-link" href="about" id="navLink" on:click={handleClickOutside}>About us</a>
 			</li>
 			  <li class="nav-item dropdown">
-			  <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="/products/index.svelte">Products and Services</a>
+			  <a class="nav-link dropdown-toggle" data-toggle="dropdown" on:click={stop_propagation} href="/products/index.svelte">Products and Services</a>
 			
 			  <div class="dropdown-menu">
-					<a class="dropdown-item" onclick="closeNav();" href="/products/" >All products and services</a>
+					<a class="dropdown-item"  href="/products/" >All products and services</a>
 					<div class="dropdown-divider"></div>
 				<a class="dropdown-item" href="/products/compact-screen" id="navLink" onclick="closeNav();">Compact Privacy Screen</a>
 				<div class="dropdown-divider"></div>
@@ -111,10 +120,10 @@ header{
 			</li>
 		
 			<li class="nav-item">
-				<a class="nav-link" href="testimonials" onclick="closeNav();">Testimonials</a>
+				<a class="nav-link" href="testimonials" use:clickOutside on:click_outside={handleClickOutside}>Testimonials</a>
 			</li>
 			<li class="nav-item">
-				<a class="nav-link bottom" href="/#section2" onclick="closeNav();">Contact</a>
+				<a class="nav-link bottom" href="/#section2" use:clickOutside on:click_outside={handleClickOutside}>Contact</a>
 			</li>
 		  </ul>
 		</div> 

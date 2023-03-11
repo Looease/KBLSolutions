@@ -216,9 +216,9 @@ p:last-child {
 .section-footer ul li {
   margin-bottom: 5px; }
 .section-footer ul a {
-  color: inherit; }
+  color: #fff; }
   .section-footer ul a:hover {
-    color: #44A4D9; }
+    color: #fff; }
 .section-footer .logo-footer {
   height: 40px; }
 .section-footer .title {

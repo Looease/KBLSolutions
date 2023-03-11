@@ -12,7 +12,7 @@ const products = [
     products: [
       {
         slug: "sentinel-silver-frame",
-        name: "Sentinel Silver Frame A1 Forecourt Sign",
+        name: "Sentinel Silver Frame Forecourt Sign",
         teaser:
           "Sentinel Silver frame, double sided magnetic poster holder and black water-fillable base.",
         images: [
@@ -152,7 +152,7 @@ const products = [
       },
       {
         slug: "ecomaster-pavement-sign-a0",
-        name: "EcoMaster Forecourt Sign - A0",
+        name: "EcoMaster Forecourt Sign",
         teaser:
           "EcoMaster is one of our most popular Forecourt Signs, with a Water-fillable base and Springs for added stability. The Snap Frame profile allows easy poster change. Supplied with protective front sheets. Wheels on the base allows the EcoMaster to be easily moved into new positions or inside overnight",
         images: [
@@ -278,7 +278,7 @@ const products = [
       },
       {
         slug: "eseries-forecourt-sign-A1",
-        name: "ESeries Forecourt / Pavement Sign - A1",
+        name: "ESeries Forecourt / Pavement Sign",
         teaser:
           "ESeries features a Water-fillable base and Springs for added stability.",
         images: [
