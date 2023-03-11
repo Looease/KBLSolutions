@@ -26,7 +26,7 @@
           what you’re looking for, feel free to give us a call and we can walk you through your marketing
           requirements, where we are sure we will be able to help.
           <br><br>
-          Read more about us <a href="about" class= "point">here</a>
+          Read more about us <a href="about" class="text-link">here</a>
         </p>
         </span> 
 </div>  

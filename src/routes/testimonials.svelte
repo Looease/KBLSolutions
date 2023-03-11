@@ -5,7 +5,7 @@ article{
   background-size: cover;
 }
 h1{
-margin-top: 175px;
+margin-top: 5%;
 width: 250px;
 }
 h1, h6{

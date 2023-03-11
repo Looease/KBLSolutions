@@ -6,9 +6,6 @@ body{
 	  background-size: cover;
 
 }
-.point{
-	color: #2F89CE;
-}
 .about{
 	display: flex;
 	justify-content: space-around;
@@ -53,9 +50,7 @@ color: #2F89CE;
 .title{
 color: white;
 }
-.point{
-cursor: pointer;
-}
+
 @media screen and (max-width:1315px) {
 body{
 	background-size: cover;

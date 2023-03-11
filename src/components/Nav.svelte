@@ -1,7 +1,11 @@
 <script>
-    import { stop_propagation } from 'svelte/internal';
-import {handleClickOutside, handlePageNavigation} from '../../static/js/script'
 
+export function handleClickOutside() {
+   const x = document.getElementById("main_nav");
+   if (x.classList.contains("show")) {
+    x.classList.remove("show"); 
+   }
+}
 function clickOutside(node) {
   
   const handleClick = event => {
@@ -11,23 +15,44 @@ function clickOutside(node) {
       )
     }
   }
-
 	document.addEventListener('click', handleClick, true);
-  
   return {
     destroy() {
       document.removeEventListener('click', handleClick, true);
     }
 	}
 }		
-function closeNav() {
-  var x = document.getElementById("navLink");
-  if (x.style.display === "none") {
-    x.style.display = "block";
-  } else {
-    x.style.display = "none";
-  }
-}
+
+const products = [{
+	url: '',
+	name: 'All products and services'
+},
+{
+	url: '',
+	name: 'Compact privacy screen'
+},{
+	url: '',
+	name: 'Forecourt Signs',
+},{
+	url: '',
+	name:'',
+},{
+	url: '',
+	name:'',
+},{
+	url: '',
+	name:'',
+},{
+	url: '',
+	name:'',
+},{
+	url: '',
+	name:'',
+},{
+	url: '',
+	name:'',
+}];
+
 </script>
 
 <style>
@@ -82,6 +107,10 @@ header{
 		</ul> 
 	</nav> 
 	
+	<!-- on:click={handleClickOutside} -->
+	<!-- use:clickOutside on:click_outside={handleClickOutside}
+	on:click={stop_propagation} -->
+	
 	<!-- Main nav -->
 	<nav class="navbar navbar-main navbar-expand-lg navbar-light border-bottom" id="nav-content" style="z-index:10" aria-expanded="false" use:clickOutside on:click_outside={handleClickOutside}>
 	  <div class="container" id="nav-toggle" aria-hidden="true">
@@ -89,41 +118,41 @@ header{
 		  <span class="navbar-toggler-icon"></span>
 		</button>
 	
-		<div class="collapse navbar-collapse" id="main_nav">
-			<a class="navbar-brand" id="logo" on:click={handleClickOutside} href="/"><img src="img/logo.png" alt="KBL Solutions logo" id="logo-img"></a>
+		<div class="collapse navbar-collapse" id="main_nav" >
+			<a class="navbar-brand" id="logo"  href="/" on:click={handleClickOutside}><img src="img/logo.png" alt="KBL Solutions logo" id="logo-img"></a>
 		  <ul class="navbar-nav">
 			  <li class="nav-item">
 				<a class="nav-link" href="about" id="navLink" on:click={handleClickOutside}>About us</a>
 			</li>
 			  <li class="nav-item dropdown">
-			  <a class="nav-link dropdown-toggle" data-toggle="dropdown" on:click={stop_propagation} href="/products/index.svelte">Products and Services</a>
+			  <a class="nav-link dropdown-toggle" data-toggle="dropdown"  href="/products/index.svelte">Products and Services</a>
 			
 			  <div class="dropdown-menu">
-					<a class="dropdown-item"  href="/products/" >All products and services</a>
+					<a class="dropdown-item"  href="/products/" on:click={handleClickOutside}>All products and services</a>
 					<div class="dropdown-divider"></div>
-				<a class="dropdown-item" href="/products/compact-screen" id="navLink" onclick="closeNav();">Compact Privacy Screen</a>
+				<a class="dropdown-item" href="/products/compact-screen" id="navLink" on:click={handleClickOutside}>Compact Privacy Screen</a>
 				<div class="dropdown-divider"></div>
-				<a class="dropdown-item" href="/products/landing/forecourt-signs" id="navLink" onclick="closeNav();">Forecourt Signs</a>
+				<a class="dropdown-item" href="/products/landing/forecourt-signs" id="navLink" on:click={handleClickOutside}>Forecourt Signs</a>
 				<div class="dropdown-divider"></div>
-				<a class="dropdown-item" href="/products/a-board" id="navLink" onclick="closeNav();">Aluminum A Boards</a>
+				<a class="dropdown-item" href="/products/a-board" id="navLink" on:click={handleClickOutside}>Aluminum A Boards</a>
 				<div class="dropdown-divider"></div>
-				<a class="dropdown-item" href="/products/landing/exterior-poster-case" id="navLink" onclick="closeNav();">Lockable Posters</a>
+				<a class="dropdown-item" href="/products/landing/exterior-poster-case" id="navLink" on:click={handleClickOutside}>Lockable Posters</a>
 				<div class="dropdown-divider"></div>
-				<a class="dropdown-item" href="/products/landing/menus" id="navLink" onclick="closeNav();">Menu/Info Holders</a>
+				<a class="dropdown-item" href="/products/landing/menus" id="navLink" on:click={handleClickOutside}>Menu/Info Holders</a>
 				<div class="dropdown-divider"></div>
-				<a class="dropdown-item" href="/products/landing/snap-frames" id="navLink" onclick="closeNav();">Snap Frames</a>
+				<a class="dropdown-item" href="/products/landing/snap-frames" id="navLink" on:click={handleClickOutside}>Snap Frames</a>
 				<div class="dropdown-divider"></div>
-				<a class="dropdown-item" href="/products/landing/illuminated-display" id="navLink" onclick="closeNav();">Illuminated and LED Displays</a>
+				<a class="dropdown-item" href="/products/landing/illuminated-display" id="navLink" on:click={handleClickOutside}>Illuminated and LED Displays</a>
 				<div class="dropdown-divider"></div>
-				<a class="dropdown-item" href="/products/replacement-front-sheet" id="navLink" onclick="closeNav();">Replacement Front Sheets</a>
+				<a class="dropdown-item" href="/products/replacement-front-sheet" id="navLink" on:click={handleClickOutside} >Replacement Front Sheets</a>
 			  </div>
 			</li>
 		
 			<li class="nav-item">
-				<a class="nav-link" href="testimonials" use:clickOutside on:click_outside={handleClickOutside}>Testimonials</a>
+				<a class="nav-link" href="testimonials" on:click={handleClickOutside}>Testimonials</a>
 			</li>
 			<li class="nav-item">
-				<a class="nav-link bottom" href="/#section2" use:clickOutside on:click_outside={handleClickOutside}>Contact</a>
+				<a class="nav-link bottom" href="/#section2" on:click={handleClickOutside}>Contact</a>
 			</li>
 		  </ul>
 		</div> 

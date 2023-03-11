@@ -36,8 +36,9 @@ p {
   height: auto;
 }
 
-.text-link   {
+.text-link {
   color: #2f89ce;
+  cursor: pointer;
 }
 
 /* Section styling */
