@@ -112,8 +112,6 @@ header{
 				<div class="dropdown-divider"></div>
 				<a class="dropdown-item" href="/products/landing/forecourt-signs" id="navLink" onclick="closeNav();">Forecourt Signs</a>
 				<div class="dropdown-divider"></div>
-				<a class="dropdown-item" href="/products/a-board" id="navLink" onclick="closeNav();">Aluminum A Boards</a>
-				<div class="dropdown-divider"></div>
 				<a class="dropdown-item" href="/products/landing/exterior-poster-case" id="navLink" onclick="closeNav();">Lockable Posters</a>
 				<div class="dropdown-divider"></div>
 				<a class="dropdown-item" href="/products/landing/menus" id="navLink" onclick="closeNav();">Menu/Info Holders</a>
