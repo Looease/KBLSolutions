@@ -134,9 +134,9 @@ header{
 				<div class="dropdown-divider"></div>
 				<a class="dropdown-item" href="/products/landing/forecourt-signs" id="navLink" on:click={handleClickOutside}>Forecourt Signs</a>
 				<div class="dropdown-divider"></div>
-				<a class="dropdown-item" href="/products/a-board" id="navLink" on:click={handleClickOutside}>Aluminum A Boards</a>
-				<div class="dropdown-divider"></div>
 				<a class="dropdown-item" href="/products/landing/exterior-poster-case" id="navLink" on:click={handleClickOutside}>Lockable Posters</a>
+        <div class="dropdown-divider"></div>
+				<a class="dropdown-item" href="/products/landing/exterior-poster-case" id="navLink" onclick="closeNav();">Lockable Posters</a>
 				<div class="dropdown-divider"></div>
 				<a class="dropdown-item" href="/products/landing/menus" id="navLink" on:click={handleClickOutside}>Menu/Info Holders</a>
 				<div class="dropdown-divider"></div>
