@@ -1749,8 +1749,8 @@ swiper@^5.3.8:
     ssr-window "^2.0.0"
 
 terser@^4.6.2:
-  version "4.8.0"
-  resolved "https://registry.npmjs.org/terser/-/terser-4.8.0.tgz"
+  version "4.8.1"
+  resolved "https://registry.yarnpkg.com/terser/-/terser-4.8.1.tgz#a00e5634562de2239fd404c649051bf6fc21144f"
   dependencies:
     commander "^2.20.0"
     source-map "~0.6.1"
