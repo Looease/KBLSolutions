@@ -12,7 +12,7 @@
 	list-style: none;
 }
 h1{
-	padding-top: 150px;
+	padding-top: 5%;
 	padding-left: 50px;
 }
 h6{
@@ -49,7 +49,6 @@ img{
 @media (max-width: 992px){
 h1{
 	margin: 0;
-	padding: 150px 0px 0px 0px;
 }
 .container{
 		display: flex;
@@ -93,7 +92,6 @@ h1{
         <li class="card card-product-grid">
             <a href={getPath(group)}>
 
-                <!-- The [0] means get the first image from the array -->
                 <img src={group.images[0].src} alt={group.images[0].alt} />
 
                 <h6>{group.name}</h6>

@@ -1,7 +1,7 @@
 <style>
 
     h1{
-      padding-top: 250px;
+      padding-top: 5%;
       padding-left: 50px;
     }
     ol{

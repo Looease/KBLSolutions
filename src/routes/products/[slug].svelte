@@ -1,7 +1,5 @@
 <script context="module">
 	export async function preload({ params, query }) {
-		// the `slug` parameter is available because
-		// this file is called [slug].svelte
 		const res = await this.fetch(`products/${params.slug}.json`);
 		const data = await res.json();
 		if (res.status === 200) {
@@ -19,19 +17,11 @@
 
 	import Quickquote from '../../components/Quickquote.svelte'
 	import Sidebar from '../../components/Sidebar.svelte';
-
-	/* onMount in Svelte runs after
-	 the component has 'loaded'/rendered */
 	onMount(() => {
 
-		// Store a reference of the feature image
 		const featureImg = document.querySelector('.feature-image');
-
-		// Loop over all 'thumbnails' and listen for a click
 		document.querySelectorAll('.thumbnails img').forEach( image => {
 			image.addEventListener('click', function() {
-
-				// Set feature image src as thumbnail src
 				featureImg.src = this.src;
 			});
 		});
@@ -93,12 +83,10 @@
 			width: 60%;
 			display: flex;
 			justify-content: space-between;
-			/* align-items: center; */
 		}
 		@media screen and (max-width:1350px){
 			.priceContainer{
 			width: 65%;
-			/* align-items: flex-start; */
 		}
 	}
 		@media screen and (max-width:1200px){
@@ -130,7 +118,6 @@
 			<article class="gallery-wrap">
 				<div class="img-big-wrap">
 
-    <!-- <div class="hero"> -->
     {#if products.images}
         <figure>
 			<img alt={products.images[0].alt} src={products.images[0].src} class="feature-image"/>
@@ -141,8 +128,8 @@
             {/each}
 		</div>
     {/if}
-		</div> <!-- img-big-wrap.// -->
-			</article> <!-- gallery-wrap .end// -->
+		</div> 
+			</article> 
 		</aside>
 	 	<main class="col-sm-6">
 			<article class="content-body">
@@ -172,9 +159,8 @@
 				<div>
 					Price per item:
 					<br>
-				<ul class="priceContainer">
-					
-					<ul>
+				<ul class="priceContainer">		
+					<ul> 
 						<li>{selected && selected.quantityOpt1 ? selected.quantityOpt1 + ' items:' : ''}</li>
 						<li class="price h4">{selected ? selected.priceOpt1 : ''}</li>
 					</ul>
@@ -188,14 +174,7 @@
 						<li>{selected && selected.quantityOpt3 ? selected.quantityOpt3 + ' items:' : ''}</li>
 						<li class="price h4">{selected ? selected.priceOpt3 : ''}</li>
 					</ul>
-				
-				
-
-					<!-- <ul>
-						<li>{selected ? selected.quantityOpt3 : ''} items:</li>
-						<li class="price h4">{selected ? selected.priceOpt2 : '[waiting...]'}</li>
-					</ul>				 -->
-	
+					
 				</ul>
 			</div>
 				<br>
@@ -210,8 +189,6 @@
 
 				{/if}
 					<Quickquote productName={products.name} productSize={selected ? products.name && selected.text : ''} />
-			
-
 			</article>
 		</main>
 
@@ -250,11 +227,11 @@
 											{/if}
 									{/each}
 			    		</table>
-			    	</div> <!-- col.// -->
+			    	</div> 
 
-			    </div> <!-- row.// -->
+			    </div> 
 
-			    </div> <!-- container .//  -->
+			    </div> 
 			    </section>
 
     </div>
@@ -263,9 +240,9 @@
 <Sidebar />
 
 
-		</div> <!-- box.// -->
+		</div> 
 
-	</div> <!-- row.// -->
+	</div> 
 
-	</div> <!-- container .//  -->
+	</div> 
 </section>

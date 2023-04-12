@@ -6,9 +6,6 @@ body{
 	  background-size: cover;
 
 }
-.point{
-	color: #2F89CE;
-}
 .about{
 	display: flex;
 	justify-content: space-around;
@@ -53,9 +50,7 @@ color: #2F89CE;
 .title{
 color: white;
 }
-.point{
-cursor: pointer;
-}
+
 @media screen and (max-width:1315px) {
 body{
 	background-size: cover;
@@ -95,7 +90,7 @@ body{
 			Need something bespoke? We can help with that too.
 			<br><br>
 			We pride ourselves on our customer service, always going that little bit further to help, but don’t just
-			take our word for it, have a look and see what our Customers are saying about us - <a href="testimonials" class="point">Testimonials</a>
+			take our word for it, have a look and see what our Customers are saying about us - <a href="testimonials" class="text-link">Testimonials</a>
 			<br><br>
 			<ul class="list">
 				<li>Point of Sale Products.</li>

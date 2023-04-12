@@ -2,84 +2,40 @@
   import Carousel from '../components/Carousel.svelte'
 </script>
 
-<style>
-section{
- padding: 0;
-}
 
-#section1{
-  widows: 100%;
-}
-/* #temp{
-  color: #000;
-  font-weight: 1000;
-} */
-.logo{
-  padding: 0px;
-  width: 300px;
-  height: auto;
-}
-#formatfont{
-  font-size:0.8em;
-  color: black;
-}
-
-.about, .contentbox{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.form-container{
-  padding-left: 25%;
-  padding-right: 25%;
-
-}
-
-
-@media screen and (max-width:992px) {
-  .logo{
-    width: 200px;
-  }
-  #formatfont{
-    padding: 0 4% 0 4%;
-    font-size: 0.7em;
-  }
-
-}
-@media screen and (max-width:603px){
-  .logo{
-    display: none;
-  } 
-   #formatfont{
-    padding: 5%;
-  }
-  #section1{
-  widows: 50%;
-}
-}
-</style>
-
- <!-- <div class="section">  -->
 <div class="section " id="section0">
-   <ul class="about">
-    <li class="contentbox">
-    <img src="img/logo.png" alt="KBL Solutions Logo" class="logo">
-      <h4 id="formatfont">
-      Marketing display products for all your business needs.
-      <br>  <br>
-      Here at KBL, we aim to help you maximise your marketing efforts by supplying you with effective
-      products at great prices.
-      We supply a wider range of Point of Sale products than appear on our web site, so if you can’t see
-      what you’re looking for, feel free to give us a call and we can walk you through your marketing
-      requirements, where we are sure we will be able to help.
-      <br><br>
-      Read more about us <a href="about" class="point">here</a>
-      </h4>
-    </li> 
-</ul> 
+  <section class="section-intro" id="section00">
+    <div class="container" id="container">
+    <div class="intro-banner-wrap">
+      <img id="banner" class="img-fluid rounded" src="img/banner.png" style="height: 10%; width: auto" alt="Banner with company description: Marketing display products for all your business needs. Here at KBL, we aim to help you maximise your marketing efforts by supplying you with effective products at great prices. We supply a wider range of Point of Sale products than appear on our web site, so if you can’t see what you’re looking for, feel free to give us a call and we can walk you through your marketing requirements, where we are sure we will be able to help."/>
+    </div>
+    </div> 
+  </section>
+    <div class="section" id="section25">
+        <span class="about-mobile" id="about">
+  
+            <img src="img/logo.png" alt="KBL Solutions Logo" class="mobile-logo"/>
+          
+          <h4 id="formatHeader">
+          Marketing display products for all your business needs.
+          </h4>
+          <p id="formatfont"> 
+          Here at KBL, we aim to help you maximise your marketing efforts by supplying you with effective
+          products at great prices.
+          We supply a wider range of Point of Sale products than appear on our web site, so if you can’t see
+          what you’re looking for, feel free to give us a call and we can walk you through your marketing
+          requirements, where we are sure we will be able to help.
+          <br><br>
+          Read more about us <a href="about" class="text-link">here</a>
+        </p>
+        </span> 
+</div>  
+<div class="section" id="section20">
+  <h1 class="products-and-services" id="gone">Products and Services</h1>
+  <Carousel />
+</div>  
 <!-- <ul class="about">
-  <li class="contentbox">
+  <li>
   <img src="img/logo.png" alt="KBL Solutions Logo" class="logo">
     <h1 id="temp">
     Website being updated
@@ -87,8 +43,8 @@ section{
   </li>
 </ul> -->
 </div>
-<div class="section">
-    <section class="section-content padding-y-sm" id="section1">
+<div class="section" id="section1">
+    <section class="section-content" id="section1">
       <div class="container">
       <article class="card card-body">
       <div class="row">
@@ -108,8 +64,8 @@ section{
               <h5 class="title">Email us</h5>
               <p><a href="mailto:sales@kblsolutions.co.uk">sales@kblsolutions.co.uk</a></p>
             </figcaption>
-          </figure> <!-- iconbox // -->
-        </div><!-- col // -->
+          </figure> 
+        </div>
           <div class="col-md-4">
           <figure  class="item-feature">
             <span class="text-primary"><i class="fa fa-envelope"></i></span>
@@ -117,21 +73,13 @@ section{
               <h5 class="title">Get in touch </h5>
               <p><a href="mailto:info@kblsolutions.co.uk">info@kblsolutions.co.uk</a></p>
             </figcaption>
-          </figure> <!-- iconbox // -->
-        </div> <!-- col // -->
-    
-        <br>  <br>
+          </figure> 
+        </div> 
       </article>
-
       </div> 
       </section>  
   </div>
-  <br/>
-  <div class="section" id="section20">
-    <h1 class="pands" id="gone">Products and Services</h1>
-    <Carousel />
-  </div>  
-<div class="form-container">
+<div class="form-container" id="section2">
 <div class="card mb-4">
   <div class="card-body">
     <header class="mb-4"><h4 class="card-title">Contact us</h4></header>
