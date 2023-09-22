@@ -34,6 +34,12 @@ p {
   width: 100%;
   font-size: 10px;
   height: auto;
+  list-style: none;
+}
+
+/* TODO remove  */
+.logo {
+  width: 75%;
 }
 
 .text-link {
@@ -54,7 +60,7 @@ p {
 #slide1,
 #slide2 {
   background-size: cover;
-  background-color: #F6F7F9;
+  background-color: #f6f7f9;
   padding: 0 0 0 0;
   background-position: center;
   display: block;
@@ -74,8 +80,8 @@ p {
   position: relative;
 }
 #section1 {
-  background-color: #F6F7F9;
-  padding:  0;
+  background-color: #f6f7f9;
+  padding: 0;
   width: 100%;
   margin-top: 2%;
   margin-bottom: 2%;
@@ -86,8 +92,8 @@ p {
   scroll-margin-top: 200px;
   padding: 0 25% 0 25%;
 }
-#section25{
-  display: none
+#section25 {
+  display: none;
 }
 
 /* Product Pages */
@@ -136,21 +142,20 @@ textarea {
   cursor: pointer;
 }
 
-.form-container{
+.form-container {
   padding-left: 25%;
   padding-right: 25%;
-
 }
 
-#container{
+#container {
   position: relative;
   text-align: center;
   color: white;
-  background-color: #F6F7F9;
+  background-color: #f6f7f9;
 }
 
-.first-nav{
-  background-color: #44A4D9;
+.first-nav {
+  background-color: #44a4d9;
 }
 
 #footercontainer {
@@ -173,15 +178,15 @@ textarea {
   }
 }
 @media screen and (max-width: 992px) {
-  #section00{
+  #section00 {
     display: none;
   }
 
-  #section25{
+  #section25 {
     display: block;
   }
 
-  .about-mobile{
+  .about-mobile {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -213,33 +218,32 @@ textarea {
     margin-bottom: 10px;
   }
 
-  .mobile-logo{
+  .mobile-logo {
     width: 250px;
     height: auto;
     position: relative;
     top: 75px;
     z-index: 2;
   }
-  #formatHeader{
-    font-size:1.3em;
+  #formatHeader {
+    font-size: 1.3em;
     margin-top: 10%;
     margin-bottom: 1%;
   }
-  #formatfont{
+  #formatfont {
     padding: 0 10% 0 10%;
-    font-size:1.3em;
+    font-size: 1.3em;
   }
-  #section1{
-  widows: 50%;
-}
-#banner{
-  visibility: hidden;
-}
+  #section1 {
+    widows: 50%;
+  }
+  #banner {
+    visibility: hidden;
+  }
 
-#section2{
-  padding: 0 5% 0 5%;
-}
-
+  #section2 {
+    padding: 0 5% 0 5%;
+  }
 }
 @media screen and (max-width: 601px) {
   #navbar {
@@ -256,7 +260,7 @@ textarea {
       ),
       url(img/window.jpg); */
     width: 100%;
-    height: 60vh;
+    /* REMOVE height: 60vh; */
   }
   .box {
     width: 80%;
@@ -266,23 +270,21 @@ textarea {
   .quickQuoteForm {
     height: 400px;
   }
-  #section1{
+
+  /*
+  TODO remove
+  #section1 {
     margin-top: 90vh;
+  } */
 }
-}
-@media screen and (max-width:767px){
-  #formatHeader{
-    font-size:1.1em;
+@media screen and (max-width: 767px) {
+  #formatHeader {
+    font-size: 1.1em;
     margin-top: 20%;
     margin-bottom: 1%;
   }
-   #formatfont{
+  #formatfont {
     padding: 5% 5% 0 5%;
     font-size: 1.1em;
   }
-
 }
-
-
-
-
