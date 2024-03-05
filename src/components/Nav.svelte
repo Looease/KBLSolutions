@@ -112,7 +112,7 @@ header{
 	on:click={stop_propagation} -->
 	
 	<!-- Main nav -->
-	<!-- <nav class="navbar navbar-main navbar-expand-lg navbar-light border-bottom" id="nav-content" style="z-index:10" aria-expanded="false" use:clickOutside on:click_outside={handleClickOutside}>
+	<nav class="navbar navbar-main navbar-expand-lg navbar-light border-bottom" id="nav-content" style="z-index:10" use:clickOutside on:click_outside={handleClickOutside}>
 	  <div class="container" id="nav-toggle" aria-hidden="true">
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main_nav" aria-controls="main_nav" aria-expanded="false" aria-label="Toggle navigation">
 		  <span class="navbar-toggler-icon"></span>
@@ -133,6 +133,8 @@ header{
 				<a class="dropdown-item" href="/products/compact-screen" id="navLink" on:click={handleClickOutside}>Compact Privacy Screen</a>
 				<div class="dropdown-divider"></div>
 				<a class="dropdown-item" href="/products/landing/forecourt-signs" id="navLink" on:click={handleClickOutside}>Forecourt Signs</a>
+				<div class="dropdown-divider"></div>
+				<a class="dropdown-item" href="/products/a-board" id="navLink" on:click={handleClickOutside}>Aluminum A Boards</a>
 				<div class="dropdown-divider"></div>
 				<a class="dropdown-item" href="/products/landing/exterior-poster-case" id="navLink" on:click={handleClickOutside}>Lockable Posters</a>
         <div class="dropdown-divider"></div>
@@ -157,6 +159,6 @@ header{
 		  </ul>
 		</div> 
 	  </div> 
-	</nav> -->
+	</nav>
 	
 	</header> 
