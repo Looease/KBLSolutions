@@ -148,7 +148,7 @@ const products = [
             file: "spec/sentinel/Sentineldimsandweights.PNG",
           },
         ],
-        price: "218.95 - £368.75",
+        price: "194.73 - £396.09",
       },
       {
         slug: "ecomaster-pavement-sign-a0",
