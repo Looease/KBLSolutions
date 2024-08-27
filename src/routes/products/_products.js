@@ -148,7 +148,7 @@ const products = [
             file: "spec/sentinel/Sentineldimsandweights.PNG",
           },
         ],
-        price: "194.73 - £396.09",
+        price: "211.33 - £415.60",
       },
       {
         slug: "ecomaster-pavement-sign-a0",
@@ -602,7 +602,7 @@ const products = [
             file: "spec/swingsign2.pdf",
           },
         ],
-        price: "53.50",
+        price: "62.79",
       },
       {
         slug: "swinger-two-swing-sign-poster",
@@ -673,7 +673,7 @@ const products = [
             file: "spec/swingsign2.pdf",
           },
         ],
-        price: "70.89",
+        price: "75.40",
       },
       {
         slug: "swinger-3-swing-sign-panel",
@@ -772,7 +772,7 @@ const products = [
             file: "spec/ecoswingerinstructions.pdf",
           },
         ],
-        price: "117.65",
+        price: "123.00",
       },
       {
         slug: "swinger-3-swing-sign-panel-poster",
@@ -867,7 +867,7 @@ const products = [
             file: "spec/ecoswingerinstructions.pdf",
           },
         ],
-        price: "133.00",
+        price: "139.96",
       },
       {
         slug: "economy-swing-swing-panel",
@@ -928,7 +928,7 @@ const products = [
             file: "spec/ecoswingerinstructions.pdf",
           },
         ],
-        price: "45.65",
+        price: "47.57",
       },
       {
         slug: "economy-swing-swing-poster",
@@ -989,7 +989,7 @@ const products = [
             file: "spec/ecoswingerinstructions.pdf",
           },
         ],
-        price: "66.00",
+        price: "68.17",
       },
     ],
   },
