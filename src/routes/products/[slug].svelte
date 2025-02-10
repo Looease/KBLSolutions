@@ -183,7 +183,7 @@
 						{#if products.price}
 							<h2>£{products.price}</h2>
 							{:else}
-							<h5>Contact for pricing</h5>
+							<h5>Contact for prices and supplied to order</h5>
 						{/if}
 				</span>
 
