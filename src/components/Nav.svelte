@@ -112,7 +112,7 @@ header{
 	on:click={stop_propagation} -->
 	
 	<!-- Main nav -->
-	<!-- <nav class="navbar navbar-main navbar-expand-lg navbar-light border-bottom" id="nav-content" style="z-index:10" use:clickOutside on:click_outside={handleClickOutside}>
+	<nav class="navbar navbar-main navbar-expand-lg navbar-light border-bottom" id="nav-content" style="z-index:10" use:clickOutside on:click_outside={handleClickOutside}>
 	  <div class="container" id="nav-toggle" aria-hidden="true">
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main_nav" aria-controls="main_nav" aria-expanded="false" aria-label="Toggle navigation">
 		  <span class="navbar-toggler-icon"></span>
@@ -159,6 +159,5 @@ header{
 		  </ul>
 		</div>  
 	  </div> 
-	</nav> -->
-	
-	</header> 
+	</nav>
+</header> 

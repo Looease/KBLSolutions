@@ -157,16 +157,16 @@
 					</select>
 				</form>
 				<div>
-					Price per item:
+					Price per unit:
 					<br>
 				<ul class="priceContainer">		
 					<ul> 
-						<li>{selected && selected.quantityOpt1 ? selected.quantityOpt1 + ' items:' : ''}</li>
+						<li>{selected && selected.quantityOpt1 ? selected.quantityOpt1 + ' units:' : ''}</li>
 						<li class="price h4">{selected ? selected.priceOpt1 : ''}</li>
 					</ul>
 			
 					<ul>
-						<li>{selected && selected.quantityOpt2 ? selected.quantityOpt2 + ' items:' : ''}</li>
+						<li>{selected && selected.quantityOpt2 ? selected.quantityOpt2 + ' units:' : ''}</li>
 						<li class="price h4">{selected ? selected.priceOpt2 : ''}</li>
 					</ul>
 
@@ -183,7 +183,7 @@
 						{#if products.price}
 							<h2>£{products.price}</h2>
 							{:else}
-							<h5>Contact for pricing</h5>
+							<h5>Contact for prices and supplied to order</h5>
 						{/if}
 				</span>
 
