@@ -1,42 +1,145 @@
 <script>
-	export let productName;
+  export let productName;
   export let productSize;
-
 </script>
 
-<section class="padding-bottom">
-  <div class="card card-body">
-    <h4 class="title py-3">Request a quote</h4>
-    <form action="https://formspree.io/mrgljdow" method="POST" class="quickQuoteForm">
-      <div class="form-group">
-        <input class="form-control" name="{productName}" value="{productName}" type="text">
-        <input class="form-control" name="{productSize}" value="{productSize}" type="text">
-      </div>
-      <div class="form-group">
-        <div class="input-group">
-          <input class="form-control" placeholder="Quantity" name="Quantity" type="text">
-        </div>
-      </div>
-      <div class="form-group text-muted">
-        <label class="form-check form-check-inline">
-          <input class="form-check-input" type="checkbox" value="Request Price" name="Request Price">
-          <div class="form-check-label">Request price</div>
-        </label>
-        <label class="form-check form-check-inline">
-          <input class="form-check-input" type="checkbox" value="More info" name="More info">
-          <div class="form-check-label">Request more information</div>
-        </label>
-      </div>
-      <label>
-        <input class="form-control" type="text" name="name" placeholder="Your Name">
+<div class="quote-card">
+  <h3 class="quote-title">Request a Quote</h3>
+  <form action="https://formspree.io/mrgljdow" method="POST" class="quote-form">
+    <!-- Hidden product fields -->
+    <input type="hidden" name="product" value="{productName}" />
+    {#if productSize}
+      <input type="hidden" name="product-size" value="{productSize}" />
+    {/if}
+
+    <div class="qf-field">
+      <label for="qq-quantity">Quantity required</label>
+      <input id="qq-quantity" type="text" name="Quantity" placeholder="e.g. 10" />
+    </div>
+
+    <div class="qf-checkboxes">
+      <label class="qf-check-label">
+        <input type="checkbox" value="Request Price" name="Request Price" class="qf-checkbox" />
+        <span>Request a price</span>
       </label>
-      <label>
-        <input class="form-control" type="email" name="_replyto" placeholder="Your Email address">
+      <label class="qf-check-label">
+        <input type="checkbox" value="More info" name="More info" class="qf-checkbox" />
+        <span>Request more information</span>
       </label>
-      <div class="form-group">
-        <input class="btn  btn-primary"  type="submit" value="Send">
-        <!-- <button class="btn btn-warning">Request for quote</button> -->
-      </div>
-    </form>
-  </div>
-</section>
+    </div>
+
+    <div class="qf-field">
+      <label for="qq-name">Your Name</label>
+      <input id="qq-name" type="text" name="name" placeholder="Jane Smith" required />
+    </div>
+
+    <div class="qf-field">
+      <label for="qq-email">Email Address</label>
+      <input id="qq-email" type="email" name="_replyto" placeholder="jane@company.com" required />
+    </div>
+
+    <button type="submit" class="qf-submit">
+      Send Quote Request
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+    </button>
+  </form>
+</div>
+
+<style>
+  .quote-card {
+    background: var(--slate-50);
+    border: 1px solid var(--slate-200);
+    border-radius: var(--radius-2xl);
+    padding: 1.75rem;
+    margin-top: 2rem;
+  }
+
+  .quote-title {
+    font-family: var(--font-heading);
+    font-size: 1.0625rem;
+    font-weight: 600;
+    color: var(--slate-900);
+    margin-bottom: 1.25rem;
+  }
+
+  .quote-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .qf-field {
+    display: flex;
+    flex-direction: column;
+    gap: 0.375rem;
+  }
+
+  .qf-field label {
+    font-size: 0.8125rem;
+    font-weight: 500;
+    color: var(--slate-700);
+  }
+
+  .qf-field input {
+    padding: 0.625rem 0.875rem;
+    border-radius: var(--radius-lg);
+    border: 1px solid var(--slate-200);
+    background: #fff;
+    color: var(--slate-900);
+    font-family: var(--font-sans);
+    font-size: 0.875rem;
+    outline: none;
+    transition: border-color 0.15s, box-shadow 0.15s;
+    width: 100%;
+  }
+  .qf-field input:focus {
+    border-color: var(--brand-500);
+    box-shadow: 0 0 0 3px rgba(30,154,214,0.12);
+  }
+
+  .qf-checkboxes {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .qf-check-label {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.875rem;
+    color: var(--slate-700);
+    cursor: pointer;
+  }
+
+  .qf-checkbox {
+    width: 16px;
+    height: 16px;
+    accent-color: var(--brand-600);
+    flex-shrink: 0;
+    cursor: pointer;
+  }
+
+  .qf-submit {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    padding: 0.75rem 1.25rem;
+    background: var(--brand-600);
+    color: #fff;
+    font-family: var(--font-sans);
+    font-size: 0.875rem;
+    font-weight: 500;
+    border-radius: var(--radius-xl);
+    border: none;
+    cursor: pointer;
+    transition: background 0.15s, box-shadow 0.15s;
+    box-shadow: 0 4px 12px rgba(18,123,181,0.2);
+    margin-top: 0.25rem;
+  }
+  .qf-submit:hover {
+    background: var(--brand-700);
+    box-shadow: 0 6px 16px rgba(18,123,181,0.3);
+  }
+</style>
