@@ -4,8 +4,6 @@
 
 <!-- ===================== HERO ===================== -->
 <section class="hero" id="home">
-  <!-- decorative background grid -->
-  <div class="hero-bg-right" aria-hidden="true"></div>
   <div class="hero-grid-overlay" aria-hidden="true"></div>
 
   <div class="hero-inner">
@@ -53,22 +51,6 @@
       </div>
     </div>
 
-    <!-- Image column -->
-    <div class="hero-image-wrap">
-      <div class="hero-image-frame">
-        <img src="img/banner.png" alt="KBL Solutions – Marketing display products for all your business needs" class="hero-image" />
-        <div class="hero-image-overlay" aria-hidden="true"></div>
-        <div class="hero-badge-float">
-          <div class="hbf-icon">10+</div>
-          <div>
-            <p class="hbf-title">Years of Excellence</p>
-            <p class="hbf-sub">Trusted B2B Supplier in the UK</p>
-          </div>
-        </div>
-      </div>
-      <div class="hero-blob-tr" aria-hidden="true"></div>
-      <div class="hero-blob-bl" aria-hidden="true"></div>
-    </div>
   </div>
 </section>
 
@@ -278,7 +260,10 @@
   .hero {
     position: relative;
     padding: 4rem 1.5rem 4rem;
-    background: var(--slate-50);
+    background-color: var(--slate-50);
+    background-image: url('/img/blurred.jpg');
+    background-size: cover;
+    background-position: center;
     overflow: hidden;
     min-height: calc(100vh - var(--nav-height));
     display: flex;
@@ -287,41 +272,41 @@
   }
   @media (min-width: 1024px) { .hero { padding: 5rem 3rem; } }
 
-  .hero-bg-right {
+  /* Frosted overlay so the image breathes through without competing with text */
+  .hero::before {
+    content: '';
     position: absolute;
-    top: 0; right: 0;
-    width: 50%; height: 100%;
-    background: rgba(239,249,254,0.5);
-    border-bottom-left-radius: 100px;
+    inset: 0;
+    background: linear-gradient(
+      135deg,
+      rgba(255, 255, 255, 0.72) 0%,
+      rgba(239, 249, 254, 0.65) 60%,
+      rgba(216, 240, 251, 0.58) 100%
+    );
     z-index: 0;
-    display: none;
   }
-  @media (min-width: 1024px) { .hero-bg-right { display: block; } }
 
   .hero-grid-overlay {
     position: absolute;
     inset: 0;
     background-image:
-      linear-gradient(to right, rgba(128,128,128,0.06) 1px, transparent 1px),
-      linear-gradient(to bottom, rgba(128,128,128,0.06) 1px, transparent 1px);
+      linear-gradient(to right, rgba(128,128,128,0.04) 1px, transparent 1px),
+      linear-gradient(to bottom, rgba(128,128,128,0.04) 1px, transparent 1px);
     background-size: 24px 24px;
-    z-index: 0;
+    z-index: 1;
     pointer-events: none;
   }
 
   .hero-inner {
     position: relative;
-    z-index: 1;
-    max-width: 1280px;
+    z-index: 2;
+    max-width: 860px;
     margin: 0 auto;
     width: 100%;
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 3rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
     align-items: center;
-  }
-  @media (min-width: 1024px) {
-    .hero-inner { grid-template-columns: 55fr 45fr; gap: 5rem; }
   }
 
   .hero-badge {
@@ -389,7 +374,7 @@
     color: var(--slate-600);
     line-height: 1.75;
     margin-bottom: 2.25rem;
-    max-width: 36rem;
+    max-width: 46rem;
   }
 
   .hero-actions {
@@ -442,6 +427,7 @@
     display: flex;
     flex-wrap: wrap;
     gap: 1.5rem;
+    justify-content: center;
   }
 
   .hero-benefit {
@@ -455,101 +441,6 @@
 
   .benefit-icon { color: var(--brand-500); flex-shrink: 0; }
 
-  /* Hero image */
-  .hero-image-wrap {
-    position: relative;
-    width: 100%;
-    margin: 0 auto;
-  }
-  @media (min-width: 1024px) { .hero-image-wrap { margin: 0; } }
-
-  .hero-image-frame {
-    position: relative;
-    aspect-ratio: 16/11;
-    border-radius: var(--radius-2xl);
-    overflow: hidden;
-    box-shadow: var(--shadow-xl);
-    border: 1px solid rgba(226,232,240,0.5);
-    background: #fff;
-  }
-  @media (min-width: 1024px) {
-    .hero-image-frame { aspect-ratio: 4/3; }
-  }
-
-  .hero-image {
-    width: 100%; height: 100%;
-    object-fit: cover;
-    object-position: center top;
-    display: block;
-  }
-
-  .hero-image-overlay {
-    position: absolute;
-    inset: 0;
-    background: linear-gradient(to top, rgba(15,23,42,0.35), transparent);
-  }
-
-  .hero-badge-float {
-    position: absolute;
-    bottom: 1.25rem;
-    left: 1.25rem;
-    right: 1.25rem;
-    background: rgba(255,255,255,0.95);
-    backdrop-filter: blur(8px);
-    border-radius: var(--radius-xl);
-    padding: 0.875rem 1rem;
-    box-shadow: var(--shadow-lg);
-    border: 1px solid rgba(255,255,255,0.2);
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-  }
-
-  .hbf-icon {
-    width: 48px; height: 48px;
-    background: var(--brand-100);
-    border-radius: var(--radius-lg);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: var(--font-heading);
-    font-weight: 700;
-    color: var(--brand-600);
-    font-size: 1.125rem;
-    flex-shrink: 0;
-  }
-
-  .hbf-title {
-    font-family: var(--font-heading);
-    font-weight: 600;
-    color: var(--slate-900);
-    font-size: 0.875rem;
-    margin-bottom: 0.125rem;
-  }
-
-  .hbf-sub {
-    font-size: 0.75rem;
-    color: var(--slate-500);
-  }
-
-  .hero-blob-tr {
-    position: absolute;
-    top: -24px; right: -24px;
-    width: 128px; height: 128px;
-    background: rgba(64,176,226,0.2);
-    border-radius: 50%;
-    filter: blur(32px);
-    z-index: -1;
-  }
-  .hero-blob-bl {
-    position: absolute;
-    bottom: -24px; left: -24px;
-    width: 128px; height: 128px;
-    background: rgba(30,154,214,0.15);
-    border-radius: 50%;
-    filter: blur(32px);
-    z-index: -1;
-  }
 
   /* ---- Contact strip ---- */
   .contact-strip {
