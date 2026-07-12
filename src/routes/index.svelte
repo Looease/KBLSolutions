@@ -173,6 +173,73 @@
   </div>
 </section>
 
+<!-- ===================== TESTIMONIALS ===================== -->
+<section class="home-testi">
+  <div class="home-testi-inner">
+    <div class="home-testi-header">
+      <span class="section-label">Testimonials</span>
+      <h2 class="home-testi-title">Trusted by businesses across the UK</h2>
+      <p class="home-testi-intro">Don't just take our word for it. Here's what our clients have to say.</p>
+    </div>
+
+    <div class="home-testi-grid">
+
+      <div class="ht-card">
+        <div class="ht-stars" aria-label="5 stars">
+          {#each Array(5) as _}
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" class="ht-star"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          {/each}
+        </div>
+        <blockquote class="ht-quote">"I'm always happy to work with Karen at KBL. They are friendly, approachable and good communicators. They provide a prompt service. Keep up the good work!"</blockquote>
+        <div class="ht-author">
+          <div class="ht-avatar">T</div>
+          <div>
+            <p class="ht-name">Client</p>
+            <p class="ht-company">Topps Tiles</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="ht-card">
+        <div class="ht-stars" aria-label="5 stars">
+          {#each Array(5) as _}
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" class="ht-star"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          {/each}
+        </div>
+        <blockquote class="ht-quote">"I have found KBL Solutions to be a great company to work with, speedy responses, competitive prices supplying us with good quality products. Any issues are dealt with quickly and professionally. They couldn't be more helpful."</blockquote>
+        <div class="ht-author">
+          <div class="ht-avatar">P</div>
+          <div>
+            <p class="ht-name">Project Support Coordinator</p>
+            <p class="ht-company">Dreams</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="ht-card">
+        <div class="ht-stars" aria-label="5 stars">
+          {#each Array(5) as _}
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" class="ht-star"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          {/each}
+        </div>
+        <blockquote class="ht-quote">"We have always found Karen @ KBL Solutions to be extremely helpful and efficient with any orders we place with her. The service we receive is second-to-none."</blockquote>
+        <div class="ht-author">
+          <div class="ht-avatar">M</div>
+          <div>
+            <p class="ht-name">Buying Team</p>
+            <p class="ht-company">Majestic Wines</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="home-testi-footer">
+      <a href="/testimonials" class="btn-secondary">Read all testimonials</a>
+    </div>
+  </div>
+</section>
+
 <!-- ===================== CONTACT FORM ===================== -->
 <section class="contact-section" id="contact">
   <div class="cs-bg-right" aria-hidden="true"></div>
@@ -857,5 +924,116 @@
   .cs-submit:hover {
     background: var(--brand-700);
     box-shadow: 0 6px 20px rgba(18,123,181,0.35);
+  }
+
+  /* ---- Home testimonials ---- */
+  .home-testi {
+    padding: 5rem 1.5rem;
+    background: #fff;
+  }
+  @media (min-width: 1024px) { .home-testi { padding: 5rem 3rem; } }
+
+  .home-testi-inner { max-width: 1280px; margin: 0 auto; }
+
+  .home-testi-header {
+    text-align: center;
+    max-width: 42rem;
+    margin: 0 auto 3rem;
+  }
+
+  .home-testi-title {
+    font-family: var(--font-heading);
+    font-size: clamp(1.75rem, 3vw, 2.25rem);
+    font-weight: 700;
+    color: var(--slate-900);
+    margin-top: 0.5rem;
+    margin-bottom: 0.625rem;
+  }
+
+  .home-testi-intro {
+    font-size: 1.0625rem;
+    color: var(--slate-600);
+    line-height: 1.7;
+  }
+
+  .home-testi-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.25rem;
+    margin-bottom: 2.5rem;
+  }
+  @media (min-width: 640px) { .home-testi-grid { grid-template-columns: repeat(2, 1fr); } }
+  @media (min-width: 1024px) { .home-testi-grid { grid-template-columns: repeat(3, 1fr); } }
+
+  .ht-card {
+    position: relative;
+    background: var(--slate-50);
+    border: 1px solid var(--slate-100);
+    border-radius: var(--radius-2xl);
+    padding: 1.75rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    transition: box-shadow 0.2s, border-color 0.2s;
+  }
+  .ht-card:hover {
+    box-shadow: var(--shadow-lg);
+    border-color: var(--slate-200);
+  }
+
+  .ht-stars {
+    display: flex;
+    gap: 0.2rem;
+    margin-bottom: 1rem;
+  }
+  .ht-star { color: var(--brand-500); }
+
+  .ht-quote {
+    font-size: 0.9375rem;
+    color: var(--slate-700);
+    line-height: 1.75;
+    flex: 1;
+    margin-bottom: 1.5rem;
+    font-style: normal;
+  }
+
+  .ht-author {
+    display: flex;
+    align-items: center;
+    gap: 0.875rem;
+    border-top: 1px solid var(--slate-200);
+    padding-top: 1.125rem;
+  }
+
+  .ht-avatar {
+    width: 38px; height: 38px;
+    border-radius: 50%;
+    background: var(--brand-100);
+    color: var(--brand-700);
+    font-family: var(--font-heading);
+    font-weight: 700;
+    font-size: 0.875rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+  }
+
+  .ht-name {
+    font-size: 0.8125rem;
+    font-weight: 600;
+    color: var(--slate-900);
+    font-family: var(--font-heading);
+  }
+
+  .ht-company {
+    font-size: 0.75rem;
+    color: var(--slate-500);
+    margin-top: 0.125rem;
+  }
+
+  .home-testi-footer {
+    display: flex;
+    justify-content: center;
   }
 </style>
