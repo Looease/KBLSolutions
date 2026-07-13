@@ -9,9 +9,9 @@ describe('Quickquote component', () => {
     expect(() => render(Quickquote, { props: { productName: 'Test Product', productSize: 'A1' } })).not.toThrow();
   });
 
-  it('renders the "Request a quote" heading', () => {
+  it('renders the "Request a Quote" heading', () => {
     const { getByText } = render(Quickquote, { props: { productName: 'Test Product', productSize: 'A1' } });
-    expect(getByText('Request a quote')).toBeInTheDocument();
+    expect(getByText('Request a Quote')).toBeInTheDocument();
   });
 
   it('renders the form element pointing to Formspree', () => {
@@ -32,26 +32,26 @@ describe('Quickquote component', () => {
     const { container } = render(Quickquote, { props: { productName: 'Test Product', productSize: 'A1' } });
     const nameInput = container.querySelector('input[name="name"]');
     expect(nameInput).toBeInTheDocument();
-    expect(nameInput.getAttribute('placeholder')).toBe('Your Name');
+    expect(nameInput.getAttribute('placeholder')).toBe('Full name');
   });
 
   it('renders an email input', () => {
     const { container } = render(Quickquote, { props: { productName: 'Test Product', productSize: 'A1' } });
     const emailInput = container.querySelector('input[type="email"]');
     expect(emailInput).toBeInTheDocument();
-    expect(emailInput.getAttribute('placeholder')).toBe('Your Email address');
+    expect(emailInput.getAttribute('placeholder')).toBe('email@company.com');
   });
 
   it('renders a submit button', () => {
     const { container } = render(Quickquote, { props: { productName: 'Test Product', productSize: 'A1' } });
-    const submitBtn = container.querySelector('input[type="submit"]');
+    const submitBtn = container.querySelector('button[type="submit"]');
     expect(submitBtn).toBeInTheDocument();
-    expect(submitBtn.value).toBe('Send');
+    expect(submitBtn.textContent.trim()).toContain('Send Quote Request');
   });
 
   it('renders "Request price" and "Request more information" checkboxes', () => {
     const { getByText } = render(Quickquote, { props: { productName: 'Test Product', productSize: 'A1' } });
-    expect(getByText('Request price')).toBeInTheDocument();
+    expect(getByText('Request a price')).toBeInTheDocument();
     expect(getByText('Request more information')).toBeInTheDocument();
   });
 

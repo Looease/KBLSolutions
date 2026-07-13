@@ -66,7 +66,7 @@
     <div class="nav-inner">
       <!-- Logo -->
       <a class="nav-logo" href="/" on:click={closeMobile} aria-label="KBL Solutions home">
-        <img src="img/logo.png" alt="KBL Solutions" />
+        <img src="img/logo.png" alt="KBL Solutions logo" />
       </a>
 
       <!-- Desktop links -->
