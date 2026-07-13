@@ -1,0 +1,6 @@
+[build]
+  command = "npm run export"
+  publish = "__sapper__/export"
+
+[build.environment]
+  NODE_VERSION = "22"
