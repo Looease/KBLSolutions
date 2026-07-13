@@ -6,10 +6,15 @@
 <div class="quote-card">
   <h3 class="quote-title">Request a Quote</h3>
   <form action="https://formspree.io/mrgljdow" method="POST" class="quote-form">
-    <!-- Hidden product fields -->
-    <input type="hidden" name="product" value="{productName}" />
+    <div class="qf-field">
+      <label for="qq-product">Product</label>
+      <input id="qq-product" type="text" name="product" value="{productName}" readonly class="qf-readonly" />
+    </div>
     {#if productSize}
-      <input type="hidden" name="product-size" value="{productSize}" />
+      <div class="qf-field">
+        <label for="qq-size">Size / Option</label>
+        <input id="qq-size" type="text" name="product-size" value="{productSize}" readonly class="qf-readonly" />
+      </div>
     {/if}
 
     <div class="qf-field">
@@ -95,6 +100,16 @@
   .qf-field input:focus {
     border-color: var(--brand-500);
     box-shadow: 0 0 0 3px rgba(30,154,214,0.12);
+  }
+
+  .qf-readonly {
+    background: var(--slate-100) !important;
+    color: var(--slate-500) !important;
+    cursor: default;
+  }
+  .qf-readonly:focus {
+    border-color: var(--slate-200) !important;
+    box-shadow: none !important;
   }
 
   .qf-checkboxes {
