@@ -11,7 +11,7 @@
     <div class="hero-text">
       <div class="hero-badge">
         <span class="hero-badge-dot" aria-hidden="true"></span>
-        Premium Point of Sale Solutions
+        KBL Solutions · Premium Point of Sale Specialists
       </div>
 
       <h1 class="hero-title">
@@ -20,7 +20,7 @@
       </h1>
 
       <p class="hero-desc">
-        Here at KBL, we aim to help you maximise your marketing efforts by
+        Here at KBL Solutions, we aim to help you maximise your marketing efforts by
         supplying you with effective products at great prices. We supply a
         wider range of Point of Sale products than appear on our web site.
       </p>
@@ -94,7 +94,7 @@
   <div class="highlights-inner">
     <div class="section-header">
       <div>
-        <span class="section-label">Our Range</span>
+        <span class="section-label">The KBL Solutions Range</span>
         <h2 class="section-title">Products and Services</h2>
         <p class="section-desc">A selection of our most popular marketing display products. We supply a much wider range — just give us a call.</p>
       </div>
@@ -289,7 +289,7 @@
 
     <!-- Form column -->
     <div class="cs-form-wrap">
-      <h3 class="cs-form-title">Send us a message</h3>
+      <h3 class="cs-form-title">Send KBL Solutions a message</h3>
       <form action="https://formspree.io/mrgljdow" method="POST" class="cs-form">
         <div class="cs-form-row">
           <div class="cs-field">

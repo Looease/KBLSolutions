@@ -30,12 +30,12 @@
 
     <div class="qf-field">
       <label for="qq-name">Your Name</label>
-      <input id="qq-name" type="text" name="name" placeholder="Jane Smith" required />
+      <input id="qq-name" type="text" name="name" placeholder="Full name" required />
     </div>
 
     <div class="qf-field">
       <label for="qq-email">Email Address</label>
-      <input id="qq-email" type="email" name="_replyto" placeholder="jane@company.com" required />
+      <input id="qq-email" type="email" name="_replyto" placeholder="email@company.com" required />
     </div>
 
     <button type="submit" class="qf-submit">

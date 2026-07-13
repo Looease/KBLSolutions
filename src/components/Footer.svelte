@@ -9,7 +9,7 @@
           </span>
         </a>
         <p class="footer-desc">
-          Your trusted B2B partner for premium marketing display products,
+          KBL Solutions is your trusted B2B partner for premium marketing display products,
           point-of-sale hardware, and custom signage solutions across the UK.
         </p>
       </div>
