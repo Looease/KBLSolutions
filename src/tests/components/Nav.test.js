@@ -15,14 +15,14 @@ describe('Nav component', () => {
     expect(logo).toBeInTheDocument();
   });
 
-  it('contains an "About us" navigation link', () => {
+  it('contains an "About Us" navigation link', () => {
     const { getByText } = render(Nav);
-    expect(getByText('About us')).toBeInTheDocument();
+    expect(getByText('About Us')).toBeInTheDocument();
   });
 
   it('contains a "Products and Services" navigation link', () => {
     const { getByText } = render(Nav);
-    expect(getByText('Products and Services')).toBeInTheDocument();
+    expect(getByText('Products & Services')).toBeInTheDocument();
   });
 
   it('contains a "Testimonials" navigation link', () => {
