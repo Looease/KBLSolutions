@@ -294,16 +294,16 @@
         <div class="cs-form-row">
           <div class="cs-field">
             <label for="first-name">First Name</label>
-            <input id="first-name" type="text" name="first-name" placeholder="Jane" required />
+            <input id="first-name" type="text" name="first-name" placeholder="First name" required />
           </div>
           <div class="cs-field">
             <label for="last-name">Last Name</label>
-            <input id="last-name" type="text" name="last-name" placeholder="Smith" required />
+            <input id="last-name" type="text" name="last-name" placeholder="Surname" required />
           </div>
         </div>
         <div class="cs-field">
           <label for="email">Email Address</label>
-          <input id="email" type="email" name="email" placeholder="jane@company.com" required />
+          <input id="email" type="email" name="email" placeholder="email@company.com" required />
         </div>
         <div class="cs-field">
           <label for="subject">Subject</label>
